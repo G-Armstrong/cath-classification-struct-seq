@@ -7,6 +7,46 @@ from Bio import SeqIO
 from io import StringIO
 from Bio.PDB.Polypeptide import protein_letters_3to1
 
+def detect_seq_gaps(pdb_filename, cath_indices, cath_id):
+    """
+    Identify data entries with sequence gaps
+    """
+    # Step 1: Read and extract residue IDs from the PDB file
+    residues = []
+    
+    with open(pdb_filename, 'r') as file:
+        for line in file:
+            if line.startswith("ATOM") or line.startswith("HETATM"):
+                resid = int(line[22:26].strip())
+                residues.append(resid)
+    
+    # Step 2: Find unique and sorted residue IDs
+    unique_residues = sorted(set(residues))
+    
+    # Step 3: Initialize a flag to track if any gaps are detected
+    gap_detected = False
+    
+    # Step 4: Check for sequence gaps based on cath_indices
+    for index_range in cath_indices:
+        start, end = index_range
+        
+        # Collect missing residues
+        missing_residues = []
+        for resid in range(start, end + 1):
+            if resid not in unique_residues:
+                missing_residues.append(resid)
+        
+        # Print missing residues for the current range
+        if missing_residues:
+            print(f"[GAP DETECTED for cath_id {cath_id}] Missing residues in range {start} - {end}: {missing_residues}")
+            gap_detected = True
+    
+    # Step 5: Return 1 if any gap is detected, otherwise return 0
+    if gap_detected:
+        return 1
+    else:
+        return 0
+
 def extract_resid_ranges(pdb_filename, threshold=3):
     residues = []
     
@@ -36,7 +76,6 @@ def extract_resid_ranges(pdb_filename, threshold=3):
     ranges.append((start, end))
 
     return ranges
-
 
 def get_sequence_from_pdb(pdb_filename):
     """
