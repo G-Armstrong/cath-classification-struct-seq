@@ -1,0 +1,234 @@
+
+Using parameters from /home/garmstrong/github/medbio-challenge/src/scwrl//Scwrl4.ini
+
+<Timing tag = "Loading_PDB_file"  duration = "0.000" />
+
+Using rotamer library: /home/garmstrong/github/medbio-challenge/src/scwrl/bbDepRotLib.bin
+
+<Timing tag = "Adding_residues"  duration = "0.000" />
+
+Warning! Length of the provided sequence exceeds the number of residues!
+Sequence will be truncated!
+
+Warning! Length of the provided sequence exceeds the number of residues!
+Sequence will be truncated!
+
+Warning! Length of the provided sequence exceeds the number of residues!
+Sequence will be truncated!
+
+Warning! Length of the provided sequence exceeds the number of residues!
+Sequence will be truncated!
+
+Sequence file has been loaded
+---------------
+"KDVITKDMNQLPLPARNFINSNFTKPQVAHIKIDKDMMESTKYEVVLMDGTEIDFDSKGNWEEVSAKKGQTVPVSIVPGFAVNYLKAHNFVNEGVTKVERDRKGYEIELSTGLSFKFDKKGK"
+---------------
+
+<Timing tag = "Building_Atoms_Sets"  duration = "0.000" />
+
+<Timing tag = "Building_Flexible_Subrotamers"  duration = "0.010" />
+
+<Timing tag = "Computing_Symmetry_Operators"  duration = "0.000" />
+
+<Timing tag = "Updating_Self_Energies"  duration = "0.030" />
+
+<Timing tag = "Computing_Active_Rotamers"  duration = "0.000" />
+
+<Timing tag = "Resolving_Disulfide_Bonds"  duration = "0.000" />
+
+
+Total number of subrotamer interactions = 2020254
+
+<Timing tag = "Updating_Pairwise_Energies"  duration = "0.800" />
+
+<Timing tag = "Normalizing_Atoms_Sets"  duration = "0.000" />
+
+<Timing tag = "Computing_Interaction_Graph"  duration = "0.840" />
+ 
+
+<Timing tag = "Building_Atoms_Sets"  duration = "0.000" />
+
+<Timing tag = "Building_Flexible_Subrotamers"  duration = "0.000" />
+
+<Timing tag = "Computing_Symmetry_Operators"  duration = "0.000" />
+
+<Timing tag = "Updating_Self_Energies"  duration = "0.010" />
+
+<Timing tag = "Computing_Active_Rotamers"  duration = "0.000" />
+
+<Timing tag = "Resolving_Disulfide_Bonds"  duration = "0.000" />
+
+
+Total number of subrotamer interactions = 0
+
+<Timing tag = "Updating_Pairwise_Energies"  duration = "0.010" />
+
+<Timing tag = "Normalizing_Atoms_Sets"  duration = "0.000" />
+
+
+Running Goldstein's DEE (version G)
+:::::::::::::::::::::::::::::::::::
+
+Initial number of residues - 107
+Initial number of rotamers - 1397
+
+	359 redundant edges eliminated
+
+	Isolated residues removed - 1 
+
+round 1:
+	28 redundant edges eliminated
+
+	Isolated residues removed - 40 
+	Rotamers eliminated  -  920
+
+round 2:
+	10 redundant edges eliminated
+
+	Isolated residues removed - 10 
+	Rotamers eliminated  -  94
+
+round 3:
+	3 redundant edges eliminated
+
+	Isolated residues removed - 3 
+	Rotamers eliminated  -  19
+
+round 4:
+	0 redundant edges eliminated
+
+	Isolated residues removed - 1 
+	Rotamers eliminated  -  8
+
+round 5:
+	0 redundant edges eliminated
+
+	Isolated residues removed - 0 
+	Rotamers eliminated  -  0
+Energy accumulated during DEE = 622.859
+<Timing tag = "DEE"  duration = "0.010" />
+
+Searching for clusters... 2 clusters found
+
+Processing cluster of 31 vertices
+
+Redundant nodes eliminated : 7
+Tree-decomposition has been built. Width+1 = 4
+
+Total combinations to search = 3.90069e+6
+  23(  15 ) :   39  10  41  24  ->   26
+  22(  23 ) :   39  10  41  26  ->   27
+  21        :   ->   39  41  46  24  17
+  20(  22 ) :   27  39  10  ->   37  29
+  19(  14 ) :   41  46  21  ->   44
+  18(  19 ) :   46  44  21  ->   62
+  17(  18 ) :   46  62  44  ->   55
+  16(  17 ) :   62  ->   91
+  15(  21 ) :   39  41  24  17  ->   10
+  14(  21 ) :   41  46  24  17  ->   21
+  13(  16 ) :   91  ->   71  98  99
+  12(  13 ) :   98  71  99  ->  105
+  11(  20 ) :   39  10  ->   47
+  10(  17 ) :   62  44  ->   57
+   9(  22 ) :   27  26  ->    5
+   8(  13 ) :   91  99  ->   70
+   7(  17 ) :   55  62  ->   65
+   6(  17 ) :   55  46  ->   53
+   5(   7 ) :   62  65  ->   66
+   4(  20 ) :   29  ->   35
+   3(  12 ) :   71  ->   74
+   2(   3 ) :   71  ->   69
+   1(   2 ) :   69  ->  103
+   0(   8 ) :   91  ->   92
+
+ArtPts =  0	MaxDegree =  5	MaxBag =  4	AvgBag = 3.45833
+
+===============================
+Launching bottom-to-top process
+Combinations:
+	in intersections - 1.6e+05
+	in exclusions   -  1993.2
+	total to search  - 3.8e+06
+
+Maximal size of a key is 85008 elements
+
+Processing nodes (2 threads involved).......................
+<Timing tag = "Bottom_To_Top"  duration = "0.120" />
+
+<Trace tag = "Deciding_on_the_root_node" >
+
+Number of combinations = 8.1144e+4
+<Timing tag = "Deciding_on_the_root_node"  duration = "0.000" />
+</Trace>
+<Trace tag = "Top_To_Bottom" >
+
+<Timing tag = "Top_To_Bottom"  duration = "0.000" />
+</Trace>
+Energy of this cluster = 247.172
+
+
+Processing cluster of 21 vertices
+
+Redundant nodes eliminated : 4
+Tree-decomposition has been built. Width+1 = 3
+
+Total combinations to search = 3.6312e+4
+  16(  15 ) :   54  38  ->   36
+  15        :   ->   40  45  54  38
+  14(  16 ) :   36  54  ->   48  32
+  13(  14 ) :   48  36  32  ->   34
+  12(  15 ) :   40  45  54  ->   56
+  11(  14 ) :   48  54  ->   52
+  10(  11 ) :   48  52  ->   50
+   9(  12 ) :   56  54  ->   90
+   8(   9 ) :   56  90  ->   82
+   7(  12 ) :   40  56  ->   58
+   6(   8 ) :   82  56  ->   81
+   5(   9 ) :   90  54  ->   85
+   4(   5 ) :   90  85  ->   87
+   3(  10 ) :   52  ->   13
+   2(   3 ) :   13  ->   15
+   1(   4 ) :   90  ->   97
+   0(   6 ) :   81  ->   93
+
+ArtPts =  0	MaxDegree =  3	MaxBag =  3	AvgBag = 3
+
+===============================
+Launching bottom-to-top process
+Combinations:
+	in intersections - 3.9e+03
+	in exclusions   -  2243.2
+	total to search  - 3.3e+04
+
+Maximal size of a key is 2304 elements
+
+Processing nodes (2 threads involved)................
+<Timing tag = "Bottom_To_Top"  duration = "0.000" />
+
+<Trace tag = "Deciding_on_the_root_node" >
+
+Number of combinations = 3.168e+3
+<Timing tag = "Deciding_on_the_root_node"  duration = "0.000" />
+</Trace>
+<Trace tag = "Top_To_Bottom" >
+
+<Timing tag = "Top_To_Bottom"  duration = "0.000" />
+</Trace>
+Energy of this cluster = 90.4466
+
+
+Total minimal energy of the graph = 960.477
+
+Warning: Cumulative energy mismatch (perhaps due to edge decompositions) = -0.0206
+
+<Timing tag = "Combinatorial_Search"  duration = "0.130" />
+
+<Timing tag = "Deriving_Optimum"  duration = "0.150" />
+
+<Timing tag = "Saving_to_PDB_file"  duration = "0.000" />
+
+
+Deleting workspace.
+
+<Timing tag = "Scwrl4_Execution"  duration = "1.010" />
+

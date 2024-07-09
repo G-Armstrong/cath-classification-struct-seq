@@ -1,0 +1,337 @@
+
+Using parameters from /home/garmstrong/github/medbio-challenge/src/scwrl//Scwrl4.ini
+
+<Timing tag = "Loading_PDB_file"  duration = "0.000" />
+
+Using rotamer library: /home/garmstrong/github/medbio-challenge/src/scwrl/bbDepRotLib.bin
+
+Residue A   1  is being treated as N-terminal
+
+Residue A 245  is being treated as C-terminal
+
+<Timing tag = "Adding_residues"  duration = "0.000" />
+
+Sequence file has been loaded
+---------------
+"LALQAKQYGDFDRYVLALSWQTGFCQSQHDRNRNERDECRLQTETTNKADFLTVHGLWPGLPKSVAARGVDERRWMRFGCATRPIPNLPEARASRMCSSPETGLSLETAAKLSEVMPGAGGRSCLERYEYAKHGACFGFDPDAYFGTMVRLNQEIKESEAGKFLADNYGKTVSRRDFDAAFAKSWGKENVKAVKLTCQGNPAYLTEIQISIKADAINAPLSANSFLPQPHPGNCGKTFVIDKAGY"
+---------------
+
+<Timing tag = "Building_Atoms_Sets"  duration = "0.010" />
+
+<Timing tag = "Building_Flexible_Subrotamers"  duration = "0.010" />
+
+<Timing tag = "Computing_Symmetry_Operators"  duration = "0.000" />
+
+<Timing tag = "Updating_Self_Energies"  duration = "0.110" />
+
+<Timing tag = "Computing_Active_Rotamers"  duration = "0.000" />
+
+<Timing tag = "Resolving_Disulfide_Bonds"  duration = "0.000" />
+
+
+Total number of subrotamer interactions = 3871374
+
+<Timing tag = "Updating_Pairwise_Energies"  duration = "2.000" />
+
+<Timing tag = "Normalizing_Atoms_Sets"  duration = "0.000" />
+
+<Timing tag = "Computing_Interaction_Graph"  duration = "2.130" />
+ 
+
+<Timing tag = "Building_Atoms_Sets"  duration = "0.000" />
+
+<Timing tag = "Building_Flexible_Subrotamers"  duration = "0.010" />
+
+<Timing tag = "Computing_Symmetry_Operators"  duration = "0.000" />
+
+<Timing tag = "Updating_Self_Energies"  duration = "0.040" />
+
+<Timing tag = "Computing_Active_Rotamers"  duration = "0.000" />
+
+<Timing tag = "Resolving_Disulfide_Bonds"  duration = "0.000" />
+
+
+Total number of subrotamer interactions = 0
+
+<Timing tag = "Updating_Pairwise_Energies"  duration = "0.000" />
+
+<Timing tag = "Normalizing_Atoms_Sets"  duration = "0.000" />
+
+
+Running Goldstein's DEE (version G)
+:::::::::::::::::::::::::::::::::::
+
+Initial number of residues - 185
+Initial number of rotamers - 2594
+
+	584 redundant edges eliminated
+
+	Isolated residues removed - 5 
+
+round 1:
+	104 redundant edges eliminated
+
+	Isolated residues removed - 59 
+	Rotamers eliminated  -  1821
+
+round 2:
+	28 redundant edges eliminated
+
+	Isolated residues removed - 23 
+	Rotamers eliminated  -  257
+
+round 3:
+	6 redundant edges eliminated
+
+	Isolated residues removed - 9 
+	Rotamers eliminated  -  67
+
+round 4:
+	2 redundant edges eliminated
+
+	Isolated residues removed - 3 
+	Rotamers eliminated  -  22
+
+round 5:
+	0 redundant edges eliminated
+
+	Isolated residues removed - 0 
+	Rotamers eliminated  -  0
+Energy accumulated during DEE = 174.449
+<Timing tag = "DEE"  duration = "0.030" />
+
+Searching for clusters... 5 clusters found
+
+Processing cluster of 71 vertices
+
+Redundant nodes eliminated : 14
+Tree-decomposition has been built. Width+1 = 5
+
+Total combinations to search = 8.6389e+4
+  56(  26 ) :   16  90  94  ->   31
+  55(  56 ) :   16  31  94  ->   29
+  54(  55 ) :   31  29  94  ->   93
+  53(  54 ) :   29  93  94  ->   75
+  52(  55 ) :   16  31  29  ->   18
+  51(  52 ) :   29  31  18  ->   21
+  50(  51 ) :   21  29  18  ->   24
+  49(  56 ) :   16  31  90  ->   91
+  48(  30 ) :  107  98  ->  101
+  47(  38 ) :   90  94  13  ->   42
+  46(  48 ) :  101  98  ->   47 100
+  45(  50 ) :   21  24  29  ->   26
+  44(  30 ) :  107  13 110  ->   12
+  43(  44 ) :  107  12  ->   46
+  42        :   ->  108  98  90  95  13 110
+  41(  43 ) :   12  46  ->  160 163
+  40(  51 ) :   21  31  29  ->   32
+  39(  40 ) :   21  32  ->   28
+  38(  42 ) :   98  90  95  13  ->   94
+  37(  39 ) :   28  32  ->   22 185
+  36(  47 ) :   42  13  ->   15  43 156
+  35(  37 ) :   22 185  ->   19  23
+  34(  31 ) :   15 123 156  ->  153
+  33(  34 ) :   15 156 153  ->  147
+  32(  40 ) :   32  31  29  ->   30
+  31(  36 ) :   15  42 156  43  ->  123
+  30(  42 ) :  108  98 110  13  ->  107
+  29(  46 ) :   47  ->   60  10  56
+  28(  42 ) :  108  90  95  ->   87
+  27(  29 ) :   60  56  ->   57
+  26(  47 ) :   42  90  94  ->   16
+  25(  29 ) :   10  ->  159 173
+  24(  32 ) :   32  30  ->   33
+  23(  28 ) :  108  87  ->   81
+  22(  23 ) :   87  81  ->   85
+  21(  50 ) :   24  18  ->   20
+  20(  21 ) :   24  20  ->  149
+  19(  22 ) :   85  81  ->  106
+  18(  41 ) :  163  46  ->   11
+  17(  26 ) :   16  42  ->   34
+  16(  44 ) :   12  13  ->  116
+  15(  36 ) :   43  13  ->  113
+  14(  33 ) :  153 147  ->  180
+  13(  21 ) :   18  ->   14
+  12(  13 ) :   14  ->  155
+  11(  12 ) :  155  ->  148
+  10(  11 ) :  148  ->  154
+   9(  24 ) :   30  ->   92
+   8(  25 ) :   10  ->    9
+   7(  37 ) :   28  ->   27
+   6(  20 ) :   20  ->  152
+   5(  19 ) :   81  ->  105
+   4(  17 ) :   42  ->   40
+   3(   4 ) :   40  ->   36
+   2(   4 ) :   42  ->  126
+   1(  46 ) :  100  ->   97
+   0(  17 ) :   16  ->   44
+
+ArtPts =  0	MaxDegree =  3	MaxBag =  5	AvgBag = 3.33333
+
+===============================
+Launching bottom-to-top process
+Combinations:
+	in intersections - 5.1e+03
+	in exclusions   -  9973.2
+	total to search  - 8.5e+04
+
+Maximal size of a key is 540 elements
+
+Processing nodes (2 threads involved)........................................................
+<Timing tag = "Bottom_To_Top"  duration = "0.000" />
+
+<Trace tag = "Deciding_on_the_root_node" >
+
+Number of combinations = 1.44e+3
+<Timing tag = "Deciding_on_the_root_node"  duration = "0.000" />
+</Trace>
+<Trace tag = "Top_To_Bottom" >
+
+<Timing tag = "Top_To_Bottom"  duration = "0.000" />
+</Trace>
+Energy of this cluster = 273.827
+
+
+Processing cluster of 2 vertices
+
+Redundant nodes eliminated : 1
+Tree-decomposition has been built. Width+1 = 1
+
+Total combinations to search = 4
+   0        :   ->    3   4
+
+ArtPts =  0	MaxDegree =  0	MaxBag =  1	AvgBag = 2
+
+<Trace tag = "Deciding_on_the_root_node" >
+
+Number of combinations = 4
+<Timing tag = "Deciding_on_the_root_node"  duration = "0.000" />
+</Trace>
+<Trace tag = "Top_To_Bottom" >
+
+<Timing tag = "Top_To_Bottom"  duration = "0.000" />
+</Trace>
+Energy of this cluster = 3.93524
+
+
+Processing cluster of 4 vertices
+
+Redundant nodes eliminated : 1
+Tree-decomposition has been built. Width+1 = 1
+
+Total combinations to search = 3.9e+1
+   2        :   ->    6  66
+   1(   2 ) :   66  ->   54
+   0(   2 ) :    6  ->    5
+
+ArtPts =  0	MaxDegree =  2	MaxBag =  1	AvgBag = 2
+
+===============================
+Launching bottom-to-top process
+Combinations:
+	in intersections -   9
+	in exclusions   -  53.2
+	total to search  -  21
+
+Maximal size of a key is 6 elements
+
+Processing nodes ..
+<Timing tag = "Bottom_To_Top"  duration = "0.000" />
+
+<Trace tag = "Deciding_on_the_root_node" >
+
+Number of combinations = 1.8e+1
+<Timing tag = "Deciding_on_the_root_node"  duration = "0.000" />
+</Trace>
+<Trace tag = "Top_To_Bottom" >
+
+<Timing tag = "Top_To_Bottom"  duration = "0.000" />
+</Trace>
+Energy of this cluster = 12.1854
+
+
+Processing cluster of 3 vertices
+
+Redundant nodes eliminated : 1
+Tree-decomposition has been built. Width+1 = 1
+
+Total combinations to search = 8
+   1        :   ->  120 121
+   0(   1 ) :  120  ->  137
+
+ArtPts =  0	MaxDegree =  1	MaxBag =  1	AvgBag = 2
+
+===============================
+Launching bottom-to-top process
+Combinations:
+	in intersections -   2
+	in exclusions   -  23.2
+	total to search  -   4
+
+Maximal size of a key is 2 elements
+
+Processing nodes .
+<Timing tag = "Bottom_To_Top"  duration = "0.000" />
+
+<Trace tag = "Deciding_on_the_root_node" >
+
+Number of combinations = 4
+<Timing tag = "Deciding_on_the_root_node"  duration = "0.000" />
+</Trace>
+<Trace tag = "Top_To_Bottom" >
+
+<Timing tag = "Top_To_Bottom"  duration = "0.000" />
+</Trace>
+Energy of this cluster = 7.70357
+
+
+Processing cluster of 6 vertices
+
+Redundant nodes eliminated : 2
+Tree-decomposition has been built. Width+1 = 2
+
+Total combinations to search = 1.38e+2
+   3        :   ->   73  74  72
+   2(   3 ) :   72  ->   71
+   1(   3 ) :   74  ->   76
+   0(   2 ) :   71  ->   64
+
+ArtPts =  0	MaxDegree =  2	MaxBag =  2	AvgBag = 2.25
+
+===============================
+Launching bottom-to-top process
+Combinations:
+	in intersections -  11
+	in exclusions   -  113.2
+	total to search  -  42
+
+Maximal size of a key is 4 elements
+
+Processing nodes ...
+<Timing tag = "Bottom_To_Top"  duration = "0.000" />
+
+<Trace tag = "Deciding_on_the_root_node" >
+
+Number of combinations = 9.6e+1
+<Timing tag = "Deciding_on_the_root_node"  duration = "0.000" />
+</Trace>
+<Trace tag = "Top_To_Bottom" >
+
+<Timing tag = "Top_To_Bottom"  duration = "0.000" />
+</Trace>
+Energy of this cluster = 25.5639
+
+
+Total minimal energy of the graph = 497.665
+
+<Timing tag = "Combinatorial_Search"  duration = "0.030" />
+
+<Timing tag = "Deriving_Optimum"  duration = "0.080" />
+
+<Timing tag = "Saving_to_PDB_file"  duration = "0.010" />
+
+
+Deleting workspace.
+
+<Timing tag = "Scwrl4_Execution"  duration = "2.260" />
+

@@ -42,4 +42,12 @@ source ~/.bashrc
 conda activate medbio-challenge 
 blastp -h
 ```
+5. Install PyRosetta 
+```bash
+pip install pyrosetta-installer
+python -c 'import pyrosetta_installer; pyrosetta_installer.install_pyrosetta()'
+pip install pyrosetta-distributed
+conda config --add channels https://conda.graylab.jhu.edu
+conda install pyrosetta	
+```
 
