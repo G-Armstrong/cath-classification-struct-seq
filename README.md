@@ -1,6 +1,12 @@
 # medbio-challenge
 protein structure classification using the CATH database.
 
+**Important**:
+There are many structure and sequence files in /data. When pulling this repository, make sure you increase Git's default buffer size with the following command and then try cloning:
+```bash
+git config --global http.postBuffer 524288000
+```
+
 ## Setup Instructions
 
 ### 1. Create and Activate Conda Environment (on MacOS/Linux)
