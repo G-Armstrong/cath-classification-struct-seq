@@ -51,3 +51,7 @@ conda config --add channels https://conda.graylab.jhu.edu
 conda install pyrosetta	
 ```
 
+## Notebooks
+After activating the conda env, notebooks can be accessed by typing `jupyter notebook` into the console and hitting ENTER
+Ctrl + C / Ctrl + V one of the provided links into your web browser
+
