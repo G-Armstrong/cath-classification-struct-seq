@@ -13,42 +13,6 @@ graph [
   ]
   node [
     id 1
-    label "ASP1.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-15.567"
-    y "-6.738"
-    z "5.442"
-  ]
-  node [
-    id 2
-    label "ASP1.A.H2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-14.435"
-    y "-5.625"
-    z "5.007"
-  ]
-  node [
-    id 3
-    label "ASP1.A.H3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-13.95"
-    y "-7.087"
-    z "5.56"
-  ]
-  node [
-    id 4
     label "ASP1.A.CA"
     element 0
     element 1
@@ -60,19 +24,7 @@ graph [
     z "3.629"
   ]
   node [
-    id 5
-    label "ASP1.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-14.836"
-    y "-8.171"
-    z "3.603"
-  ]
-  node [
-    id 6
+    id 2
     label "ASP1.A.C"
     element 0
     element 0
@@ -84,7 +36,7 @@ graph [
     z "2.994"
   ]
   node [
-    id 7
+    id 3
     label "ASP1.A.CB"
     element 0
     element 0
@@ -96,31 +48,7 @@ graph [
     z "2.858"
   ]
   node [
-    id 8
-    label "ASP1.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-16.763"
-    y "-6.69"
-    z "3.324"
-  ]
-  node [
-    id 9
-    label "ASP1.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-15.695"
-    y "-5.348"
-    z "2.879"
-  ]
-  node [
-    id 10
+    id 4
     label "ASP1.A.O"
     element 0
     element 0
@@ -132,7 +60,7 @@ graph [
     z "3.154"
   ]
   node [
-    id 11
+    id 5
     label "ASP1.A.CG"
     element 0
     element 0
@@ -144,7 +72,7 @@ graph [
     z "1.432"
   ]
   node [
-    id 12
+    id 6
     label "ASP1.A.OD1"
     element 0
     element 0
@@ -156,7 +84,7 @@ graph [
     z "0.643"
   ]
   node [
-    id 13
+    id 7
     label "ASP1.A.OD2"
     element 0
     element 0
@@ -168,7 +96,7 @@ graph [
     z "1.257"
   ]
   node [
-    id 14
+    id 8
     label "ARG2.A.N"
     element 1
     element 0
@@ -180,19 +108,7 @@ graph [
     z "2.363"
   ]
   node [
-    id 15
-    label "ARG2.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-13.179"
-    y "-8.633"
-    z "2.154"
-  ]
-  node [
-    id 16
+    id 9
     label "ARG2.A.CA"
     element 0
     element 1
@@ -204,19 +120,7 @@ graph [
     z "1.84"
   ]
   node [
-    id 17
-    label "ARG2.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-10.641"
-    y "-7.282"
-    z "2.631"
-  ]
-  node [
-    id 18
+    id 10
     label "ARG2.A.C"
     element 0
     element 0
@@ -228,7 +132,7 @@ graph [
     z "0.71"
   ]
   node [
-    id 19
+    id 11
     label "ARG2.A.CB"
     element 0
     element 0
@@ -240,31 +144,7 @@ graph [
     z "1.358"
   ]
   node [
-    id 20
-    label "ARG2.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-10.876"
-    y "-9.738"
-    z "2.176"
-  ]
-  node [
-    id 21
-    label "ARG2.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-11.437"
-    y "-9.359"
-    z "0.547"
-  ]
-  node [
-    id 22
+    id 12
     label "ARG2.A.O"
     element 0
     element 0
@@ -276,7 +156,7 @@ graph [
     z "0.657"
   ]
   node [
-    id 23
+    id 13
     label "ARG2.A.CG"
     element 0
     element 0
@@ -288,31 +168,7 @@ graph [
     z "0.876"
   ]
   node [
-    id 24
-    label "ARG2.A.HG2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-9.174"
-    y "-8.209"
-    z "0.141"
-  ]
-  node [
-    id 25
-    label "ARG2.A.HG3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-8.69"
-    y "-8.804"
-    z "1.737"
-  ]
-  node [
-    id 26
+    id 14
     label "ARG2.A.CD"
     element 0
     element 0
@@ -324,31 +180,7 @@ graph [
     z "0.248"
   ]
   node [
-    id 27
-    label "ARG2.A.HD2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-9.066"
-    y "-11.13"
-    z "0.964"
-  ]
-  node [
-    id 28
-    label "ARG2.A.HD3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-7.821"
-    y "-10.267"
-    z "0.047"
-  ]
-  node [
-    id 29
+    id 15
     label "ARG2.A.NE"
     element 1
     element 0
@@ -360,19 +192,7 @@ graph [
     z "-1.013"
   ]
   node [
-    id 30
-    label "ARG2.A.HE"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-10.291"
-    y "-9.923"
-    z "-1.314"
-  ]
-  node [
-    id 31
+    id 16
     label "ARG2.A.NH1"
     element 1
     element 0
@@ -384,31 +204,7 @@ graph [
     z "-1.552"
   ]
   node [
-    id 32
-    label "ARG2.A.HH11"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-7.953"
-    y "-12.451"
-    z "-0.74"
-  ]
-  node [
-    id 33
-    label "ARG2.A.HH12"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-8.396"
-    y "-13.324"
-    z "-2.2"
-  ]
-  node [
-    id 34
+    id 17
     label "ARG2.A.NH2"
     element 1
     element 0
@@ -420,31 +216,7 @@ graph [
     z "-2.887"
   ]
   node [
-    id 35
-    label "ARG2.A.HH21"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-10.849"
-    y "-11.081"
-    z "-3.128"
-  ]
-  node [
-    id 36
-    label "ARG2.A.HH22"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-10.017"
-    y "-12.551"
-    z "-3.517"
-  ]
-  node [
-    id 37
+    id 18
     label "ARG2.A.CZ"
     element 0
     element 0
@@ -456,7 +228,7 @@ graph [
     z "-1.809"
   ]
   node [
-    id 38
+    id 19
     label "GLU3.A.N"
     element 1
     element 0
@@ -468,19 +240,7 @@ graph [
     z "-0.193"
   ]
   node [
-    id 39
-    label "GLU3.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-13.049"
-    y "-7.1"
-    z "-0.003"
-  ]
-  node [
-    id 40
+    id 20
     label "GLU3.A.CA"
     element 0
     element 1
@@ -492,19 +252,7 @@ graph [
     z "-1.35"
   ]
   node [
-    id 41
-    label "GLU3.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-11.204"
-    y "-5.739"
-    z "-1.834"
-  ]
-  node [
-    id 42
+    id 21
     label "GLU3.A.C"
     element 0
     element 0
@@ -516,7 +264,7 @@ graph [
     z "-0.931"
   ]
   node [
-    id 43
+    id 22
     label "GLU3.A.CB"
     element 0
     element 0
@@ -528,31 +276,7 @@ graph [
     z "-2.369"
   ]
   node [
-    id 44
-    label "GLU3.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-14.225"
-    y "-6.131"
-    z "-1.9"
-  ]
-  node [
-    id 45
-    label "GLU3.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-13.239"
-    y "-5.4"
-    z "-3.175"
-  ]
-  node [
-    id 46
+    id 23
     label "GLU3.A.O"
     element 0
     element 0
@@ -564,7 +288,7 @@ graph [
     z "-1.444"
   ]
   node [
-    id 47
+    id 24
     label "GLU3.A.CG"
     element 0
     element 0
@@ -576,31 +300,7 @@ graph [
     z "-2.962"
   ]
   node [
-    id 48
-    label "GLU3.A.HG2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-12.986"
-    y "-8.265"
-    z "-2.168"
-  ]
-  node [
-    id 49
-    label "GLU3.A.HG3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-11.95"
-    y "-7.516"
-    z "-3.38"
-  ]
-  node [
-    id 50
+    id 25
     label "GLU3.A.CD"
     element 0
     element 0
@@ -612,7 +312,7 @@ graph [
     z "-4.056"
   ]
   node [
-    id 51
+    id 26
     label "GLU3.A.OE1"
     element 0
     element 0
@@ -624,7 +324,7 @@ graph [
     z "-4.579"
   ]
   node [
-    id 52
+    id 27
     label "GLU3.A.OE2"
     element 0
     element 0
@@ -636,7 +336,7 @@ graph [
     z "-4.382"
   ]
   node [
-    id 53
+    id 28
     label "THR4.A.N"
     element 1
     element 0
@@ -648,19 +348,7 @@ graph [
     z "0.037"
   ]
   node [
-    id 54
-    label "THR4.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-13.916"
-    y "-4.809"
-    z "0.338"
-  ]
-  node [
-    id 55
+    id 29
     label "THR4.A.CA"
     element 0
     element 1
@@ -672,19 +360,7 @@ graph [
     z "0.638"
   ]
   node [
-    id 56
-    label "THR4.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-13.808"
-    y "-2.017"
-    z "-0.147"
-  ]
-  node [
-    id 57
+    id 30
     label "THR4.A.C"
     element 0
     element 0
@@ -696,7 +372,7 @@ graph [
     z "1.283"
   ]
   node [
-    id 58
+    id 31
     label "THR4.A.CB"
     element 0
     element 0
@@ -708,19 +384,7 @@ graph [
     z "1.678"
   ]
   node [
-    id 59
-    label "THR4.A.HB"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-14.368"
-    y "-3.408"
-    z "2.502"
-  ]
-  node [
-    id 60
+    id 32
     label "THR4.A.O"
     element 0
     element 0
@@ -732,7 +396,7 @@ graph [
     z "1.024"
   ]
   node [
-    id 61
+    id 33
     label "THR4.A.CG2"
     element 0
     element 0
@@ -744,43 +408,7 @@ graph [
     z "2.228"
   ]
   node [
-    id 62
-    label "THR4.A.HG21"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-14.155"
-    y "-0.98"
-    z "2.8"
-  ]
-  node [
-    id 63
-    label "THR4.A.HG22"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-15.856"
-    y "-1.44"
-    z "2.894"
-  ]
-  node [
-    id 64
-    label "THR4.A.HG23"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-15.219"
-    y "-0.681"
-    z "1.415"
-  ]
-  node [
-    id 65
+    id 34
     label "THR4.A.OG1"
     element 0
     element 0
@@ -792,19 +420,7 @@ graph [
     z "1.104"
   ]
   node [
-    id 66
-    label "THR4.A.HG1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-16.289"
-    y "-2.512"
-    z "0.674"
-  ]
-  node [
-    id 67
+    id 35
     label "LEU5.A.N"
     element 1
     element 0
@@ -816,19 +432,7 @@ graph [
     z "2.057"
   ]
   node [
-    id 68
-    label "LEU5.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-11.9"
-    y "-3.966"
-    z "2.222"
-  ]
-  node [
-    id 69
+    id 36
     label "LEU5.A.CA"
     element 0
     element 1
@@ -840,19 +444,7 @@ graph [
     z "2.684"
   ]
   node [
-    id 70
-    label "LEU5.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-10.427"
-    y "-1.745"
-    z "3.274"
-  ]
-  node [
-    id 71
+    id 37
     label "LEU5.A.C"
     element 0
     element 0
@@ -864,7 +456,7 @@ graph [
     z "1.647"
   ]
   node [
-    id 72
+    id 38
     label "LEU5.A.CB"
     element 0
     element 0
@@ -876,31 +468,7 @@ graph [
     z "3.597"
   ]
   node [
-    id 73
-    label "LEU5.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-9.83"
-    y "-4.72"
-    z "3.047"
-  ]
-  node [
-    id 74
-    label "LEU5.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-8.721"
-    y "-3.6"
-    z "3.829"
-  ]
-  node [
-    id 75
+    id 39
     label "LEU5.A.O"
     element 0
     element 0
@@ -912,7 +480,7 @@ graph [
     z "1.814"
   ]
   node [
-    id 76
+    id 40
     label "LEU5.A.CG"
     element 0
     element 0
@@ -924,19 +492,7 @@ graph [
     z "4.925"
   ]
   node [
-    id 77
-    label "LEU5.A.HG"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-11.602"
-    y "-3.996"
-    z "4.733"
-  ]
-  node [
-    id 78
+    id 41
     label "LEU5.A.CD1"
     element 0
     element 0
@@ -948,43 +504,7 @@ graph [
     z "5.625"
   ]
   node [
-    id 79
-    label "LEU5.A.HD11"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-9.007"
-    y "-5.15"
-    z "5.833"
-  ]
-  node [
-    id 80
-    label "LEU5.A.HD12"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-10.28"
-    y "-6.068"
-    z "4.99"
-  ]
-  node [
-    id 81
-    label "LEU5.A.HD13"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-10.608"
-    y "-5.317"
-    z "6.57"
-  ]
-  node [
-    id 82
+    id 42
     label "LEU5.A.CD2"
     element 0
     element 0
@@ -996,43 +516,7 @@ graph [
     z "5.863"
   ]
   node [
-    id 83
-    label "LEU5.A.HD21"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-9.215"
-    y "-2.596"
-    z "6.019"
-  ]
-  node [
-    id 84
-    label "LEU5.A.HD22"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-10.754"
-    y "-2.92"
-    z "6.83"
-  ]
-  node [
-    id 85
-    label "LEU5.A.HD23"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-10.704"
-    y "-1.827"
-    z "5.448"
-  ]
-  node [
-    id 86
+    id 43
     label "LEU6.A.N"
     element 1
     element 0
@@ -1044,19 +528,7 @@ graph [
     z "0.56"
   ]
   node [
-    id 87
-    label "LEU6.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-9.676"
-    y "-3.887"
-    z "0.488"
-  ]
-  node [
-    id 88
+    id 44
     label "LEU6.A.CA"
     element 0
     element 1
@@ -1068,19 +540,7 @@ graph [
     z "-0.52"
   ]
   node [
-    id 89
-    label "LEU6.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-7.165"
-    y "-2.577"
-    z "-0.087"
-  ]
-  node [
-    id 90
+    id 45
     label "LEU6.A.C"
     element 0
     element 0
@@ -1092,7 +552,7 @@ graph [
     z "-1.288"
   ]
   node [
-    id 91
+    id 46
     label "LEU6.A.CB"
     element 0
     element 0
@@ -1104,31 +564,7 @@ graph [
     z "-1.481"
   ]
   node [
-    id 92
-    label "LEU6.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-9.066"
-    y "-4.256"
-    z "-1.774"
-  ]
-  node [
-    id 93
-    label "LEU6.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-7.529"
-    y "-3.646"
-    z "-2.381"
-  ]
-  node [
-    id 94
+    id 47
     label "LEU6.A.O"
     element 0
     element 0
@@ -1140,7 +576,7 @@ graph [
     z "-1.681"
   ]
   node [
-    id 95
+    id 48
     label "LEU6.A.CG"
     element 0
     element 0
@@ -1152,19 +588,7 @@ graph [
     z "-0.9"
   ]
   node [
-    id 96
-    label "LEU6.A.HG"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-7.798"
-    y "-5.493"
-    z "0.027"
-  ]
-  node [
-    id 97
+    id 49
     label "LEU6.A.CD1"
     element 0
     element 0
@@ -1176,43 +600,7 @@ graph [
     z "-1.895"
   ]
   node [
-    id 98
-    label "LEU6.A.HD11"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-6.89"
-    y "-6.053"
-    z "-2.823"
-  ]
-  node [
-    id 99
-    label "LEU6.A.HD12"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-8.426"
-    y "-6.584"
-    z "-2.104"
-  ]
-  node [
-    id 100
-    label "LEU6.A.HD13"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-6.882"
-    y "-7.21"
-    z "-1.482"
-  ]
-  node [
-    id 101
+    id 50
     label "LEU6.A.CD2"
     element 0
     element 0
@@ -1224,43 +612,7 @@ graph [
     z "-0.606"
   ]
   node [
-    id 102
-    label "LEU6.A.HD21"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-5.339"
-    y "-5.787"
-    z "-0.325"
-  ]
-  node [
-    id 103
-    label "LEU6.A.HD22"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-5.766"
-    y "-4.166"
-    z "0.222"
-  ]
-  node [
-    id 104
-    label "LEU6.A.HD23"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-5.376"
-    y "-4.449"
-    z "-1.491"
-  ]
-  node [
-    id 105
+    id 51
     label "LYS7.A.N"
     element 1
     element 0
@@ -1272,19 +624,7 @@ graph [
     z "-1.503"
   ]
   node [
-    id 106
-    label "LYS7.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-10.494"
-    y "-1.884"
-    z "-1.181"
-  ]
-  node [
-    id 107
+    id 52
     label "LYS7.A.CA"
     element 0
     element 1
@@ -1296,19 +636,7 @@ graph [
     z "-2.131"
   ]
   node [
-    id 108
-    label "LYS7.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-9.733"
-    y "0.168"
-    z "-3.078"
-  ]
-  node [
-    id 109
+    id 53
     label "LYS7.A.C"
     element 0
     element 0
@@ -1320,7 +648,7 @@ graph [
     z "-1.278"
   ]
   node [
-    id 110
+    id 54
     label "LYS7.A.CB"
     element 0
     element 0
@@ -1332,31 +660,7 @@ graph [
     z "-2.394"
   ]
   node [
-    id 111
-    label "LYS7.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-12.128"
-    y "0.996"
-    z "-2.589"
-  ]
-  node [
-    id 112
-    label "LYS7.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-12.277"
-    y "-0.39"
-    z "-1.506"
-  ]
-  node [
-    id 113
+    id 55
     label "LYS7.A.O"
     element 0
     element 0
@@ -1368,7 +672,7 @@ graph [
     z "-1.823"
   ]
   node [
-    id 114
+    id 56
     label "LYS7.A.CG"
     element 0
     element 0
@@ -1380,31 +684,7 @@ graph [
     z "-3.608"
   ]
   node [
-    id 115
-    label "LYS7.A.HG2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-11.75"
-    y "-0.4"
-    z "-4.514"
-  ]
-  node [
-    id 116
-    label "LYS7.A.HG3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-11.604"
-    y "-1.854"
-    z "-3.52"
-  ]
-  node [
-    id 117
+    id 57
     label "LYS7.A.CD"
     element 0
     element 0
@@ -1416,31 +696,7 @@ graph [
     z "-3.71"
   ]
   node [
-    id 118
-    label "LYS7.A.HD2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-13.964"
-    y "-1.579"
-    z "-2.783"
-  ]
-  node [
-    id 119
-    label "LYS7.A.HD3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-14.128"
-    y "-0.168"
-    z "-3.855"
-  ]
-  node [
-    id 120
+    id 58
     label "LYS7.A.CE"
     element 0
     element 0
@@ -1452,31 +708,7 @@ graph [
     z "-4.885"
   ]
   node [
-    id 121
-    label "LYS7.A.HE2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-13.254"
-    y "-2.928"
-    z "-4.794"
-  ]
-  node [
-    id 122
-    label "LYS7.A.HE3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-13.659"
-    y "-1.554"
-    z "-5.816"
-  ]
-  node [
-    id 123
+    id 59
     label "LYS7.A.NZ"
     element 1
     element 0
@@ -1488,43 +720,7 @@ graph [
     z "-4.901"
   ]
   node [
-    id 124
-    label "LYS7.A.HZ1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-15.528"
-    y "-3.027"
-    z "-4.053"
-  ]
-  node [
-    id 125
-    label "LYS7.A.HZ2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-15.467"
-    y "-3.172"
-    z "-5.658"
-  ]
-  node [
-    id 126
-    label "LYS7.A.HZ3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-15.963"
-    y "-1.744"
-    z "-4.993"
-  ]
-  node [
-    id 127
+    id 60
     label "GLU8.A.N"
     element 1
     element 0
@@ -1536,19 +732,7 @@ graph [
     z "0.031"
   ]
   node [
-    id 128
-    label "GLU8.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-10.598"
-    y "0.365"
-    z "0.404"
-  ]
-  node [
-    id 129
+    id 61
     label "GLU8.A.CA"
     element 0
     element 1
@@ -1560,19 +744,7 @@ graph [
     z "0.955"
   ]
   node [
-    id 130
-    label "GLU8.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-10.165"
-    y "3.189"
-    z "0.559"
-  ]
-  node [
-    id 131
+    id 62
     label "GLU8.A.C"
     element 0
     element 0
@@ -1584,7 +756,7 @@ graph [
     z "1.063"
   ]
   node [
-    id 132
+    id 63
     label "GLU8.A.CB"
     element 0
     element 0
@@ -1596,31 +768,7 @@ graph [
     z "2.332"
   ]
   node [
-    id 133
-    label "GLU8.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-9.865"
-    y "1.179"
-    z "2.823"
-  ]
-  node [
-    id 134
-    label "GLU8.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-11.433"
-    y "1.672"
-    z "2.201"
-  ]
-  node [
-    id 135
+    id 64
     label "GLU8.A.O"
     element 0
     element 0
@@ -1632,7 +780,7 @@ graph [
     z "0.919"
   ]
   node [
-    id 136
+    id 65
     label "GLU8.A.CG"
     element 0
     element 0
@@ -1644,31 +792,7 @@ graph [
     z "3.247"
   ]
   node [
-    id 137
-    label "GLU8.A.HG2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-9.345"
-    y "3.553"
-    z "3.384"
-  ]
-  node [
-    id 138
-    label "GLU8.A.HG3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-10.764"
-    y "2.936"
-    z "4.222"
-  ]
-  node [
-    id 139
+    id 66
     label "GLU8.A.CD"
     element 0
     element 0
@@ -1680,7 +804,7 @@ graph [
     z "2.715"
   ]
   node [
-    id 140
+    id 67
     label "GLU8.A.OE1"
     element 0
     element 0
@@ -1692,7 +816,7 @@ graph [
     z "3.217"
   ]
   node [
-    id 141
+    id 68
     label "GLU8.A.OE2"
     element 0
     element 0
@@ -1704,7 +828,7 @@ graph [
     z "1.772"
   ]
   node [
-    id 142
+    id 69
     label "ALA9.A.N"
     element 1
     element 0
@@ -1716,19 +840,7 @@ graph [
     z "1.196"
   ]
   node [
-    id 143
-    label "ALA9.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-7.966"
-    y "0.439"
-    z "1.347"
-  ]
-  node [
-    id 144
+    id 70
     label "ALA9.A.CA"
     element 0
     element 1
@@ -1740,19 +852,7 @@ graph [
     z "1.211"
   ]
   node [
-    id 145
-    label "ALA9.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-5.716"
-    y "1.94"
-    z "2.067"
-  ]
-  node [
-    id 146
+    id 71
     label "ALA9.A.C"
     element 0
     element 0
@@ -1764,7 +864,7 @@ graph [
     z "-0.048"
   ]
   node [
-    id 147
+    id 72
     label "ALA9.A.CB"
     element 0
     element 0
@@ -1776,43 +876,7 @@ graph [
     z "1.368"
   ]
   node [
-    id 148
-    label "ALA9.A.HB1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-5.832"
-    y "-0.456"
-    z "2.353"
-  ]
-  node [
-    id 149
-    label "ALA9.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-5.975"
-    y "-0.723"
-    z "0.596"
-  ]
-  node [
-    id 150
-    label "ALA9.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-4.46"
-    y "-0.109"
-    z "1.269"
-  ]
-  node [
-    id 151
+    id 73
     label "ALA9.A.O"
     element 0
     element 0
@@ -1824,7 +888,7 @@ graph [
     z "0.044"
   ]
   node [
-    id 152
+    id 74
     label "ASN10.A.N"
     element 1
     element 0
@@ -1836,19 +900,7 @@ graph [
     z "-1.234"
   ]
   node [
-    id 153
-    label "ASN10.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-6.635"
-    y "0.891"
-    z "-1.26"
-  ]
-  node [
-    id 154
+    id 75
     label "ASN10.A.CA"
     element 0
     element 1
@@ -1860,19 +912,7 @@ graph [
     z "-2.494"
   ]
   node [
-    id 155
-    label "ASN10.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-4.385"
-    y "2.248"
-    z "-2.474"
-  ]
-  node [
-    id 156
+    id 76
     label "ASN10.A.C"
     element 0
     element 0
@@ -1884,7 +924,7 @@ graph [
     z "-2.709"
   ]
   node [
-    id 157
+    id 77
     label "ASN10.A.CB"
     element 0
     element 0
@@ -1896,31 +936,7 @@ graph [
     z "-3.658"
   ]
   node [
-    id 158
-    label "ASN10.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-6.941"
-    y "1.029"
-    z "-3.572"
-  ]
-  node [
-    id 159
-    label "ASN10.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-5.744"
-    y "1.832"
-    z "-4.599"
-  ]
-  node [
-    id 160
+    id 78
     label "ASN10.A.O"
     element 0
     element 0
@@ -1932,7 +948,7 @@ graph [
     z "-3.491"
   ]
   node [
-    id 161
+    id 79
     label "ASN10.A.CG"
     element 0
     element 0
@@ -1944,7 +960,7 @@ graph [
     z "-3.717"
   ]
   node [
-    id 162
+    id 80
     label "ASN10.A.ND2"
     element 1
     element 0
@@ -1956,31 +972,7 @@ graph [
     z "-3.647"
   ]
   node [
-    id 163
-    label "ASN10.A.HD21"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-4.991"
-    y "-1.919"
-    z "-3.725"
-  ]
-  node [
-    id 164
-    label "ASN10.A.HD22"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-6.544"
-    y "-1.169"
-    z "-3.334"
-  ]
-  node [
-    id 165
+    id 81
     label "ASN10.A.OD1"
     element 0
     element 0
@@ -1992,7 +984,7 @@ graph [
     z "-3.798"
   ]
   node [
-    id 166
+    id 82
     label "LYS11.A.N"
     element 1
     element 0
@@ -2004,19 +996,7 @@ graph [
     z "-2.027"
   ]
   node [
-    id 167
-    label "LYS11.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-7.474"
-    y "3.464"
-    z "-1.409"
-  ]
-  node [
-    id 168
+    id 83
     label "LYS11.A.CA"
     element 0
     element 1
@@ -2028,19 +1008,7 @@ graph [
     z "-1.973"
   ]
   node [
-    id 169
-    label "LYS11.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-7.304"
-    y "5.94"
-    z "-2.977"
-  ]
-  node [
-    id 170
+    id 84
     label "LYS11.A.C"
     element 0
     element 0
@@ -2052,7 +1020,7 @@ graph [
     z "-1.151"
   ]
   node [
-    id 171
+    id 85
     label "LYS11.A.CB"
     element 0
     element 0
@@ -2064,31 +1032,7 @@ graph [
     z "-1.445"
   ]
   node [
-    id 172
-    label "LYS11.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-8.827"
-    y "5.223"
-    z "-0.444"
-  ]
-  node [
-    id 173
-    label "LYS11.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-9.453"
-    y "5.101"
-    z "-2.093"
-  ]
-  node [
-    id 174
+    id 86
     label "LYS11.A.O"
     element 0
     element 0
@@ -2100,7 +1044,7 @@ graph [
     z "-1.686"
   ]
   node [
-    id 175
+    id 87
     label "LYS11.A.CG"
     element 0
     element 0
@@ -2112,31 +1056,7 @@ graph [
     z "-1.371"
   ]
   node [
-    id 176
-    label "LYS11.A.HG2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-8.492"
-    y "7.678"
-    z "-0.786"
-  ]
-  node [
-    id 177
-    label "LYS11.A.HG3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-9.286"
-    y "7.543"
-    z "-2.37"
-  ]
-  node [
-    id 178
+    id 88
     label "LYS11.A.CD"
     element 0
     element 0
@@ -2148,31 +1068,7 @@ graph [
     z "-0.669"
   ]
   node [
-    id 179
-    label "LYS11.A.HD2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-10.535"
-    y "6.563"
-    z "0.225"
-  ]
-  node [
-    id 180
-    label "LYS11.A.HD3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-11.364"
-    y "6.823"
-    z "-1.324"
-  ]
-  node [
-    id 181
+    id 89
     label "LYS11.A.CE"
     element 0
     element 0
@@ -2184,31 +1080,7 @@ graph [
     z "-0.255"
   ]
   node [
-    id 182
-    label "LYS11.A.HE2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-9.881"
-    y "9.068"
-    z "0.062"
-  ]
-  node [
-    id 183
-    label "LYS11.A.HE3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-11.174"
-    y "9.216"
-    z "-1.107"
-  ]
-  node [
-    id 184
+    id 90
     label "LYS11.A.NZ"
     element 1
     element 0
@@ -2220,43 +1092,7 @@ graph [
     z "0.878"
   ]
   node [
-    id 185
-    label "LYS11.A.HZ1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-11.412"
-    y "8.065"
-    z "1.61"
-  ]
-  node [
-    id 186
-    label "LYS11.A.HZ2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-11.829"
-    y "9.597"
-    z "1.249"
-  ]
-  node [
-    id 187
-    label "LYS11.A.HZ3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-12.683"
-    y "8.302"
-    z "0.618"
-  ]
-  node [
-    id 188
+    id 91
     label "ILE12.A.N"
     element 1
     element 0
@@ -2268,19 +1104,7 @@ graph [
     z "0.061"
   ]
   node [
-    id 189
-    label "ILE12.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-6.506"
-    y "5.05"
-    z "0.426"
-  ]
-  node [
-    id 190
+    id 92
     label "ILE12.A.CA"
     element 0
     element 1
@@ -2292,19 +1116,7 @@ graph [
     z "0.932"
   ]
   node [
-    id 191
-    label "ILE12.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-5.265"
-    y "7.491"
-    z "1.127"
-  ]
-  node [
-    id 192
+    id 93
     label "ILE12.A.C"
     element 0
     element 0
@@ -2316,7 +1128,7 @@ graph [
     z "0.239"
   ]
   node [
-    id 193
+    id 94
     label "ILE12.A.CB"
     element 0
     element 0
@@ -2328,19 +1140,7 @@ graph [
     z "2.287"
   ]
   node [
-    id 194
-    label "ILE12.A.HB"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-4.723"
-    y "4.658"
-    z "2.084"
-  ]
-  node [
-    id 195
+    id 95
     label "ILE12.A.O"
     element 0
     element 0
@@ -2352,7 +1152,7 @@ graph [
     z "0.234"
   ]
   node [
-    id 196
+    id 96
     label "ILE12.A.CG1"
     element 0
     element 0
@@ -2364,31 +1164,7 @@ graph [
     z "3.068"
   ]
   node [
-    id 197
-    label "ILE12.A.HG12"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-7.053"
-    y "5.623"
-    z "2.417"
-  ]
-  node [
-    id 198
-    label "ILE12.A.HG13"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-6.332"
-    y "6.893"
-    z "3.394"
-  ]
-  node [
-    id 199
+    id 97
     label "ILE12.A.CG2"
     element 0
     element 0
@@ -2400,43 +1176,7 @@ graph [
     z "3.136"
   ]
   node [
-    id 200
-    label "ILE12.A.HG21"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-2.754"
-    y "6.029"
-    z "2.649"
-  ]
-  node [
-    id 201
-    label "ILE12.A.HG22"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-3.799"
-    y "7.311"
-    z "3.284"
-  ]
-  node [
-    id 202
-    label "ILE12.A.HG23"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-3.68"
-    y "5.753"
-    z "4.113"
-  ]
-  node [
-    id 203
+    id 98
     label "ILE12.A.CD1"
     element 0
     element 0
@@ -2448,43 +1188,7 @@ graph [
     z "4.286"
   ]
   node [
-    id 204
-    label "ILE12.A.HD11"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-5.601"
-    y "5.221"
-    z "5.059"
-  ]
-  node [
-    id 205
-    label "ILE12.A.HD12"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-7.319"
-    y "5.017"
-    z "4.703"
-  ]
-  node [
-    id 206
-    label "ILE12.A.HD13"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-6.135"
-    y "3.903"
-    z "3.984"
-  ]
-  node [
-    id 207
+    id 99
     label "ILE13.A.N"
     element 1
     element 0
@@ -2496,19 +1200,7 @@ graph [
     z "-0.417"
   ]
   node [
-    id 208
-    label "ILE13.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-3.736"
-    y "4.585"
-    z "-0.324"
-  ]
-  node [
-    id 209
+    id 100
     label "ILE13.A.CA"
     element 0
     element 1
@@ -2520,19 +1212,7 @@ graph [
     z "-1.203"
   ]
   node [
-    id 210
-    label "ILE13.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-1.084"
-    y "5.501"
-    z "-0.535"
-  ]
-  node [
-    id 211
+    id 101
     label "ILE13.A.C"
     element 0
     element 0
@@ -2544,7 +1224,7 @@ graph [
     z "-2.243"
   ]
   node [
-    id 212
+    id 102
     label "ILE13.A.CB"
     element 0
     element 0
@@ -2556,19 +1236,7 @@ graph [
     z "-1.888"
   ]
   node [
-    id 213
-    label "ILE13.A.HB"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-2.791"
-    y "3.762"
-    z "-2.346"
-  ]
-  node [
-    id 214
+    id 103
     label "ILE13.A.O"
     element 0
     element 0
@@ -2580,7 +1248,7 @@ graph [
     z "-2.417"
   ]
   node [
-    id 215
+    id 104
     label "ILE13.A.CG1"
     element 0
     element 0
@@ -2592,31 +1260,7 @@ graph [
     z "-0.851"
   ]
   node [
-    id 216
-    label "ILE13.A.HG12"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-0.48"
-    y "3.044"
-    z "-0.499"
-  ]
-  node [
-    id 217
-    label "ILE13.A.HG13"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-2.151"
-    y "2.988"
-    z "0.016"
-  ]
-  node [
-    id 218
+    id 105
     label "ILE13.A.CG2"
     element 0
     element 0
@@ -2628,43 +1272,7 @@ graph [
     z "-3.003"
   ]
   node [
-    id 219
-    label "ILE13.A.HG21"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-0.841"
-    y "4.735"
-    z "-3.707"
-  ]
-  node [
-    id 220
-    label "ILE13.A.HG22"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-0.927"
-    y "2.999"
-    z "-3.585"
-  ]
-  node [
-    id 221
-    label "ILE13.A.HG23"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "0.238"
-    y "3.877"
-    z "-2.578"
-  ]
-  node [
-    id 222
+    id 106
     label "ILE13.A.CD1"
     element 0
     element 0
@@ -2676,43 +1284,7 @@ graph [
     z "-1.368"
   ]
   node [
-    id 223
-    label "ILE13.A.HD11"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-0.968"
-    y "1.285"
-    z "-2.245"
-  ]
-  node [
-    id 224
-    label "ILE13.A.HD12"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-1.25"
-    y "0.75"
-    z "-0.599"
-  ]
-  node [
-    id 225
-    label "ILE13.A.HD13"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-2.632"
-    y "1.2"
-    z "-1.613"
-  ]
-  node [
-    id 226
+    id 107
     label "ARG14.A.N"
     element 1
     element 0
@@ -2724,19 +1296,7 @@ graph [
     z "-2.958"
   ]
   node [
-    id 227
-    label "ARG14.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-3.821"
-    y "6.283"
-    z "-2.713"
-  ]
-  node [
-    id 228
+    id 108
     label "ARG14.A.CA"
     element 0
     element 1
@@ -2748,19 +1308,7 @@ graph [
     z "-4.021"
   ]
   node [
-    id 229
-    label "ARG14.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-2.091"
-    y "7.726"
-    z "-4.615"
-  ]
-  node [
-    id 230
+    id 109
     label "ARG14.A.C"
     element 0
     element 0
@@ -2772,7 +1320,7 @@ graph [
     z "-3.481"
   ]
   node [
-    id 231
+    id 110
     label "ARG14.A.CB"
     element 0
     element 0
@@ -2784,31 +1332,7 @@ graph [
     z "-4.917"
   ]
   node [
-    id 232
-    label "ARG14.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-4.345"
-    y "8.415"
-    z "-5.58"
-  ]
-  node [
-    id 233
-    label "ARG14.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-5.11"
-    y "7.492"
-    z "-4.287"
-  ]
-  node [
-    id 234
+    id 111
     label "ARG14.A.O"
     element 0
     element 0
@@ -2820,7 +1344,7 @@ graph [
     z "-4.186"
   ]
   node [
-    id 235
+    id 112
     label "ARG14.A.CG"
     element 0
     element 0
@@ -2832,31 +1356,7 @@ graph [
     z "-5.779"
   ]
   node [
-    id 236
-    label "ARG14.A.HG2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-3.327"
-    y "6.449"
-    z "-6.539"
-  ]
-  node [
-    id 237
-    label "ARG14.A.HG3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-3.808"
-    y "5.449"
-    z "-5.16"
-  ]
-  node [
-    id 238
+    id 113
     label "ARG14.A.CD"
     element 0
     element 0
@@ -2868,31 +1368,7 @@ graph [
     z "-6.441"
   ]
   node [
-    id 239
-    label "ARG14.A.HD2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-6.21"
-    y "6.119"
-    z "-5.67"
-  ]
-  node [
-    id 240
-    label "ARG14.A.HD3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-5.625"
-    y "6.79"
-    z "-7.204"
-  ]
-  node [
-    id 241
+    id 114
     label "ARG14.A.NE"
     element 1
     element 0
@@ -2904,19 +1380,7 @@ graph [
     z "-7.041"
   ]
   node [
-    id 242
-    label "ARG14.A.HE"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-4.61"
-    y "4.294"
-    z "-7.329"
-  ]
-  node [
-    id 243
+    id 115
     label "ARG14.A.NH1"
     element 1
     element 0
@@ -2928,31 +1392,7 @@ graph [
     z "-6.691"
   ]
   node [
-    id 244
-    label "ARG14.A.HH11"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-8.521"
-    y "3.678"
-    z "-6.7"
-  ]
-  node [
-    id 245
-    label "ARG14.A.HH12"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-7.783"
-    y "5.21"
-    z "-6.248"
-  ]
-  node [
-    id 246
+    id 116
     label "ARG14.A.NH2"
     element 1
     element 0
@@ -2964,31 +1404,7 @@ graph [
     z "-7.587"
   ]
   node [
-    id 247
-    label "ARG14.A.HH21"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-5.551"
-    y "2.332"
-    z "-7.848"
-  ]
-  node [
-    id 248
-    label "ARG14.A.HH22"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-7.249"
-    y "2.075"
-    z "-7.609"
-  ]
-  node [
-    id 249
+    id 117
     label "ARG14.A.CZ"
     element 0
     element 0
@@ -3000,7 +1416,7 @@ graph [
     z "-7.105"
   ]
   node [
-    id 250
+    id 118
     label "GLU15.A.N"
     element 1
     element 0
@@ -3012,19 +1428,7 @@ graph [
     z "-2.282"
   ]
   node [
-    id 251
-    label "GLU15.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-3.937"
-    y "8.59"
-    z "-1.786"
-  ]
-  node [
-    id 252
+    id 119
     label "GLU15.A.CA"
     element 0
     element 1
@@ -3036,19 +1440,7 @@ graph [
     z "-1.63"
   ]
   node [
-    id 253
-    label "GLU15.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-3.872"
-    y "11.47"
-    z "-2.383"
-  ]
-  node [
-    id 254
+    id 120
     label "GLU15.A.C"
     element 0
     element 0
@@ -3060,7 +1452,7 @@ graph [
     z "-0.886"
   ]
   node [
-    id 255
+    id 121
     label "GLU15.A.CB"
     element 0
     element 0
@@ -3072,31 +1464,7 @@ graph [
     z "-0.693"
   ]
   node [
-    id 256
-    label "GLU15.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-4.862"
-    y "9.798"
-    z "-0.047"
-  ]
-  node [
-    id 257
-    label "GLU15.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-4.923"
-    y "11.567"
-    z "-0.068"
-  ]
-  node [
-    id 258
+    id 122
     label "GLU15.A.O"
     element 0
     element 0
@@ -3108,7 +1476,7 @@ graph [
     z "-0.589"
   ]
   node [
-    id 259
+    id 123
     label "GLU15.A.CG"
     element 0
     element 0
@@ -3120,31 +1488,7 @@ graph [
     z "-1.483"
   ]
   node [
-    id 260
-    label "GLU15.A.HG2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-6.223"
-    y "9.832"
-    z "-2.211"
-  ]
-  node [
-    id 261
-    label "GLU15.A.HG3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-6.338"
-    y "11.574"
-    z "-2.043"
-  ]
-  node [
-    id 262
+    id 124
     label "GLU15.A.CD"
     element 0
     element 0
@@ -3156,7 +1500,7 @@ graph [
     z "-0.62"
   ]
   node [
-    id 263
+    id 125
     label "GLU15.A.OE1"
     element 0
     element 0
@@ -3168,7 +1512,7 @@ graph [
     z "-1.199"
   ]
   node [
-    id 264
+    id 126
     label "GLU15.A.OE2"
     element 0
     element 0
@@ -3180,7 +1524,7 @@ graph [
     z "0.599"
   ]
   node [
-    id 265
+    id 127
     label "HIS16.A.N"
     element 1
     element 0
@@ -3192,19 +1536,7 @@ graph [
     z "-0.602"
   ]
   node [
-    id 266
-    label "HIS16.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-1.729"
-    y "9.213"
-    z "-0.839"
-  ]
-  node [
-    id 267
+    id 128
     label "HIS16.A.CA"
     element 0
     element 1
@@ -3216,19 +1548,7 @@ graph [
     z "0.149"
   ]
   node [
-    id 268
-    label "HIS16.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-0.536"
-    y "11.197"
-    z "0.905"
-  ]
-  node [
-    id 269
+    id 129
     label "HIS16.A.C"
     element 0
     element 0
@@ -3240,7 +1560,7 @@ graph [
     z "-0.752"
   ]
   node [
-    id 270
+    id 130
     label "HIS16.A.CB"
     element 0
     element 0
@@ -3252,31 +1572,7 @@ graph [
     z "0.904"
   ]
   node [
-    id 271
-    label "HIS16.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "0.267"
-    y "8.355"
-    z "0.205"
-  ]
-  node [
-    id 272
-    label "HIS16.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-0.796"
-    y "8.862"
-    z "1.483"
-  ]
-  node [
-    id 273
+    id 131
     label "HIS16.A.O"
     element 0
     element 0
@@ -3288,7 +1584,7 @@ graph [
     z "-1.713"
   ]
   node [
-    id 274
+    id 132
     label "HIS16.A.CG"
     element 0
     element 0
@@ -3300,7 +1596,7 @@ graph [
     z "1.874"
   ]
   node [
-    id 275
+    id 133
     label "HIS16.A.CD2"
     element 0
     element 0
@@ -3312,19 +1608,7 @@ graph [
     z "3.212"
   ]
   node [
-    id 276
-    label "HIS16.A.HD2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "0.297"
-    y "8.683"
-    z "3.75"
-  ]
-  node [
-    id 277
+    id 134
     label "HIS16.A.ND1"
     element 1
     element 0
@@ -3336,19 +1620,7 @@ graph [
     z "1.601"
   ]
   node [
-    id 278
-    label "HIS16.A.HD1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "2.867"
-    y "9.99"
-    z "0.693"
-  ]
-  node [
-    id 279
+    id 135
     label "HIS16.A.CE1"
     element 0
     element 0
@@ -3360,19 +1632,7 @@ graph [
     z "2.762"
   ]
   node [
-    id 280
-    label "HIS16.A.HE1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "4.2"
-    y "10.112"
-    z "2.883"
-  ]
-  node [
-    id 281
+    id 136
     label "HIS16.A.NE2"
     element 1
     element 0
@@ -3384,7 +1644,7 @@ graph [
     z "3.766"
   ]
   node [
-    id 282
+    id 137
     label "GLU17.A.N"
     element 1
     element 0
@@ -3396,19 +1656,7 @@ graph [
     z "-0.41"
   ]
   node [
-    id 283
-    label "GLU17.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "0.861"
-    y "12.704"
-    z "0.373"
-  ]
-  node [
-    id 284
+    id 138
     label "GLU17.A.CA"
     element 0
     element 1
@@ -3420,19 +1668,7 @@ graph [
     z "-1.242"
   ]
   node [
-    id 285
-    label "GLU17.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "1.706"
-    y "13.261"
-    z "-2.193"
-  ]
-  node [
-    id 286
+    id 139
     label "GLU17.A.C"
     element 0
     element 0
@@ -3444,7 +1680,7 @@ graph [
     z "-1.579"
   ]
   node [
-    id 287
+    id 140
     label "GLU17.A.CB"
     element 0
     element 0
@@ -3456,31 +1692,7 @@ graph [
     z "-0.543"
   ]
   node [
-    id 288
-    label "GLU17.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "3.2"
-    y "14.955"
-    z "-1.137"
-  ]
-  node [
-    id 289
-    label "GLU17.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "2.901"
-    y "14.209"
-    z "0.44"
-  ]
-  node [
-    id 290
+    id 141
     label "GLU17.A.O"
     element 0
     element 0
@@ -3492,7 +1704,7 @@ graph [
     z "-2.712"
   ]
   node [
-    id 291
+    id 142
     label "GLU17.A.CG"
     element 0
     element 0
@@ -3504,31 +1716,7 @@ graph [
     z "-0.391"
   ]
   node [
-    id 292
-    label "GLU17.A.HG2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "0.751"
-    y "15.383"
-    z "-1.373"
-  ]
-  node [
-    id 293
-    label "GLU17.A.HG3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "0.502"
-    y "14.76"
-    z "0.257"
-  ]
-  node [
-    id 294
+    id 143
     label "GLU17.A.CD"
     element 0
     element 0
@@ -3540,7 +1728,7 @@ graph [
     z "0.194"
   ]
   node [
-    id 295
+    id 144
     label "GLU17.A.OE1"
     element 0
     element 0
@@ -3552,7 +1740,7 @@ graph [
     z "-0.093"
   ]
   node [
-    id 296
+    id 145
     label "GLU17.A.OE2"
     element 0
     element 0
@@ -3564,7 +1752,7 @@ graph [
     z "0.93"
   ]
   node [
-    id 297
+    id 146
     label "ASP18.A.N"
     element 1
     element 0
@@ -3576,19 +1764,7 @@ graph [
     z "-0.629"
   ]
   node [
-    id 298
-    label "ASP18.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "3.789"
-    y "11.769"
-    z "0.316"
-  ]
-  node [
-    id 299
+    id 147
     label "ASP18.A.CA"
     element 0
     element 1
@@ -3600,19 +1776,7 @@ graph [
     z "-0.825"
   ]
   node [
-    id 300
-    label "ASP18.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "6.062"
-    y "11.631"
-    z "-1.392"
-  ]
-  node [
-    id 301
+    id 148
     label "ASP18.A.C"
     element 0
     element 0
@@ -3624,7 +1788,7 @@ graph [
     z "-1.617"
   ]
   node [
-    id 302
+    id 149
     label "ASP18.A.CB"
     element 0
     element 0
@@ -3636,31 +1800,7 @@ graph [
     z "0.529"
   ]
   node [
-    id 303
-    label "ASP18.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "7.037"
-    y "10.195"
-    z "0.366"
-  ]
-  node [
-    id 304
-    label "ASP18.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "5.457"
-    y "10.038"
-    z "1.117"
-  ]
-  node [
-    id 305
+    id 150
     label "ASP18.A.O"
     element 0
     element 0
@@ -3672,7 +1812,7 @@ graph [
     z "-1.762"
   ]
   node [
-    id 306
+    id 151
     label "ASP18.A.CG"
     element 0
     element 0
@@ -3684,7 +1824,7 @@ graph [
     z "1.309"
   ]
   node [
-    id 307
+    id 152
     label "ASP18.A.OD1"
     element 0
     element 0
@@ -3696,7 +1836,7 @@ graph [
     z "0.679"
   ]
   node [
-    id 308
+    id 153
     label "ASP18.A.OD2"
     element 0
     element 0
@@ -3708,7 +1848,7 @@ graph [
     z "2.541"
   ]
   node [
-    id 309
+    id 154
     label "THR19.A.N"
     element 1
     element 0
@@ -3720,19 +1860,7 @@ graph [
     z "-2.101"
   ]
   node [
-    id 310
-    label "THR19.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "3.373"
-    y "9.895"
-    z "-2.04"
-  ]
-  node [
-    id 311
+    id 155
     label "THR19.A.CA"
     element 0
     element 1
@@ -3744,19 +1872,7 @@ graph [
     z "-2.702"
   ]
   node [
-    id 312
-    label "THR19.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "4.59"
-    y "7.24"
-    z "-2.145"
-  ]
-  node [
-    id 313
+    id 156
     label "THR19.A.C"
     element 0
     element 0
@@ -3768,7 +1884,7 @@ graph [
     z "-4.15"
   ]
   node [
-    id 314
+    id 157
     label "THR19.A.CB"
     element 0
     element 0
@@ -3780,19 +1896,7 @@ graph [
     z "-2.583"
   ]
   node [
-    id 315
-    label "THR19.A.HB"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "1.904"
-    y "7.825"
-    z "-3.38"
-  ]
-  node [
-    id 316
+    id 158
     label "THR19.A.O"
     element 0
     element 0
@@ -3804,7 +1908,7 @@ graph [
     z "-5.019"
   ]
   node [
-    id 317
+    id 159
     label "THR19.A.CG2"
     element 0
     element 0
@@ -3816,43 +1920,7 @@ graph [
     z "-2.591"
   ]
   node [
-    id 318
-    label "THR19.A.HG21"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "3.228"
-    y "5.489"
-    z "-1.902"
-  ]
-  node [
-    id 319
-    label "THR19.A.HG22"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "2.677"
-    y "5.547"
-    z "-3.604"
-  ]
-  node [
-    id 320
-    label "THR19.A.HG23"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "1.495"
-    y "5.587"
-    z "-2.277"
-  ]
-  node [
-    id 321
+    id 160
     label "THR19.A.OG1"
     element 0
     element 0
@@ -3864,19 +1932,7 @@ graph [
     z "-1.357"
   ]
   node [
-    id 322
-    label "THR19.A.HG1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "1.542"
-    y "8.645"
-    z "-1.524"
-  ]
-  node [
-    id 323
+    id 161
     label "LEU20.A.N"
     element 1
     element 0
@@ -3888,19 +1944,7 @@ graph [
     z "-4.435"
   ]
   node [
-    id 324
-    label "LEU20.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "5.95"
-    y "6.721"
-    z "-3.663"
-  ]
-  node [
-    id 325
+    id 162
     label "LEU20.A.CA"
     element 0
     element 1
@@ -3912,19 +1956,7 @@ graph [
     z "-5.801"
   ]
   node [
-    id 326
-    label "LEU20.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "6.167"
-    y "7.923"
-    z "-6.231"
-  ]
-  node [
-    id 327
+    id 163
     label "LEU20.A.C"
     element 0
     element 0
@@ -3936,7 +1968,7 @@ graph [
     z "-6.664"
   ]
   node [
-    id 328
+    id 164
     label "LEU20.A.CB"
     element 0
     element 0
@@ -3948,31 +1980,7 @@ graph [
     z "-5.796"
   ]
   node [
-    id 329
-    label "LEU20.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "7.457"
-    y "5.819"
-    z "-6.825"
-  ]
-  node [
-    id 330
-    label "LEU20.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "6.978"
-    y "5.149"
-    z "-5.268"
-  ]
-  node [
-    id 331
+    id 165
     label "LEU20.A.O"
     element 0
     element 0
@@ -3984,7 +1992,7 @@ graph [
     z "-6.235"
   ]
   node [
-    id 332
+    id 166
     label "LEU20.A.CG"
     element 0
     element 0
@@ -3996,19 +2004,7 @@ graph [
     z "-5.143"
   ]
   node [
-    id 333
-    label "LEU20.A.HG"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "8.179"
-    y "7.069"
-    z "-4.134"
-  ]
-  node [
-    id 334
+    id 167
     label "LEU20.A.CD1"
     element 0
     element 0
@@ -4020,43 +2016,7 @@ graph [
     z "-5.045"
   ]
   node [
-    id 335
-    label "LEU20.A.HD11"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "9.242"
-    y "4.896"
-    z "-4.408"
-  ]
-  node [
-    id 336
-    label "LEU20.A.HD12"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "9.83"
-    y "5.349"
-    z "-6.035"
-  ]
-  node [
-    id 337
-    label "LEU20.A.HD13"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "10.433"
-    y "6.187"
-    z "-4.584"
-  ]
-  node [
-    id 338
+    id 168
     label "LEU20.A.CD2"
     element 0
     element 0
@@ -4068,43 +2028,7 @@ graph [
     z "-5.952"
   ]
   node [
-    id 339
-    label "LEU20.A.HD21"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "8.194"
-    y "8.733"
-    z "-5.944"
-  ]
-  node [
-    id 340
-    label "LEU20.A.HD22"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "9.841"
-    y "8.332"
-    z "-5.488"
-  ]
-  node [
-    id 341
-    label "LEU20.A.HD23"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "9.156"
-    y "7.643"
-    z "-6.979"
-  ]
-  node [
-    id 342
+    id 169
     label "ALA21.A.N"
     element 1
     element 0
@@ -4116,19 +2040,7 @@ graph [
     z "-7.923"
   ]
   node [
-    id 343
-    label "ALA21.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "5.311"
-    y "7.546"
-    z "-8.195"
-  ]
-  node [
-    id 344
+    id 170
     label "ALA21.A.CA"
     element 0
     element 1
@@ -4140,19 +2052,7 @@ graph [
     z "-8.884"
   ]
   node [
-    id 345
-    label "ALA21.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "2.796"
-    y "6.448"
-    z "-8.528"
-  ]
-  node [
-    id 346
+    id 171
     label "ALA21.A.C"
     element 0
     element 0
@@ -4164,7 +2064,7 @@ graph [
     z "-8.999"
   ]
   node [
-    id 347
+    id 172
     label "ALA21.A.CB"
     element 0
     element 0
@@ -4176,43 +2076,7 @@ graph [
     z "-10.241"
   ]
   node [
-    id 348
-    label "ALA21.A.HB1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "3.871"
-    y "7.969"
-    z "-10.135"
-  ]
-  node [
-    id 349
-    label "ALA21.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "3.27"
-    y "6.518"
-    z "-10.956"
-  ]
-  node [
-    id 350
-    label "ALA21.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "5.005"
-    y "6.686"
-    z "-10.617"
-  ]
-  node [
-    id 351
+    id 173
     label "ALA21.A.O"
     element 0
     element 0
@@ -4224,7 +2088,7 @@ graph [
     z "-9.128"
   ]
   node [
-    id 352
+    id 174
     label "GLY22.A.N"
     element 1
     element 0
@@ -4236,19 +2100,7 @@ graph [
     z "-8.987"
   ]
   node [
-    id 353
-    label "GLY22.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "1.916"
-    y "4.505"
-    z "-8.829"
-  ]
-  node [
-    id 354
+    id 175
     label "GLY22.A.CA"
     element 0
     element 1
@@ -4260,31 +2112,7 @@ graph [
     z "-9.185"
   ]
   node [
-    id 355
-    label "GLY22.A.HA2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "1.724"
-    y "2.343"
-    z "-9.712"
-  ]
-  node [
-    id 356
-    label "GLY22.A.HA3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "3.472"
-    y "2.188"
-    z "-9.815"
-  ]
-  node [
-    id 357
+    id 176
     label "GLY22.A.C"
     element 0
     element 0
@@ -4296,7 +2124,7 @@ graph [
     z "-7.913"
   ]
   node [
-    id 358
+    id 177
     label "GLY22.A.O"
     element 0
     element 0
@@ -4308,7 +2136,7 @@ graph [
     z "-8.036"
   ]
   node [
-    id 359
+    id 178
     label "ILE23.A.N"
     element 1
     element 0
@@ -4320,19 +2148,7 @@ graph [
     z "-6.714"
   ]
   node [
-    id 360
-    label "ILE23.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "2.8"
-    y "3.287"
-    z "-6.654"
-  ]
-  node [
-    id 361
+    id 179
     label "ILE23.A.CA"
     element 0
     element 1
@@ -4344,19 +2160,7 @@ graph [
     z "-5.476"
   ]
   node [
-    id 362
-    label "ILE23.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "3.009"
-    y "0.596"
-    z "-5.512"
-  ]
-  node [
-    id 363
+    id 180
     label "ILE23.A.C"
     element 0
     element 0
@@ -4368,7 +2172,7 @@ graph [
     z "-5.432"
   ]
   node [
-    id 364
+    id 181
     label "ILE23.A.CB"
     element 0
     element 0
@@ -4380,19 +2184,7 @@ graph [
     z "-4.224"
   ]
   node [
-    id 365
-    label "ILE23.A.HB"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "2.428"
-    y "3.282"
-    z "-4.208"
-  ]
-  node [
-    id 366
+    id 182
     label "ILE23.A.O"
     element 0
     element 0
@@ -4404,7 +2196,7 @@ graph [
     z "-5.604"
   ]
   node [
-    id 367
+    id 183
     label "ILE23.A.CG1"
     element 0
     element 0
@@ -4416,31 +2208,7 @@ graph [
     z "-4.326"
   ]
   node [
-    id 368
-    label "ILE23.A.HG12"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "4.683"
-    y "3.074"
-    z "-5.245"
-  ]
-  node [
-    id 369
-    label "ILE23.A.HG13"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "4.945"
-    y "1.564"
-    z "-4.41"
-  ]
-  node [
-    id 370
+    id 184
     label "ILE23.A.CG2"
     element 0
     element 0
@@ -4452,43 +2220,7 @@ graph [
     z "-2.933"
   ]
   node [
-    id 371
-    label "ILE23.A.HG21"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "1.476"
-    y "1.422"
-    z "-2.865"
-  ]
-  node [
-    id 372
-    label "ILE23.A.HG22"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "3.038"
-    y "0.575"
-    z "-2.912"
-  ]
-  node [
-    id 373
-    label "ILE23.A.HG23"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "2.858"
-    y "2.124"
-    z "-2.056"
-  ]
-  node [
-    id 374
+    id 185
     label "ILE23.A.CD1"
     element 0
     element 0
@@ -4500,43 +2232,7 @@ graph [
     z "-3.184"
   ]
   node [
-    id 375
-    label "ILE23.A.HD11"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "6.18"
-    y "3.382"
-    z "-3.36"
-  ]
-  node [
-    id 376
-    label "ILE23.A.HD12"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "4.713"
-    y "4.343"
-    z "-3.168"
-  ]
-  node [
-    id 377
-    label "ILE23.A.HD13"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "4.94"
-    y "2.847"
-    z "-2.219"
-  ]
-  node [
-    id 378
+    id 186
     label "GLU24.A.N"
     element 1
     element 0
@@ -4548,19 +2244,7 @@ graph [
     z "-5.204"
   ]
   node [
-    id 379
-    label "GLU24.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "1.391"
-    y "-0.768"
-    z "-5.137"
-  ]
-  node [
-    id 380
+    id 187
     label "GLU24.A.CA"
     element 0
     element 1
@@ -4572,19 +2256,7 @@ graph [
     z "-5.091"
   ]
   node [
-    id 381
-    label "GLU24.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-1.37"
-    y "0.206"
-    z "-4.746"
-  ]
-  node [
-    id 382
+    id 188
     label "GLU24.A.C"
     element 0
     element 0
@@ -4596,7 +2268,7 @@ graph [
     z "-4.061"
   ]
   node [
-    id 383
+    id 189
     label "GLU24.A.CB"
     element 0
     element 0
@@ -4608,31 +2280,7 @@ graph [
     z "-6.471"
   ]
   node [
-    id 384
-    label "GLU24.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-1.063"
-    y "-0.259"
-    z "-7.189"
-  ]
-  node [
-    id 385
-    label "GLU24.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-0.644"
-    y "-1.933"
-    z "-6.789"
-  ]
-  node [
-    id 386
+    id 190
     label "GLU24.A.O"
     element 0
     element 0
@@ -4644,7 +2292,7 @@ graph [
     z "-4.081"
   ]
   node [
-    id 387
+    id 191
     label "GLU24.A.CG"
     element 0
     element 0
@@ -4656,31 +2304,7 @@ graph [
     z "-6.454"
   ]
   node [
-    id 388
-    label "GLU24.A.HG2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-3.262"
-    y "-0.537"
-    z "-6.114"
-  ]
-  node [
-    id 389
-    label "GLU24.A.HG3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-2.888"
-    y "-2.229"
-    z "-5.747"
-  ]
-  node [
-    id 390
+    id 192
     label "GLU24.A.CD"
     element 0
     element 0
@@ -4692,7 +2316,7 @@ graph [
     z "-7.818"
   ]
   node [
-    id 391
+    id 193
     label "GLU24.A.OE1"
     element 0
     element 0
@@ -4704,7 +2328,7 @@ graph [
     z "-7.866"
   ]
   node [
-    id 392
+    id 194
     label "GLU24.A.OE2"
     element 0
     element 0
@@ -4716,7 +2340,7 @@ graph [
     z "-8.808"
   ]
   node [
-    id 393
+    id 195
     label "ALA25.A.N"
     element 1
     element 0
@@ -4728,19 +2352,7 @@ graph [
     z "-3.154"
   ]
   node [
-    id 394
-    label "ALA25.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-2.412"
-    y "-0.953"
-    z "-3.23"
-  ]
-  node [
-    id 395
+    id 196
     label "ALA25.A.CA"
     element 0
     element 1
@@ -4752,19 +2364,7 @@ graph [
     z "-2.279"
   ]
   node [
-    id 396
-    label "ALA25.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-1.1"
-    y "-3.306"
-    z "-1.994"
-  ]
-  node [
-    id 397
+    id 197
     label "ALA25.A.C"
     element 0
     element 0
@@ -4776,7 +2376,7 @@ graph [
     z "-3.041"
   ]
   node [
-    id 398
+    id 198
     label "ALA25.A.CB"
     element 0
     element 0
@@ -4788,43 +2388,7 @@ graph [
     z "-0.999"
   ]
   node [
-    id 399
-    label "ALA25.A.HB1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-2.935"
-    y "-3.15"
-    z "-0.354"
-  ]
-  node [
-    id 400
-    label "ALA25.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-2.022"
-    y "-1.633"
-    z "-0.47"
-  ]
-  node [
-    id 401
-    label "ALA25.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-3.618"
-    y "-1.77"
-    z "-1.244"
-  ]
-  node [
-    id 402
+    id 199
     label "ALA25.A.O"
     element 0
     element 0
@@ -4836,7 +2400,7 @@ graph [
     z "-3.444"
   ]
   node [
-    id 403
+    id 200
     label "THR26.A.N"
     element 1
     element 0
@@ -4848,19 +2412,7 @@ graph [
     z "-3.207"
   ]
   node [
-    id 404
-    label "THR26.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-1.474"
-    y "-5.227"
-    z "-2.866"
-  ]
-  node [
-    id 405
+    id 201
     label "THR26.A.CA"
     element 0
     element 1
@@ -4872,19 +2424,7 @@ graph [
     z "-3.92"
   ]
   node [
-    id 406
-    label "THR26.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-3.951"
-    y "-5.737"
-    z "-4.46"
-  ]
-  node [
-    id 407
+    id 202
     label "THR26.A.C"
     element 0
     element 0
@@ -4896,7 +2436,7 @@ graph [
     z "-2.978"
   ]
   node [
-    id 408
+    id 203
     label "THR26.A.CB"
     element 0
     element 0
@@ -4908,19 +2448,7 @@ graph [
     z "-4.956"
   ]
   node [
-    id 409
-    label "THR26.A.HB"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-2.702"
-    y "-7.558"
-    z "-5.486"
-  ]
-  node [
-    id 410
+    id 204
     label "THR26.A.O"
     element 0
     element 0
@@ -4932,7 +2460,7 @@ graph [
     z "-3.368"
   ]
   node [
-    id 411
+    id 205
     label "THR26.A.CG2"
     element 0
     element 0
@@ -4944,43 +2472,7 @@ graph [
     z "-5.979"
   ]
   node [
-    id 412
-    label "THR26.A.HG21"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-2.488"
-    y "-5.214"
-    z "-6.409"
-  ]
-  node [
-    id 413
-    label "THR26.A.HG22"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-1.121"
-    y "-6.274"
-    z "-6.783"
-  ]
-  node [
-    id 414
-    label "THR26.A.HG23"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-0.973"
-    y "-5.043"
-    z "-5.511"
-  ]
-  node [
-    id 415
+    id 206
     label "THR26.A.OG1"
     element 0
     element 0
@@ -4992,19 +2484,7 @@ graph [
     z "-4.312"
   ]
   node [
-    id 416
-    label "THR26.A.HG1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-0.43"
-    y "-7.607"
-    z "-5.003"
-  ]
-  node [
-    id 417
+    id 207
     label "GLY27.A.N"
     element 1
     element 0
@@ -5016,19 +2496,7 @@ graph [
     z "-1.716"
   ]
   node [
-    id 418
-    label "GLY27.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-2.506"
-    y "-6.501"
-    z "-1.462"
-  ]
-  node [
-    id 419
+    id 208
     label "GLY27.A.CA"
     element 0
     element 1
@@ -5040,31 +2508,7 @@ graph [
     z "-0.688"
   ]
   node [
-    id 420
-    label "GLY27.A.HA2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-4.647"
-    y "-8.476"
-    z "-0.936"
-  ]
-  node [
-    id 421
-    label "GLY27.A.HA3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-2.984"
-    y "-8.991"
-    z "-0.655"
-  ]
-  node [
-    id 422
+    id 209
     label "GLY27.A.C"
     element 0
     element 0
@@ -5076,7 +2520,7 @@ graph [
     z "0.692"
   ]
   node [
-    id 423
+    id 210
     label "GLY27.A.O"
     element 0
     element 0
@@ -5088,7 +2532,7 @@ graph [
     z "0.986"
   ]
   node [
-    id 424
+    id 211
     label "VAL28.A.N"
     element 1
     element 0
@@ -5100,19 +2544,7 @@ graph [
     z "1.536"
   ]
   node [
-    id 425
-    label "VAL28.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-5.139"
-    y "-8.779"
-    z "1.221"
-  ]
-  node [
-    id 426
+    id 212
     label "VAL28.A.CA"
     element 0
     element 1
@@ -5124,19 +2556,7 @@ graph [
     z "2.948"
   ]
   node [
-    id 427
-    label "VAL28.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-3.685"
-    y "-7.31"
-    z "3.274"
-  ]
-  node [
-    id 428
+    id 213
     label "VAL28.A.C"
     element 0
     element 0
@@ -5148,7 +2568,7 @@ graph [
     z "3.75"
   ]
   node [
-    id 429
+    id 214
     label "VAL28.A.CB"
     element 0
     element 0
@@ -5160,19 +2580,7 @@ graph [
     z "3.183"
   ]
   node [
-    id 430
-    label "VAL28.A.HB"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-5.287"
-    y "-5.629"
-    z "2.579"
-  ]
-  node [
-    id 431
+    id 215
     label "VAL28.A.O"
     element 0
     element 0
@@ -5184,7 +2592,7 @@ graph [
     z "3.361"
   ]
   node [
-    id 432
+    id 216
     label "VAL28.A.CG1"
     element 0
     element 0
@@ -5196,43 +2604,7 @@ graph [
     z "2.764"
   ]
   node [
-    id 433
-    label "VAL28.A.HG11"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-7.513"
-    y "-7.535"
-    z "3.395"
-  ]
-  node [
-    id 434
-    label "VAL28.A.HG12"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-7.674"
-    y "-5.848"
-    z "2.865"
-  ]
-  node [
-    id 435
-    label "VAL28.A.HG13"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-7.106"
-    y "-7.064"
-    z "1.718"
-  ]
-  node [
-    id 436
+    id 217
     label "VAL28.A.CG2"
     element 0
     element 0
@@ -5244,43 +2616,7 @@ graph [
     z "4.648"
   ]
   node [
-    id 437
-    label "VAL28.A.HG21"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-6.238"
-    y "-5.118"
-    z "4.757"
-  ]
-  node [
-    id 438
-    label "VAL28.A.HG22"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-6.026"
-    y "-6.792"
-    z "5.301"
-  ]
-  node [
-    id 439
-    label "VAL28.A.HG23"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-4.611"
-    y "-5.768"
-    z "4.951"
-  ]
-  node [
-    id 440
+    id 218
     label "THR29.A.N"
     element 1
     element 0
@@ -5292,19 +2628,7 @@ graph [
     z "4.864"
   ]
   node [
-    id 441
-    label "THR29.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-3.637"
-    y "-8.394"
-    z "5.101"
-  ]
-  node [
-    id 442
+    id 219
     label "THR29.A.CA"
     element 0
     element 1
@@ -5316,19 +2640,7 @@ graph [
     z "5.868"
   ]
   node [
-    id 443
-    label "THR29.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-5.604"
-    y "-10.552"
-    z "5.669"
-  ]
-  node [
-    id 444
+    id 220
     label "THR29.A.C"
     element 0
     element 0
@@ -5340,7 +2652,7 @@ graph [
     z "7.244"
   ]
   node [
-    id 445
+    id 221
     label "THR29.A.CB"
     element 0
     element 0
@@ -5352,19 +2664,7 @@ graph [
     z "5.846"
   ]
   node [
-    id 446
-    label "THR29.A.HB"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-3.887"
-    y "-12.007"
-    z "6.58"
-  ]
-  node [
-    id 447
+    id 222
     label "THR29.A.O"
     element 0
     element 0
@@ -5376,7 +2676,7 @@ graph [
     z "7.424"
   ]
   node [
-    id 448
+    id 223
     label "THR29.A.CG2"
     element 0
     element 0
@@ -5388,43 +2688,7 @@ graph [
     z "4.484"
   ]
   node [
-    id 449
-    label "THR29.A.HG21"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-4.485"
-    y "-12.289"
-    z "4.178"
-  ]
-  node [
-    id 450
-    label "THR29.A.HG22"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-3.111"
-    y "-11.254"
-    z "3.734"
-  ]
-  node [
-    id 451
-    label "THR29.A.HG23"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-2.827"
-    y "-12.802"
-    z "4.553"
-  ]
-  node [
-    id 452
+    id 224
     label "THR29.A.OG1"
     element 0
     element 0
@@ -5436,19 +2700,7 @@ graph [
     z "6.177"
   ]
   node [
-    id 453
-    label "THR29.A.HG1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-2.128"
-    y "-10.015"
-    z "5.667"
-  ]
-  node [
-    id 454
+    id 225
     label "GLN30.A.N"
     element 1
     element 0
@@ -5460,19 +2712,7 @@ graph [
     z "8.222"
   ]
   node [
-    id 455
-    label "GLN30.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-5.783"
-    y "-10.98"
-    z "8.051"
-  ]
-  node [
-    id 456
+    id 226
     label "GLN30.A.CA"
     element 0
     element 1
@@ -5484,19 +2724,7 @@ graph [
     z "9.604"
   ]
   node [
-    id 457
-    label "GLN30.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-4.815"
-    y "-8.642"
-    z "9.647"
-  ]
-  node [
-    id 458
+    id 227
     label "GLN30.A.C"
     element 0
     element 0
@@ -5508,7 +2736,7 @@ graph [
     z "10.487"
   ]
   node [
-    id 459
+    id 228
     label "GLN30.A.CB"
     element 0
     element 0
@@ -5520,31 +2748,7 @@ graph [
     z "10.089"
   ]
   node [
-    id 460
-    label "GLN30.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-7.306"
-    y "-8.808"
-    z "9.316"
-  ]
-  node [
-    id 461
-    label "GLN30.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-7.265"
-    y "-10.31"
-    z "10.248"
-  ]
-  node [
-    id 462
+    id 229
     label "GLN30.A.O"
     element 0
     element 0
@@ -5556,7 +2760,7 @@ graph [
     z "10.398"
   ]
   node [
-    id 463
+    id 230
     label "GLN30.A.CG"
     element 0
     element 0
@@ -5568,31 +2772,7 @@ graph [
     z "11.384"
   ]
   node [
-    id 464
-    label "GLN30.A.HG2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-6.249"
-    y "-7.599"
-    z "11.236"
-  ]
-  node [
-    id 465
-    label "GLN30.A.HG3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-6.339"
-    y "-9.077"
-    z "12.198"
-  ]
-  node [
-    id 466
+    id 231
     label "GLN30.A.CD"
     element 0
     element 0
@@ -5604,7 +2784,7 @@ graph [
     z "11.802"
   ]
   node [
-    id 467
+    id 232
     label "GLN30.A.NE2"
     element 1
     element 0
@@ -5616,31 +2796,7 @@ graph [
     z "12.652"
   ]
   node [
-    id 468
-    label "GLN30.A.HE21"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-7.648"
-    y "-6.559"
-    z "12.925"
-  ]
-  node [
-    id 469
-    label "GLN30.A.HE22"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-9.356"
-    y "-6.91"
-    z "12.858"
-  ]
-  node [
-    id 470
+    id 233
     label "GLN30.A.OE1"
     element 0
     element 0
@@ -5652,7 +2808,7 @@ graph [
     z "11.385"
   ]
   node [
-    id 471
+    id 234
     label "ARG31.A.N"
     element 1
     element 0
@@ -5664,19 +2820,7 @@ graph [
     z "11.337"
   ]
   node [
-    id 472
-    label "ARG31.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-3.529"
-    y "-9.075"
-    z "11.327"
-  ]
-  node [
-    id 473
+    id 235
     label "ARG31.A.CA"
     element 0
     element 1
@@ -5688,19 +2832,7 @@ graph [
     z "12.306"
   ]
   node [
-    id 474
-    label "ARG31.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-3.341"
-    y "-11.839"
-    z "12.431"
-  ]
-  node [
-    id 475
+    id 236
     label "ARG31.A.C"
     element 0
     element 0
@@ -5712,7 +2844,7 @@ graph [
     z "13.654"
   ]
   node [
-    id 476
+    id 237
     label "ARG31.A.CB"
     element 0
     element 0
@@ -5724,31 +2856,7 @@ graph [
     z "11.816"
   ]
   node [
-    id 477
-    label "ARG31.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-0.993"
-    y "-10.048"
-    z "11.654"
-  ]
-  node [
-    id 478
-    label "ARG31.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-0.881"
-    y "-11.537"
-    z "12.599"
-  ]
-  node [
-    id 479
+    id 238
     label "ARG31.A.O"
     element 0
     element 0
@@ -5760,7 +2868,7 @@ graph [
     z "13.751"
   ]
   node [
-    id 480
+    id 239
     label "ARG31.A.CG"
     element 0
     element 0
@@ -5772,31 +2880,7 @@ graph [
     z "10.523"
   ]
   node [
-    id 481
-    label "ARG31.A.HG2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-1.766"
-    y "-11.284"
-    z "9.691"
-  ]
-  node [
-    id 482
-    label "ARG31.A.HG3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-1.899"
-    y "-12.779"
-    z "10.642"
-  ]
-  node [
-    id 483
+    id 240
     label "ARG31.A.CD"
     element 0
     element 0
@@ -5808,31 +2892,7 @@ graph [
     z "10.23"
   ]
   node [
-    id 484
-    label "ARG31.A.HD2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "0.678"
-    y "-11.244"
-    z "10.128"
-  ]
-  node [
-    id 485
-    label "ARG31.A.HD3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "0.523"
-    y "-12.737"
-    z "11.074"
-  ]
-  node [
-    id 486
+    id 241
     label "ARG31.A.NE"
     element 1
     element 0
@@ -5844,19 +2904,7 @@ graph [
     z "8.994"
   ]
   node [
-    id 487
-    label "ARG31.A.HE"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-0.512"
-    y "-12.922"
-    z "8.347"
-  ]
-  node [
-    id 488
+    id 242
     label "ARG31.A.NH1"
     element 1
     element 0
@@ -5868,31 +2916,7 @@ graph [
     z "9.35"
   ]
   node [
-    id 489
-    label "ARG31.A.HH11"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "2.433"
-    y "-13.185"
-    z "10.215"
-  ]
-  node [
-    id 490
-    label "ARG31.A.HH12"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "3.229"
-    y "-14.197"
-    z "9.026"
-  ]
-  node [
-    id 491
+    id 243
     label "ARG31.A.NH2"
     element 1
     element 0
@@ -5904,31 +2928,7 @@ graph [
     z "7.494"
   ]
   node [
-    id 492
-    label "ARG31.A.HH21"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "0.523"
-    y "-14.25"
-    z "6.884"
-  ]
-  node [
-    id 493
-    label "ARG31.A.HH22"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "2.142"
-    y "-14.824"
-    z "7.204"
-  ]
-  node [
-    id 494
+    id 244
     label "ARG31.A.CZ"
     element 0
     element 0
@@ -5940,7 +2940,7 @@ graph [
     z "8.622"
   ]
   node [
-    id 495
+    id 245
     label "ASN32.A.N"
     element 1
     element 0
@@ -5952,19 +2952,7 @@ graph [
     z "14.695"
   ]
   node [
-    id 496
-    label "ASN32.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-3.668"
-    y "-11.792"
-    z "14.555"
-  ]
-  node [
-    id 497
+    id 246
     label "ASN32.A.CA"
     element 0
     element 1
@@ -5976,19 +2964,7 @@ graph [
     z "16.063"
   ]
   node [
-    id 498
-    label "ASN32.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-4.078"
-    y "-10.967"
-    z "16.65"
-  ]
-  node [
-    id 499
+    id 247
     label "ASN32.A.C"
     element 0
     element 0
@@ -6000,7 +2976,7 @@ graph [
     z "16.143"
   ]
   node [
-    id 500
+    id 248
     label "ASN32.A.CB"
     element 0
     element 0
@@ -6012,31 +2988,7 @@ graph [
     z "16.693"
   ]
   node [
-    id 501
-    label "ASN32.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-1.393"
-    y "-9.64"
-    z "16.152"
-  ]
-  node [
-    id 502
-    label "ASN32.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-2.102"
-    y "-9.984"
-    z "17.725"
-  ]
-  node [
-    id 503
+    id 249
     label "ASN32.A.O"
     element 0
     element 0
@@ -6048,7 +3000,7 @@ graph [
     z "16.823"
   ]
   node [
-    id 504
+    id 250
     label "ASN32.A.CG"
     element 0
     element 0
@@ -6060,7 +3012,7 @@ graph [
     z "16.705"
   ]
   node [
-    id 505
+    id 251
     label "ASN32.A.ND2"
     element 1
     element 0
@@ -6072,31 +3024,7 @@ graph [
     z "16.706"
   ]
   node [
-    id 506
-    label "ASN32.A.HD21"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "0.444"
-    y "-10.942"
-    z "16.762"
-  ]
-  node [
-    id 507
-    label "ASN32.A.HD22"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "0.284"
-    y "-12.713"
-    z "16.785"
-  ]
-  node [
-    id 508
+    id 252
     label "ASN32.A.OD1"
     element 0
     element 0
@@ -6108,7 +3036,7 @@ graph [
     z "16.695"
   ]
   node [
-    id 509
+    id 253
     label "GLY33.A.N"
     element 1
     element 0
@@ -6120,19 +3048,7 @@ graph [
     z "15.396"
   ]
   node [
-    id 510
-    label "GLY33.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-5.573"
-    y "-9.496"
-    z "14.857"
-  ]
-  node [
-    id 511
+    id 254
     label "GLY33.A.CA"
     element 0
     element 1
@@ -6144,31 +3060,7 @@ graph [
     z "15.312"
   ]
   node [
-    id 512
-    label "GLY33.A.HA2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-6.979"
-    y "-7.632"
-    z "15.072"
-  ]
-  node [
-    id 513
-    label "GLY33.A.HA3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-5.9"
-    y "-6.949"
-    z "16.283"
-  ]
-  node [
-    id 514
+    id 255
     label "GLY33.A.C"
     element 0
     element 0
@@ -6180,7 +3072,7 @@ graph [
     z "14.281"
   ]
   node [
-    id 515
+    id 256
     label "GLY33.A.O"
     element 0
     element 0
@@ -6192,7 +3084,7 @@ graph [
     z "13.832"
   ]
   node [
-    id 516
+    id 257
     label "VAL34.A.N"
     element 1
     element 0
@@ -6204,19 +3096,7 @@ graph [
     z "13.814"
   ]
   node [
-    id 517
-    label "VAL34.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-3.57"
-    y "-7.362"
-    z "14.192"
-  ]
-  node [
-    id 518
+    id 258
     label "VAL34.A.CA"
     element 0
     element 1
@@ -6228,19 +3108,7 @@ graph [
     z "12.887"
   ]
   node [
-    id 519
-    label "VAL34.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-3.959"
-    y "-4.707"
-    z "12.982"
-  ]
-  node [
-    id 520
+    id 259
     label "VAL34.A.C"
     element 0
     element 0
@@ -6252,7 +3120,7 @@ graph [
     z "11.432"
   ]
   node [
-    id 521
+    id 260
     label "VAL34.A.CB"
     element 0
     element 0
@@ -6264,19 +3132,7 @@ graph [
     z "13.273"
   ]
   node [
-    id 522
-    label "VAL34.A.HB"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-1.469"
-    y "-6.433"
-    z "13.155"
-  ]
-  node [
-    id 523
+    id 261
     label "VAL34.A.O"
     element 0
     element 0
@@ -6288,7 +3144,7 @@ graph [
     z "11.105"
   ]
   node [
-    id 524
+    id 262
     label "VAL34.A.CG1"
     element 0
     element 0
@@ -6300,43 +3156,7 @@ graph [
     z "12.394"
   ]
   node [
-    id 525
-    label "VAL34.A.HG11"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-1.267"
-    y "-4.775"
-    z "11.359"
-  ]
-  node [
-    id 526
-    label "VAL34.A.HG12"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-1.846"
-    y "-3.493"
-    z "12.441"
-  ]
-  node [
-    id 527
-    label "VAL34.A.HG13"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-0.282"
-    y "-4.279"
-    z "12.736"
-  ]
-  node [
-    id 528
+    id 263
     label "VAL34.A.CG2"
     element 0
     element 0
@@ -6348,43 +3168,7 @@ graph [
     z "14.734"
   ]
   node [
-    id 529
-    label "VAL34.A.HG21"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-2.225"
-    y "-5.803"
-    z "15.412"
-  ]
-  node [
-    id 530
-    label "VAL34.A.HG22"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-0.807"
-    y "-4.851"
-    z "14.968"
-  ]
-  node [
-    id 531
-    label "VAL34.A.HG23"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-2.422"
-    y "-4.116"
-    z "14.894"
-  ]
-  node [
-    id 532
+    id 264
     label "LEU35.A.N"
     element 1
     element 0
@@ -6396,19 +3180,7 @@ graph [
     z "10.543"
   ]
   node [
-    id 533
-    label "LEU35.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-4.167"
-    y "-4.274"
-    z "10.875"
-  ]
-  node [
-    id 534
+    id 265
     label "LEU35.A.CA"
     element 0
     element 1
@@ -6420,19 +3192,7 @@ graph [
     z "9.097"
   ]
   node [
-    id 535
-    label "LEU35.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-4.439"
-    y "-6.388"
-    z "8.886"
-  ]
-  node [
-    id 536
+    id 266
     label "LEU35.A.C"
     element 0
     element 0
@@ -6444,7 +3204,7 @@ graph [
     z "8.526"
   ]
   node [
-    id 537
+    id 267
     label "LEU35.A.CB"
     element 0
     element 0
@@ -6456,31 +3216,7 @@ graph [
     z "8.41"
   ]
   node [
-    id 538
-    label "LEU35.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-4.845"
-    y "-4.508"
-    z "7.334"
-  ]
-  node [
-    id 539
-    label "LEU35.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-4.457"
-    y "-3.361"
-    z "8.605"
-  ]
-  node [
-    id 540
+    id 268
     label "LEU35.A.O"
     element 0
     element 0
@@ -6492,7 +3228,7 @@ graph [
     z "8.808"
   ]
   node [
-    id 541
+    id 269
     label "LEU35.A.CG"
     element 0
     element 0
@@ -6504,19 +3240,7 @@ graph [
     z "8.838"
   ]
   node [
-    id 542
-    label "LEU35.A.HG"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-6.444"
-    y "-4.101"
-    z "9.903"
-  ]
-  node [
-    id 543
+    id 270
     label "LEU35.A.CD1"
     element 0
     element 0
@@ -6528,43 +3252,7 @@ graph [
     z "8.054"
   ]
   node [
-    id 544
-    label "LEU35.A.HD11"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-6.573"
-    y "-2.278"
-    z "8.232"
-  ]
-  node [
-    id 545
-    label "LEU35.A.HD12"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-7.08"
-    y "-3.443"
-    z "6.987"
-  ]
-  node [
-    id 546
-    label "LEU35.A.HD13"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-8.108"
-    y "-3.12"
-    z "8.415"
-  ]
-  node [
-    id 547
+    id 271
     label "LEU35.A.CD2"
     element 0
     element 0
@@ -6576,43 +3264,7 @@ graph [
     z "8.54"
   ]
   node [
-    id 548
-    label "LEU35.A.HD21"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-6.985"
-    y "-5.888"
-    z "7.483"
-  ]
-  node [
-    id 549
-    label "LEU35.A.HD22"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-8.134"
-    y "-5.546"
-    z "8.802"
-  ]
-  node [
-    id 550
-    label "LEU35.A.HD23"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-6.646"
-    y "-6.434"
-    z "9.148"
-  ]
-  node [
-    id 551
+    id 272
     label "VAL36.A.N"
     element 1
     element 0
@@ -6624,19 +3276,7 @@ graph [
     z "7.678"
   ]
   node [
-    id 552
-    label "VAL36.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-3.009"
-    y "-7.043"
-    z "7.503"
-  ]
-  node [
-    id 553
+    id 273
     label "VAL36.A.CA"
     element 0
     element 1
@@ -6648,19 +3288,7 @@ graph [
     z "6.972"
   ]
   node [
-    id 554
-    label "VAL36.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-0.365"
-    y "-5.674"
-    z "7.217"
-  ]
-  node [
-    id 555
+    id 274
     label "VAL36.A.C"
     element 0
     element 0
@@ -6672,7 +3300,7 @@ graph [
     z "5.479"
   ]
   node [
-    id 556
+    id 275
     label "VAL36.A.CB"
     element 0
     element 0
@@ -6684,19 +3312,7 @@ graph [
     z "7.382"
   ]
   node [
-    id 557
-    label "VAL36.A.HB"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-0.92"
-    y "-8.665"
-    z "7.094"
-  ]
-  node [
-    id 558
+    id 276
     label "VAL36.A.O"
     element 0
     element 0
@@ -6708,7 +3324,7 @@ graph [
     z "4.952"
   ]
   node [
-    id 559
+    id 277
     label "VAL36.A.CG1"
     element 0
     element 0
@@ -6720,43 +3336,7 @@ graph [
     z "6.683"
   ]
   node [
-    id 560
-    label "VAL36.A.HG11"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "0.925"
-    y "-7.959"
-    z "5.601"
-  ]
-  node [
-    id 561
-    label "VAL36.A.HG12"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "1.679"
-    y "-7.074"
-    z "6.942"
-  ]
-  node [
-    id 562
-    label "VAL36.A.HG13"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "1.551"
-    y "-8.846"
-    z "6.994"
-  ]
-  node [
-    id 563
+    id 278
     label "VAL36.A.CG2"
     element 0
     element 0
@@ -6768,43 +3348,7 @@ graph [
     z "8.897"
   ]
   node [
-    id 564
-    label "VAL36.A.HG21"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "0.485"
-    y "-8.787"
-    z "9.147"
-  ]
-  node [
-    id 565
-    label "VAL36.A.HG22"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "0.477"
-    y "-7.008"
-    z "9.232"
-  ]
-  node [
-    id 566
-    label "VAL36.A.HG23"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-1.031"
-    y "-7.918"
-    z "9.422"
-  ]
-  node [
-    id 567
+    id 279
     label "PHE37.A.N"
     element 1
     element 0
@@ -6816,19 +3360,7 @@ graph [
     z "4.815"
   ]
   node [
-    id 568
-    label "PHE37.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-0.307"
-    y "-4.736"
-    z "5.329"
-  ]
-  node [
-    id 569
+    id 280
     label "PHE37.A.CA"
     element 0
     element 1
@@ -6840,19 +3372,7 @@ graph [
     z "3.381"
   ]
   node [
-    id 570
-    label "PHE37.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-1.895"
-    y "-5.721"
-    z "3.053"
-  ]
-  node [
-    id 571
+    id 281
     label "PHE37.A.C"
     element 0
     element 0
@@ -6864,7 +3384,7 @@ graph [
     z "2.583"
   ]
   node [
-    id 572
+    id 282
     label "PHE37.A.CB"
     element 0
     element 0
@@ -6876,31 +3396,7 @@ graph [
     z "3.106"
   ]
   node [
-    id 573
-    label "PHE37.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-1.198"
-    y "-3.554"
-    z "2.028"
-  ]
-  node [
-    id 574
-    label "PHE37.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-0.342"
-    y "-3.156"
-    z "3.51"
-  ]
-  node [
-    id 575
+    id 283
     label "PHE37.A.O"
     element 0
     element 0
@@ -6912,7 +3408,7 @@ graph [
     z "3.056"
   ]
   node [
-    id 576
+    id 284
     label "PHE37.A.CG"
     element 0
     element 0
@@ -6924,7 +3420,7 @@ graph [
     z "3.689"
   ]
   node [
-    id 577
+    id 285
     label "PHE37.A.CD1"
     element 0
     element 0
@@ -6936,19 +3432,7 @@ graph [
     z "2.925"
   ]
   node [
-    id 578
-    label "PHE37.A.HD1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-3.639"
-    y "-3.601"
-    z "1.917"
-  ]
-  node [
-    id 579
+    id 286
     label "PHE37.A.CD2"
     element 0
     element 0
@@ -6960,19 +3444,7 @@ graph [
     z "5.007"
   ]
   node [
-    id 580
-    label "PHE37.A.HD2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-1.611"
-    y "-2.63"
-    z "5.599"
-  ]
-  node [
-    id 581
+    id 287
     label "PHE37.A.CE1"
     element 0
     element 0
@@ -6984,19 +3456,7 @@ graph [
     z "3.478"
   ]
   node [
-    id 582
-    label "PHE37.A.HE1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-5.778"
-    y "-2.795"
-    z "2.893"
-  ]
-  node [
-    id 583
+    id 288
     label "PHE37.A.CE2"
     element 0
     element 0
@@ -7008,19 +3468,7 @@ graph [
     z "5.561"
   ]
   node [
-    id 584
-    label "PHE37.A.HE2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-3.754"
-    y "-1.846"
-    z "6.568"
-  ]
-  node [
-    id 585
+    id 289
     label "PHE37.A.CZ"
     element 0
     element 0
@@ -7032,19 +3480,7 @@ graph [
     z "4.798"
   ]
   node [
-    id 586
-    label "PHE37.A.HZ"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-5.837"
-    y "-1.946"
-    z "5.227"
-  ]
-  node [
-    id 587
+    id 290
     label "THR38.A.N"
     element 1
     element 0
@@ -7056,19 +3492,7 @@ graph [
     z "1.365"
   ]
   node [
-    id 588
-    label "THR38.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-1.07"
-    y "-6.186"
-    z "1.054"
-  ]
-  node [
-    id 589
+    id 291
     label "THR38.A.CA"
     element 0
     element 1
@@ -7080,19 +3504,7 @@ graph [
     z "0.424"
   ]
   node [
-    id 590
-    label "THR38.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "1.87"
-    y "-6.539"
-    z "0.748"
-  ]
-  node [
-    id 591
+    id 292
     label "THR38.A.C"
     element 0
     element 0
@@ -7104,7 +3516,7 @@ graph [
     z "-0.973"
   ]
   node [
-    id 592
+    id 293
     label "THR38.A.CB"
     element 0
     element 0
@@ -7116,19 +3528,7 @@ graph [
     z "0.36"
   ]
   node [
-    id 593
-    label "THR38.A.HB"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "1.53"
-    y "-8.699"
-    z "-0.351"
-  ]
-  node [
-    id 594
+    id 294
     label "THR38.A.O"
     element 0
     element 0
@@ -7140,7 +3540,7 @@ graph [
     z "-1.334"
   ]
   node [
-    id 595
+    id 295
     label "THR38.A.CG2"
     element 0
     element 0
@@ -7152,43 +3552,7 @@ graph [
     z "1.712"
   ]
   node [
-    id 596
-    label "THR38.A.HG21"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "1.119"
-    y "-10.082"
-    z "1.581"
-  ]
-  node [
-    id 597
-    label "THR38.A.HG22"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "2.012"
-    y "-8.64"
-    z "2.105"
-  ]
-  node [
-    id 598
-    label "THR38.A.HG23"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "0.266"
-    y "-8.764"
-    z "2.418"
-  ]
-  node [
-    id 599
+    id 296
     label "THR38.A.OG1"
     element 0
     element 0
@@ -7200,19 +3564,7 @@ graph [
     z "-0.069"
   ]
   node [
-    id 600
-    label "THR38.A.HG1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-0.677"
-    y "-8.319"
-    z "-0.899"
-  ]
-  node [
-    id 601
+    id 297
     label "GLY39.A.N"
     element 1
     element 0
@@ -7224,19 +3576,7 @@ graph [
     z "-1.77"
   ]
   node [
-    id 602
-    label "GLY39.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "2.607"
-    y "-6.603"
-    z "-1.438"
-  ]
-  node [
-    id 603
+    id 298
     label "GLY39.A.CA"
     element 0
     element 1
@@ -7248,31 +3588,7 @@ graph [
     z "-3.128"
   ]
   node [
-    id 604
-    label "GLY39.A.HA2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "1.031"
-    y "-6.166"
-    z "-3.755"
-  ]
-  node [
-    id 605
-    label "GLY39.A.HA3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "1.569"
-    y "-4.61"
-    z "-3.116"
-  ]
-  node [
-    id 606
+    id 299
     label "GLY39.A.C"
     element 0
     element 0
@@ -7284,7 +3600,7 @@ graph [
     z "-3.754"
   ]
   node [
-    id 607
+    id 300
     label "GLY39.A.O"
     element 0
     element 0
@@ -7296,7 +3612,7 @@ graph [
     z "-3.252"
   ]
   node [
-    id 608
+    id 301
     label "ASP40.A.N"
     element 1
     element 0
@@ -7308,19 +3624,7 @@ graph [
     z "-4.84"
   ]
   node [
-    id 609
-    label "ASP40.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "2.799"
-    y "-4.514"
-    z "-5.181"
-  ]
-  node [
-    id 610
+    id 302
     label "ASP40.A.CA"
     element 0
     element 1
@@ -7332,19 +3636,7 @@ graph [
     z "-5.48"
   ]
   node [
-    id 611
-    label "ASP40.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "5.001"
-    y "-6.316"
-    z "-5.675"
-  ]
-  node [
-    id 612
+    id 303
     label "ASP40.A.C"
     element 0
     element 0
@@ -7356,7 +3648,7 @@ graph [
     z "-4.546"
   ]
   node [
-    id 613
+    id 304
     label "ASP40.A.CB"
     element 0
     element 0
@@ -7368,31 +3660,7 @@ graph [
     z "-6.838"
   ]
   node [
-    id 614
-    label "ASP40.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "4.569"
-    y "-3.482"
-    z "-6.673"
-  ]
-  node [
-    id 615
-    label "ASP40.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "3.855"
-    y "-4.922"
-    z "-7.389"
-  ]
-  node [
-    id 616
+    id 305
     label "ASP40.A.O"
     element 0
     element 0
@@ -7404,7 +3672,7 @@ graph [
     z "-3.931"
   ]
   node [
-    id 617
+    id 306
     label "ASP40.A.CG"
     element 0
     element 0
@@ -7416,7 +3684,7 @@ graph [
     z "-7.709"
   ]
   node [
-    id 618
+    id 307
     label "ASP40.A.OD1"
     element 0
     element 0
@@ -7428,7 +3696,7 @@ graph [
     z "-7.202"
   ]
   node [
-    id 619
+    id 308
     label "ASP40.A.OD2"
     element 0
     element 0
@@ -7440,7 +3708,7 @@ graph [
     z "-8.893"
   ]
   node [
-    id 620
+    id 309
     label "TYR41.A.N"
     element 1
     element 0
@@ -7452,19 +3720,7 @@ graph [
     z "-4.43"
   ]
   node [
-    id 621
-    label "TYR41.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "7.088"
-    y "-6.182"
-    z "-5.088"
-  ]
-  node [
-    id 622
+    id 310
     label "TYR41.A.CA"
     element 0
     element 1
@@ -7476,19 +3732,7 @@ graph [
     z "-3.589"
   ]
   node [
-    id 623
-    label "TYR41.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "7.758"
-    y "-4.421"
-    z "-2.78"
-  ]
-  node [
-    id 624
+    id 311
     label "TYR41.A.C"
     element 0
     element 0
@@ -7500,7 +3744,7 @@ graph [
     z "-4.346"
   ]
   node [
-    id 625
+    id 312
     label "TYR41.A.CB"
     element 0
     element 0
@@ -7512,31 +3756,7 @@ graph [
     z "-2.958"
   ]
   node [
-    id 626
-    label "TYR41.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "9.601"
-    y "-6.045"
-    z "-2.388"
-  ]
-  node [
-    id 627
-    label "TYR41.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "9.035"
-    y "-6.997"
-    z "-3.751"
-  ]
-  node [
-    id 628
+    id 313
     label "TYR41.A.O"
     element 0
     element 0
@@ -7548,7 +3768,7 @@ graph [
     z "-3.708"
   ]
   node [
-    id 629
+    id 314
     label "TYR41.A.CG"
     element 0
     element 0
@@ -7560,7 +3780,7 @@ graph [
     z "-2.029"
   ]
   node [
-    id 630
+    id 315
     label "TYR41.A.CD1"
     element 0
     element 0
@@ -7572,19 +3792,7 @@ graph [
     z "-0.707"
   ]
   node [
-    id 631
-    label "TYR41.A.HD1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "8.138"
-    y "-5.739"
-    z "-0.36"
-  ]
-  node [
-    id 632
+    id 316
     label "TYR41.A.CD2"
     element 0
     element 0
@@ -7596,19 +3804,7 @@ graph [
     z "-2.495"
   ]
   node [
-    id 633
-    label "TYR41.A.HD2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "7.144"
-    y "-8.493"
-    z "-3.516"
-  ]
-  node [
-    id 634
+    id 317
     label "TYR41.A.CE1"
     element 0
     element 0
@@ -7620,19 +3816,7 @@ graph [
     z "0.151"
   ]
   node [
-    id 635
-    label "TYR41.A.HE1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "6.543"
-    y "-6.895"
-    z "1.16"
-  ]
-  node [
-    id 636
+    id 318
     label "TYR41.A.CE2"
     element 0
     element 0
@@ -7644,19 +3828,7 @@ graph [
     z "-1.641"
   ]
   node [
-    id 637
-    label "TYR41.A.HE2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "5.543"
-    y "-9.656"
-    z "-2.001"
-  ]
-  node [
-    id 638
+    id 319
     label "TYR41.A.OH"
     element 0
     element 0
@@ -7668,19 +3840,7 @@ graph [
     z "0.505"
   ]
   node [
-    id 639
-    label "TYR41.A.HH"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "5.042"
-    y "-8.563"
-    z "1.366"
-  ]
-  node [
-    id 640
+    id 320
     label "TYR41.A.CZ"
     element 0
     element 0
@@ -7692,7 +3852,7 @@ graph [
     z "-0.32"
   ]
   node [
-    id 641
+    id 321
     label "PHE42.A.N"
     element 1
     element 0
@@ -7704,19 +3864,7 @@ graph [
     z "-5.673"
   ]
   node [
-    id 642
-    label "PHE42.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "8.272"
-    y "-4.552"
-    z "-6.128"
-  ]
-  node [
-    id 643
+    id 322
     label "PHE42.A.CA"
     element 0
     element 1
@@ -7728,19 +3876,7 @@ graph [
     z "-6.535"
   ]
   node [
-    id 644
-    label "PHE42.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "9.729"
-    y "-3.619"
-    z "-7.561"
-  ]
-  node [
-    id 645
+    id 323
     label "PHE42.A.C"
     element 0
     element 0
@@ -7752,7 +3888,7 @@ graph [
     z "-6.324"
   ]
   node [
-    id 646
+    id 324
     label "PHE42.A.CB"
     element 0
     element 0
@@ -7764,31 +3900,7 @@ graph [
     z "-6.41"
   ]
   node [
-    id 647
-    label "PHE42.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "10.32"
-    y "-1.295"
-    z "-7.1"
-  ]
-  node [
-    id 648
-    label "PHE42.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "9.915"
-    y "-1.502"
-    z "-5.4"
-  ]
-  node [
-    id 649
+    id 325
     label "PHE42.A.O"
     element 0
     element 0
@@ -7800,7 +3912,7 @@ graph [
     z "-6.049"
   ]
   node [
-    id 650
+    id 326
     label "PHE42.A.CG"
     element 0
     element 0
@@ -7812,7 +3924,7 @@ graph [
     z "-6.718"
   ]
   node [
-    id 651
+    id 327
     label "PHE42.A.CD1"
     element 0
     element 0
@@ -7824,19 +3936,7 @@ graph [
     z "-8.033"
   ]
   node [
-    id 652
-    label "PHE42.A.HD1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "8.541"
-    y "-1.272"
-    z "-8.844"
-  ]
-  node [
-    id 653
+    id 328
     label "PHE42.A.CD2"
     element 0
     element 0
@@ -7848,19 +3948,7 @@ graph [
     z "-5.696"
   ]
   node [
-    id 654
-    label "PHE42.A.HD2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "7.583"
-    y "-1.906"
-    z "-4.736"
-  ]
-  node [
-    id 655
+    id 329
     label "PHE42.A.CE1"
     element 0
     element 0
@@ -7872,19 +3960,7 @@ graph [
     z "-8.301"
   ]
   node [
-    id 656
-    label "PHE42.A.HE1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "6.137"
-    y "-0.816"
-    z "-9.321"
-  ]
-  node [
-    id 657
+    id 330
     label "PHE42.A.CE2"
     element 0
     element 0
@@ -7896,19 +3972,7 @@ graph [
     z "-5.946"
   ]
   node [
-    id 658
-    label "PHE42.A.HE2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "5.208"
-    y "-1.283"
-    z "-5.169"
-  ]
-  node [
-    id 659
+    id 331
     label "PHE42.A.CZ"
     element 0
     element 0
@@ -7920,19 +3984,7 @@ graph [
     z "-7.252"
   ]
   node [
-    id 660
-    label "PHE42.A.HZ"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "4.499"
-    y "-0.737"
-    z "-7.468"
-  ]
-  node [
-    id 661
+    id 332
     label "LEU43.A.N"
     element 1
     element 0
@@ -7944,19 +3996,7 @@ graph [
     z "-6.41"
   ]
   node [
-    id 662
-    label "LEU43.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "11.025"
-    y "-5.602"
-    z "-6.703"
-  ]
-  node [
-    id 663
+    id 333
     label "LEU43.A.CA"
     element 0
     element 1
@@ -7968,19 +4008,7 @@ graph [
     z "-6.368"
   ]
   node [
-    id 664
-    label "LEU43.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "13.677"
-    y "-4.891"
-    z "-5.628"
-  ]
-  node [
-    id 665
+    id 334
     label "LEU43.A.C"
     element 0
     element 0
@@ -7992,7 +4020,7 @@ graph [
     z "-7.724"
   ]
   node [
-    id 666
+    id 335
     label "LEU43.A.CB"
     element 0
     element 0
@@ -8004,31 +4032,7 @@ graph [
     z "-5.955"
   ]
   node [
-    id 667
-    label "LEU43.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "14.162"
-    y "-7.255"
-    z "-5.846"
-  ]
-  node [
-    id 668
-    label "LEU43.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "12.684"
-    y "-7.528"
-    z "-6.765"
-  ]
-  node [
-    id 669
+    id 336
     label "LEU43.A.O"
     element 0
     element 0
@@ -8040,7 +4044,7 @@ graph [
     z "-8.755"
   ]
   node [
-    id 670
+    id 337
     label "LEU43.A.CG"
     element 0
     element 0
@@ -8052,19 +4056,7 @@ graph [
     z "-4.649"
   ]
   node [
-    id 671
-    label "LEU43.A.HG"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "11.328"
-    y "-6.97"
-    z "-4.753"
-  ]
-  node [
-    id 672
+    id 338
     label "LEU43.A.CD1"
     element 0
     element 0
@@ -8076,43 +4068,7 @@ graph [
     z "-4.379"
   ]
   node [
-    id 673
-    label "LEU43.A.HD11"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "11.953"
-    y "-9.301"
-    z "-5.226"
-  ]
-  node [
-    id 674
-    label "LEU43.A.HD12"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "11.807"
-    y "-8.993"
-    z "-3.484"
-  ]
-  node [
-    id 675
-    label "LEU43.A.HD13"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "13.414"
-    y "-9.114"
-    z "-4.234"
-  ]
-  node [
-    id 676
+    id 339
     label "LEU43.A.CD2"
     element 0
     element 0
@@ -8124,43 +4080,7 @@ graph [
     z "-3.436"
   ]
   node [
-    id 677
-    label "LEU43.A.HD21"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "12.423"
-    y "-6.842"
-    z "-2.535"
-  ]
-  node [
-    id 678
-    label "LEU43.A.HD22"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "12.854"
-    y "-5.47"
-    z "-3.567"
-  ]
-  node [
-    id 679
-    label "LEU43.A.HD23"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "14.013"
-    y "-6.806"
-    z "-3.334"
-  ]
-  node [
-    id 680
+    id 340
     label "ASP44.A.N"
     element 1
     element 0
@@ -8172,19 +4092,7 @@ graph [
     z "-7.722"
   ]
   node [
-    id 681
-    label "ASP44.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "15.623"
-    y "-5.26"
-    z "-6.846"
-  ]
-  node [
-    id 682
+    id 341
     label "ASP44.A.CA"
     element 0
     element 1
@@ -8196,19 +4104,7 @@ graph [
     z "-8.957"
   ]
   node [
-    id 683
-    label "ASP44.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "15.378"
-    y "-4.531"
-    z "-9.685"
-  ]
-  node [
-    id 684
+    id 342
     label "ASP44.A.C"
     element 0
     element 0
@@ -8220,7 +4116,7 @@ graph [
     z "-9.589"
   ]
   node [
-    id 685
+    id 343
     label "ASP44.A.CB"
     element 0
     element 0
@@ -8232,31 +4128,7 @@ graph [
     z "-8.708"
   ]
   node [
-    id 686
-    label "ASP44.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "17.749"
-    y "-4.275"
-    z "-9.669"
-  ]
-  node [
-    id 687
-    label "ASP44.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "17.064"
-    y "-3.458"
-    z "-8.278"
-  ]
-  node [
-    id 688
+    id 344
     label "ASP44.A.O"
     element 0
     element 0
@@ -8268,7 +4140,7 @@ graph [
     z "-9.098"
   ]
   node [
-    id 689
+    id 345
     label "ASP44.A.CG"
     element 0
     element 0
@@ -8280,7 +4152,7 @@ graph [
     z "-7.798"
   ]
   node [
-    id 690
+    id 346
     label "ASP44.A.OD1"
     element 0
     element 0
@@ -8292,7 +4164,7 @@ graph [
     z "-7.605"
   ]
   node [
-    id 691
+    id 347
     label "ASP44.A.OD2"
     element 0
     element 0
@@ -8304,7 +4176,7 @@ graph [
     z "-7.324"
   ]
   node [
-    id 692
+    id 348
     label "GLU45.A.N"
     element 1
     element 0
@@ -8316,19 +4188,7 @@ graph [
     z "-10.696"
   ]
   node [
-    id 693
-    label "GLU45.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "17.222"
-    y "-5.799"
-    z "-11.061"
-  ]
-  node [
-    id 694
+    id 349
     label "GLU45.A.CA"
     element 0
     element 1
@@ -8340,19 +4200,7 @@ graph [
     z "-11.424"
   ]
   node [
-    id 695
-    label "GLU45.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "16.056"
-    y "-8.312"
-    z "-11.72"
-  ]
-  node [
-    id 696
+    id 350
     label "GLU45.A.C"
     element 0
     element 0
@@ -8364,7 +4212,7 @@ graph [
     z "-10.589"
   ]
   node [
-    id 697
+    id 351
     label "GLU45.A.CB"
     element 0
     element 0
@@ -8376,31 +4224,7 @@ graph [
     z "-12.687"
   ]
   node [
-    id 698
-    label "GLU45.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "18.023"
-    y "-8.544"
-    z "-13.208"
-  ]
-  node [
-    id 699
-    label "GLU45.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "18.804"
-    y "-7.189"
-    z "-12.383"
-  ]
-  node [
-    id 700
+    id 352
     label "GLU45.A.O"
     element 0
     element 0
@@ -8412,7 +4236,7 @@ graph [
     z "-10.904"
   ]
   node [
-    id 701
+    id 353
     label "GLU45.A.CG"
     element 0
     element 0
@@ -8424,31 +4248,7 @@ graph [
     z "-13.66"
   ]
   node [
-    id 702
-    label "GLU45.A.HG2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "16.174"
-    y "-7.039"
-    z "-13.916"
-  ]
-  node [
-    id 703
-    label "GLU45.A.HG3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "17.003"
-    y "-5.673"
-    z "-13.168"
-  ]
-  node [
-    id 704
+    id 354
     label "GLU45.A.CD"
     element 0
     element 0
@@ -8460,7 +4260,7 @@ graph [
     z "-14.944"
   ]
   node [
-    id 705
+    id 355
     label "GLU45.A.OE1"
     element 0
     element 0
@@ -8472,7 +4272,7 @@ graph [
     z "-15.981"
   ]
   node [
-    id 706
+    id 356
     label "GLU45.A.OE2"
     element 0
     element 0
@@ -8484,7 +4284,7 @@ graph [
     z "-14.884"
   ]
   node [
-    id 707
+    id 357
     label "GLN46.A.N"
     element 1
     element 0
@@ -8496,19 +4296,7 @@ graph [
     z "-9.518"
   ]
   node [
-    id 708
-    label "GLN46.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "18.369"
-    y "-7.603"
-    z "-9.233"
-  ]
-  node [
-    id 709
+    id 358
     label "GLN46.A.CA"
     element 0
     element 1
@@ -8520,19 +4308,7 @@ graph [
     z "-8.58"
   ]
   node [
-    id 710
-    label "GLN46.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "19.341"
-    y "-10.404"
-    z "-9.096"
-  ]
-  node [
-    id 711
+    id 359
     label "GLN46.A.C"
     element 0
     element 0
@@ -8544,7 +4320,7 @@ graph [
     z "-7.392"
   ]
   node [
-    id 712
+    id 360
     label "GLN46.A.CB"
     element 0
     element 0
@@ -8556,31 +4332,7 @@ graph [
     z "-8.105"
   ]
   node [
-    id 713
-    label "GLN46.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "20.226"
-    y "-7.914"
-    z "-7.576"
-  ]
-  node [
-    id 714
-    label "GLN46.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "20.913"
-    y "-9.533"
-    z "-7.412"
-  ]
-  node [
-    id 715
+    id 361
     label "GLN46.A.O"
     element 0
     element 0
@@ -8592,7 +4344,7 @@ graph [
     z "-6.543"
   ]
   node [
-    id 716
+    id 362
     label "GLN46.A.CG"
     element 0
     element 0
@@ -8604,31 +4356,7 @@ graph [
     z "-9.271"
   ]
   node [
-    id 717
-    label "GLN46.A.HG2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "21.493"
-    y "-9.483"
-    z "-9.86"
-  ]
-  node [
-    id 718
-    label "GLN46.A.HG3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "20.977"
-    y "-7.794"
-    z "-9.915"
-  ]
-  node [
-    id 719
+    id 363
     label "GLN46.A.CD"
     element 0
     element 0
@@ -8640,7 +4368,7 @@ graph [
     z "-8.804"
   ]
   node [
-    id 720
+    id 364
     label "GLN46.A.NE2"
     element 1
     element 0
@@ -8652,31 +4380,7 @@ graph [
     z "-9.465"
   ]
   node [
-    id 721
-    label "GLN46.A.HE21"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "23.701"
-    y "-9.106"
-    z "-10.296"
-  ]
-  node [
-    id 722
-    label "GLN46.A.HE22"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "24.705"
-    y "-8.179"
-    z "-9.142"
-  ]
-  node [
-    id 723
+    id 365
     label "GLN46.A.OE1"
     element 0
     element 0
@@ -8688,7 +4392,7 @@ graph [
     z "-7.85"
   ]
   node [
-    id 724
+    id 366
     label "GLY47.A.N"
     element 1
     element 0
@@ -8700,19 +4404,7 @@ graph [
     z "-7.323"
   ]
   node [
-    id 725
-    label "GLY47.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "16.73"
-    y "-8.635"
-    z "-8.031"
-  ]
-  node [
-    id 726
+    id 367
     label "GLY47.A.CA"
     element 0
     element 1
@@ -8724,31 +4416,7 @@ graph [
     z "-6.211"
   ]
   node [
-    id 727
-    label "GLY47.A.HA2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "15.061"
-    y "-9.245"
-    z "-6.553"
-  ]
-  node [
-    id 728
-    label "GLY47.A.HA3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "16.072"
-    y "-10.55"
-    z "-5.91"
-  ]
-  node [
-    id 729
+    id 368
     label "GLY47.A.C"
     element 0
     element 0
@@ -8760,7 +4428,7 @@ graph [
     z "-4.986"
   ]
   node [
-    id 730
+    id 369
     label "GLY47.A.O"
     element 0
     element 0
@@ -8772,7 +4440,7 @@ graph [
     z "-3.89"
   ]
   node [
-    id 731
+    id 370
     label "LEU48.A.N"
     element 1
     element 0
@@ -8784,19 +4452,7 @@ graph [
     z "-5.132"
   ]
   node [
-    id 732
-    label "LEU48.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "17.509"
-    y "-7.332"
-    z "-6.056"
-  ]
-  node [
-    id 733
+    id 371
     label "LEU48.A.CA"
     element 0
     element 1
@@ -8808,19 +4464,7 @@ graph [
     z "-4.028"
   ]
   node [
-    id 734
-    label "LEU48.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "17.504"
-    y "-7.289"
-    z "-3.114"
-  ]
-  node [
-    id 735
+    id 372
     label "LEU48.A.C"
     element 0
     element 0
@@ -8832,7 +4476,7 @@ graph [
     z "-3.892"
   ]
   node [
-    id 736
+    id 373
     label "LEU48.A.CB"
     element 0
     element 0
@@ -8844,31 +4488,7 @@ graph [
     z "-4.181"
   ]
   node [
-    id 737
-    label "LEU48.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "19.072"
-    y "-5.65"
-    z "-5.117"
-  ]
-  node [
-    id 738
-    label "LEU48.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "19.219"
-    y "-5.505"
-    z "-3.374"
-  ]
-  node [
-    id 739
+    id 374
     label "LEU48.A.O"
     element 0
     element 0
@@ -8880,7 +4500,7 @@ graph [
     z "-4.891"
   ]
   node [
-    id 740
+    id 375
     label "LEU48.A.CG"
     element 0
     element 0
@@ -8892,19 +4512,7 @@ graph [
     z "-4.183"
   ]
   node [
-    id 741
-    label "LEU48.A.HG"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "19.848"
-    y "-8.037"
-    z "-4.972"
-  ]
-  node [
-    id 742
+    id 376
     label "LEU48.A.CD1"
     element 0
     element 0
@@ -8916,43 +4524,7 @@ graph [
     z "-4.448"
   ]
   node [
-    id 743
-    label "LEU48.A.HD11"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "21.415"
-    y "-6.197"
-    z "-5.411"
-  ]
-  node [
-    id 744
-    label "LEU48.A.HD12"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "21.694"
-    y "-5.989"
-    z "-3.668"
-  ]
-  node [
-    id 745
-    label "LEU48.A.HD13"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "22.188"
-    y "-7.494"
-    z "-4.499"
-  ]
-  node [
-    id 746
+    id 377
     label "LEU48.A.CD2"
     element 0
     element 0
@@ -8964,43 +4536,7 @@ graph [
     z "-2.838"
   ]
   node [
-    id 747
-    label "LEU48.A.HD21"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "20.943"
-    y "-8.765"
-    z "-2.856"
-  ]
-  node [
-    id 748
-    label "LEU48.A.HD22"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "20.267"
-    y "-7.339"
-    z "-2.027"
-  ]
-  node [
-    id 749
-    label "LEU48.A.HD23"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "19.195"
-    y "-8.609"
-    z "-2.685"
-  ]
-  node [
-    id 750
+    id 378
     label "PRO49.A.N"
     element 1
     element 0
@@ -9012,7 +4548,7 @@ graph [
     z "-2.662"
   ]
   node [
-    id 751
+    id 379
     label "PRO49.A.CA"
     element 0
     element 1
@@ -9024,19 +4560,7 @@ graph [
     z "-2.445"
   ]
   node [
-    id 752
-    label "PRO49.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "14.48"
-    y "-4.093"
-    z "-2.823"
-  ]
-  node [
-    id 753
+    id 380
     label "PRO49.A.C"
     element 0
     element 0
@@ -9048,7 +4572,7 @@ graph [
     z "-3.142"
   ]
   node [
-    id 754
+    id 381
     label "PRO49.A.CB"
     element 0
     element 0
@@ -9060,31 +4584,7 @@ graph [
     z "-0.927"
   ]
   node [
-    id 755
-    label "PRO49.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "14.414"
-    y "-3.326"
-    z "-0.612"
-  ]
-  node [
-    id 756
-    label "PRO49.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "16.163"
-    y "-2.95"
-    z "-0.602"
-  ]
-  node [
-    id 757
+    id 382
     label "PRO49.A.O"
     element 0
     element 0
@@ -9096,7 +4596,7 @@ graph [
     z "-3.067"
   ]
   node [
-    id 758
+    id 383
     label "PRO49.A.CG"
     element 0
     element 0
@@ -9108,31 +4608,7 @@ graph [
     z "-0.369"
   ]
   node [
-    id 759
-    label "PRO49.A.HG2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "16.164"
-    y "-4.981"
-    z "0.632"
-  ]
-  node [
-    id 760
-    label "PRO49.A.HG3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "14.838"
-    y "-5.659"
-    z "-0.369"
-  ]
-  node [
-    id 761
+    id 384
     label "PRO49.A.CD"
     element 0
     element 0
@@ -9144,31 +4620,7 @@ graph [
     z "-1.383"
   ]
   node [
-    id 762
-    label "PRO49.A.HD2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "17.741"
-    y "-5.247"
-    z "-1.14"
-  ]
-  node [
-    id 763
-    label "PRO49.A.HD3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "16.683"
-    y "-6.676"
-    z "-1.375"
-  ]
-  node [
-    id 764
+    id 385
     label "THR50.A.N"
     element 1
     element 0
@@ -9180,19 +4632,7 @@ graph [
     z "-3.742"
   ]
   node [
-    id 765
-    label "THR50.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "14.137"
-    y "-2.168"
-    z "-3.738"
-  ]
-  node [
-    id 766
+    id 386
     label "THR50.A.CA"
     element 0
     element 1
@@ -9204,19 +4644,7 @@ graph [
     z "-4.324"
   ]
   node [
-    id 767
-    label "THR50.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "16.452"
-    y "-0.41"
-    z "-4.429"
-  ]
-  node [
-    id 768
+    id 387
     label "THR50.A.C"
     element 0
     element 0
@@ -9228,7 +4656,7 @@ graph [
     z "-3.412"
   ]
   node [
-    id 769
+    id 388
     label "THR50.A.CB"
     element 0
     element 0
@@ -9240,19 +4668,7 @@ graph [
     z "-5.729"
   ]
   node [
-    id 770
-    label "THR50.A.HB"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "15.111"
-    y "0.527"
-    z "-6.165"
-  ]
-  node [
-    id 771
+    id 389
     label "THR50.A.O"
     element 0
     element 0
@@ -9264,7 +4680,7 @@ graph [
     z "-2.414"
   ]
   node [
-    id 772
+    id 390
     label "THR50.A.CG2"
     element 0
     element 0
@@ -9276,43 +4692,7 @@ graph [
     z "-6.674"
   ]
   node [
-    id 773
-    label "THR50.A.HG21"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "16.257"
-    y "-1.552"
-    z "-6.785"
-  ]
-  node [
-    id 774
-    label "THR50.A.HG22"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "14.717"
-    y "-1.385"
-    z "-7.652"
-  ]
-  node [
-    id 775
-    label "THR50.A.HG23"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "14.855"
-    y "-2.507"
-    z "-6.288"
-  ]
-  node [
-    id 776
+    id 391
     label "THR50.A.OG1"
     element 0
     element 0
@@ -9324,19 +4704,7 @@ graph [
     z "-5.65"
   ]
   node [
-    id 777
-    label "THR50.A.HG1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "13.044"
-    y "-1.244"
-    z "-5.782"
-  ]
-  node [
-    id 778
+    id 392
     label "ALA51.A.N"
     element 1
     element 0
@@ -9348,19 +4716,7 @@ graph [
     z "-3.778"
   ]
   node [
-    id 779
-    label "ALA51.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "15.711"
-    y "2.016"
-    z "-4.581"
-  ]
-  node [
-    id 780
+    id 393
     label "ALA51.A.CA"
     element 0
     element 1
@@ -9372,19 +4728,7 @@ graph [
     z "-3.101"
   ]
   node [
-    id 781
-    label "ALA51.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "14.844"
-    y "3.013"
-    z "-2.065"
-  ]
-  node [
-    id 782
+    id 394
     label "ALA51.A.C"
     element 0
     element 0
@@ -9396,7 +4740,7 @@ graph [
     z "-3.087"
   ]
   node [
-    id 783
+    id 395
     label "ALA51.A.CB"
     element 0
     element 0
@@ -9408,43 +4752,7 @@ graph [
     z "-3.802"
   ]
   node [
-    id 784
-    label "ALA51.A.HB1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "14.658"
-    y "4.273"
-    z "-4.844"
-  ]
-  node [
-    id 785
-    label "ALA51.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "14.555"
-    y "5.141"
-    z "-3.299"
-  ]
-  node [
-    id 786
-    label "ALA51.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "16.067"
-    y "4.338"
-    z "-3.759"
-  ]
-  node [
-    id 787
+    id 396
     label "ALA51.A.O"
     element 0
     element 0
@@ -9456,7 +4764,7 @@ graph [
     z "-2.122"
   ]
   node [
-    id 788
+    id 397
     label "LYS52.A.N"
     element 1
     element 0
@@ -9468,19 +4776,7 @@ graph [
     z "-4.13"
   ]
   node [
-    id 789
-    label "LYS52.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "12.956"
-    y "1.896"
-    z "-4.842"
-  ]
-  node [
-    id 790
+    id 398
     label "LYS52.A.CA"
     element 0
     element 1
@@ -9492,19 +4788,7 @@ graph [
     z "-4.227"
   ]
   node [
-    id 791
-    label "LYS52.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "10.444"
-    y "3.044"
-    z "-3.904"
-  ]
-  node [
-    id 792
+    id 399
     label "LYS52.A.C"
     element 0
     element 0
@@ -9516,7 +4800,7 @@ graph [
     z "-3.282"
   ]
   node [
-    id 793
+    id 400
     label "LYS52.A.CB"
     element 0
     element 0
@@ -9528,31 +4812,7 @@ graph [
     z "-5.695"
   ]
   node [
-    id 794
-    label "LYS52.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "10.906"
-    y "0.885"
-    z "-6.003"
-  ]
-  node [
-    id 795
-    label "LYS52.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "11.072"
-    y "2.62"
-    z "-6.304"
-  ]
-  node [
-    id 796
+    id 401
     label "LYS52.A.O"
     element 0
     element 0
@@ -9564,7 +4824,7 @@ graph [
     z "-2.738"
   ]
   node [
-    id 797
+    id 402
     label "LYS52.A.CG"
     element 0
     element 0
@@ -9576,31 +4836,7 @@ graph [
     z "-5.93"
   ]
   node [
-    id 798
-    label "LYS52.A.HG2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "8.684"
-    y "2.913"
-    z "-5.469"
-  ]
-  node [
-    id 799
-    label "LYS52.A.HG3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "8.54"
-    y "1.149"
-    z "-5.479"
-  ]
-  node [
-    id 800
+    id 403
     label "LYS52.A.CD"
     element 0
     element 0
@@ -9612,31 +4848,7 @@ graph [
     z "-7.429"
   ]
   node [
-    id 801
-    label "LYS52.A.HD2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "9.108"
-    y "1.127"
-    z "-7.898"
-  ]
-  node [
-    id 802
-    label "LYS52.A.HD3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "9.286"
-    y "2.891"
-    z "-7.875"
-  ]
-  node [
-    id 803
+    id 404
     label "LYS52.A.CE"
     element 0
     element 0
@@ -9648,31 +4860,7 @@ graph [
     z "-7.633"
   ]
   node [
-    id 804
-    label "LYS52.A.HE2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "6.964"
-    y "3.202"
-    z "-7.24"
-  ]
-  node [
-    id 805
-    label "LYS52.A.HE3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "6.725"
-    y "1.466"
-    z "-7.063"
-  ]
-  node [
-    id 806
+    id 405
     label "LYS52.A.NZ"
     element 1
     element 0
@@ -9684,43 +4872,7 @@ graph [
     z "-9.063"
   ]
   node [
-    id 807
-    label "LYS52.A.HZ1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "5.985"
-    y "2.559"
-    z "-9.191"
-  ]
-  node [
-    id 808
-    label "LYS52.A.HZ2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "7.543"
-    y "2.646"
-    z "-9.64"
-  ]
-  node [
-    id 809
-    label "LYS52.A.HZ3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "6.853"
-    y "1.164"
-    z "-9.345"
-  ]
-  node [
-    id 810
+    id 406
     label "SER53.A.N"
     element 1
     element 0
@@ -9732,19 +4884,7 @@ graph [
     z "-2.993"
   ]
   node [
-    id 811
-    label "SER53.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "12.094"
-    y "-0.095"
-    z "-3.483"
-  ]
-  node [
-    id 812
+    id 407
     label "SER53.A.CA"
     element 0
     element 1
@@ -9756,19 +4896,7 @@ graph [
     z "-1.952"
   ]
   node [
-    id 813
-    label "SER53.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "9.979"
-    y "-1.503"
-    z "-2.21"
-  ]
-  node [
-    id 814
+    id 408
     label "SER53.A.C"
     element 0
     element 0
@@ -9780,7 +4908,7 @@ graph [
     z "-0.582"
   ]
   node [
-    id 815
+    id 409
     label "SER53.A.CB"
     element 0
     element 0
@@ -9792,31 +4920,7 @@ graph [
     z "-1.832"
   ]
   node [
-    id 816
-    label "SER53.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "12.906"
-    y "-1.578"
-    z "-1.386"
-  ]
-  node [
-    id 817
-    label "SER53.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "11.688"
-    y "-2.845"
-    z "-1.184"
-  ]
-  node [
-    id 818
+    id 410
     label "SER53.A.O"
     element 0
     element 0
@@ -9828,7 +4932,7 @@ graph [
     z "0.14"
   ]
   node [
-    id 819
+    id 411
     label "SER53.A.OG"
     element 0
     element 0
@@ -9840,19 +4944,7 @@ graph [
     z "-3.092"
   ]
   node [
-    id 820
-    label "SER53.A.HG"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "11.594"
-    y "-3.011"
-    z "-3.44"
-  ]
-  node [
-    id 821
+    id 412
     label "THR54.A.N"
     element 1
     element 0
@@ -9864,19 +4956,7 @@ graph [
     z "-0.241"
   ]
   node [
-    id 822
-    label "THR54.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "12.386"
-    y "0.794"
-    z "-0.835"
-  ]
-  node [
-    id 823
+    id 413
     label "THR54.A.CA"
     element 0
     element 1
@@ -9888,19 +4968,7 @@ graph [
     z "1.008"
   ]
   node [
-    id 824
-    label "THR54.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "11.434"
-    y "0.697"
-    z "1.845"
-  ]
-  node [
-    id 825
+    id 414
     label "THR54.A.C"
     element 0
     element 0
@@ -9912,7 +4980,7 @@ graph [
     z "1.041"
   ]
   node [
-    id 826
+    id 415
     label "THR54.A.CB"
     element 0
     element 0
@@ -9924,19 +4992,7 @@ graph [
     z "1.203"
   ]
   node [
-    id 827
-    label "THR54.A.HB"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "12.744"
-    y "3.03"
-    z "0.393"
-  ]
-  node [
-    id 828
+    id 416
     label "THR54.A.O"
     element 0
     element 0
@@ -9948,7 +5004,7 @@ graph [
     z "2.055"
   ]
   node [
-    id 829
+    id 417
     label "THR54.A.CG2"
     element 0
     element 0
@@ -9960,43 +5016,7 @@ graph [
     z "2.54"
   ]
   node [
-    id 830
-    label "THR54.A.HG21"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "11.849"
-    y "3.754"
-    z "2.563"
-  ]
-  node [
-    id 831
-    label "THR54.A.HG22"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "12.559"
-    y "2.33"
-    z "3.356"
-  ]
-  node [
-    id 832
-    label "THR54.A.HG23"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "13.607"
-    y "3.593"
-    z "2.668"
-  ]
-  node [
-    id 833
+    id 418
     label "THR54.A.OG1"
     element 0
     element 0
@@ -10008,19 +5028,7 @@ graph [
     z "1.187"
   ]
   node [
-    id 834
-    label "THR54.A.HG1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "14.616"
-    y "2.098"
-    z "1.117"
-  ]
-  node [
-    id 835
+    id 419
     label "ALA55.A.N"
     element 1
     element 0
@@ -10032,19 +5040,7 @@ graph [
     z "-0.068"
   ]
   node [
-    id 836
-    label "ALA55.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "10.46"
-    y "2.856"
-    z "-0.869"
-  ]
-  node [
-    id 837
+    id 420
     label "ALA55.A.CA"
     element 0
     element 1
@@ -10056,19 +5052,7 @@ graph [
     z "-0.169"
   ]
   node [
-    id 838
-    label "ALA55.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "8.606"
-    y "4.424"
-    z "0.613"
-  ]
-  node [
-    id 839
+    id 421
     label "ALA55.A.C"
     element 0
     element 0
@@ -10080,7 +5064,7 @@ graph [
     z "0.047"
   ]
   node [
-    id 840
+    id 422
     label "ALA55.A.CB"
     element 0
     element 0
@@ -10092,43 +5076,7 @@ graph [
     z "-1.526"
   ]
   node [
-    id 841
-    label "ALA55.A.HB1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "7.698"
-    y "5.019"
-    z "-1.578"
-  ]
-  node [
-    id 842
-    label "ALA55.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "8.535"
-    y "3.65"
-    z "-2.336"
-  ]
-  node [
-    id 843
-    label "ALA55.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "9.468"
-    y "4.997"
-    z "-1.64"
-  ]
-  node [
-    id 844
+    id 423
     label "ALA55.A.O"
     element 0
     element 0
@@ -10140,7 +5088,7 @@ graph [
     z "0.811"
   ]
   node [
-    id 845
+    id 424
     label "VAL56.A.N"
     element 1
     element 0
@@ -10152,19 +5100,7 @@ graph [
     z "-0.549"
   ]
   node [
-    id 846
-    label "VAL56.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "8.084"
-    y "1.348"
-    z "-1.177"
-  ]
-  node [
-    id 847
+    id 425
     label "VAL56.A.CA"
     element 0
     element 1
@@ -10176,19 +5112,7 @@ graph [
     z "-0.38"
   ]
   node [
-    id 848
-    label "VAL56.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "5.28"
-    y "1.109"
-    z "-0.621"
-  ]
-  node [
-    id 849
+    id 426
     label "VAL56.A.C"
     element 0
     element 0
@@ -10200,7 +5124,7 @@ graph [
     z "1.048"
   ]
   node [
-    id 850
+    id 427
     label "VAL56.A.CB"
     element 0
     element 0
@@ -10212,19 +5136,7 @@ graph [
     z "-1.309"
   ]
   node [
-    id 851
-    label "VAL56.A.HB"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "7.403"
-    y "-0.998"
-    z "-1.137"
-  ]
-  node [
-    id 852
+    id 428
     label "VAL56.A.O"
     element 0
     element 0
@@ -10236,7 +5148,7 @@ graph [
     z "1.61"
   ]
   node [
-    id 853
+    id 429
     label "VAL56.A.CG1"
     element 0
     element 0
@@ -10248,43 +5160,7 @@ graph [
     z "-1.082"
   ]
   node [
-    id 854
-    label "VAL56.A.HG11"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "5.503"
-    y "-2.463"
-    z "-1.823"
-  ]
-  node [
-    id 855
-    label "VAL56.A.HG12"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "5.492"
-    y "-2.128"
-    z "-0.098"
-  ]
-  node [
-    id 856
-    label "VAL56.A.HG13"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "4.367"
-    y "-1.263"
-    z "-1.169"
-  ]
-  node [
-    id 857
+    id 430
     label "VAL56.A.CG2"
     element 0
     element 0
@@ -10296,43 +5172,7 @@ graph [
     z "-2.754"
   ]
   node [
-    id 858
-    label "VAL56.A.HG21"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "6.574"
-    y "0.955"
-    z "-2.864"
-  ]
-  node [
-    id 859
-    label "VAL56.A.HG22"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "7.115"
-    y "-0.647"
-    z "-3.29"
-  ]
-  node [
-    id 860
-    label "VAL56.A.HG23"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "5.351"
-    y "-0.306"
-    z "-3.172"
-  ]
-  node [
-    id 861
+    id 431
     label "PHE57.A.N"
     element 1
     element 0
@@ -10344,19 +5184,7 @@ graph [
     z "1.661"
   ]
   node [
-    id 862
-    label "PHE57.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "8.134"
-    y "-0.195"
-    z "1.143"
-  ]
-  node [
-    id 863
+    id 432
     label "PHE57.A.CA"
     element 0
     element 1
@@ -10368,19 +5196,7 @@ graph [
     z "3.054"
   ]
   node [
-    id 864
-    label "PHE57.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "6.664"
-    y "-1.539"
-    z "3.162"
-  ]
-  node [
-    id 865
+    id 433
     label "PHE57.A.C"
     element 0
     element 0
@@ -10392,7 +5208,7 @@ graph [
     z "3.979"
   ]
   node [
-    id 866
+    id 434
     label "PHE57.A.CB"
     element 0
     element 0
@@ -10404,31 +5220,7 @@ graph [
     z "3.455"
   ]
   node [
-    id 867
-    label "PHE57.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "9.387"
-    y "-0.178"
-    z "3.216"
-  ]
-  node [
-    id 868
-    label "PHE57.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "9.053"
-    y "-1.872"
-    z "2.874"
-  ]
-  node [
-    id 869
+    id 435
     label "PHE57.A.O"
     element 0
     element 0
@@ -10440,7 +5232,7 @@ graph [
     z "4.807"
   ]
   node [
-    id 870
+    id 436
     label "PHE57.A.CG"
     element 0
     element 0
@@ -10452,7 +5244,7 @@ graph [
     z "4.93"
   ]
   node [
-    id 871
+    id 437
     label "PHE57.A.CD1"
     element 0
     element 0
@@ -10464,19 +5256,7 @@ graph [
     z "5.833"
   ]
   node [
-    id 872
-    label "PHE57.A.HD1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "9.54"
-    y "0.65"
-    z "5.471"
-  ]
-  node [
-    id 873
+    id 438
     label "PHE57.A.CD2"
     element 0
     element 0
@@ -10488,19 +5268,7 @@ graph [
     z "5.409"
   ]
   node [
-    id 874
-    label "PHE57.A.HD2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "8.135"
-    y "-3.352"
-    z "4.719"
-  ]
-  node [
-    id 875
+    id 439
     label "PHE57.A.CE1"
     element 0
     element 0
@@ -10512,19 +5280,7 @@ graph [
     z "7.209"
   ]
   node [
-    id 876
-    label "PHE57.A.HE1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "9.66"
-    y "0.16"
-    z "7.892"
-  ]
-  node [
-    id 877
+    id 440
     label "PHE57.A.CE2"
     element 0
     element 0
@@ -10536,19 +5292,7 @@ graph [
     z "6.786"
   ]
   node [
-    id 878
-    label "PHE57.A.HE2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "8.248"
-    y "-3.847"
-    z "7.15"
-  ]
-  node [
-    id 879
+    id 441
     label "PHE57.A.CZ"
     element 0
     element 0
@@ -10560,19 +5304,7 @@ graph [
     z "7.686"
   ]
   node [
-    id 880
-    label "PHE57.A.HZ"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "9.017"
-    y "-2.1"
-    z "8.742"
-  ]
-  node [
-    id 881
+    id 442
     label "ASN58.A.N"
     element 1
     element 0
@@ -10584,19 +5316,7 @@ graph [
     z "3.809"
   ]
   node [
-    id 882
-    label "ASN58.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "7.861"
-    y "1.851"
-    z "3.112"
-  ]
-  node [
-    id 883
+    id 443
     label "ASN58.A.CA"
     element 0
     element 1
@@ -10608,19 +5328,7 @@ graph [
     z "4.59"
   ]
   node [
-    id 884
-    label "ASN58.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "6.78"
-    y "2.591"
-    z "5.651"
-  ]
-  node [
-    id 885
+    id 444
     label "ASN58.A.C"
     element 0
     element 0
@@ -10632,7 +5340,7 @@ graph [
     z "4.367"
   ]
   node [
-    id 886
+    id 445
     label "ASN58.A.CB"
     element 0
     element 0
@@ -10644,31 +5352,7 @@ graph [
     z "4.23"
   ]
   node [
-    id 887
-    label "ASN58.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "6.948"
-    y "4.938"
-    z "4.652"
-  ]
-  node [
-    id 888
-    label "ASN58.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "7.474"
-    y "4.185"
-    z "3.147"
-  ]
-  node [
-    id 889
+    id 446
     label "ASN58.A.O"
     element 0
     element 0
@@ -10680,7 +5364,7 @@ graph [
     z "5.333"
   ]
   node [
-    id 890
+    id 447
     label "ASN58.A.CG"
     element 0
     element 0
@@ -10692,7 +5376,7 @@ graph [
     z "4.771"
   ]
   node [
-    id 891
+    id 448
     label "ASN58.A.ND2"
     element 1
     element 0
@@ -10704,31 +5388,7 @@ graph [
     z "4.25"
   ]
   node [
-    id 892
-    label "ASN58.A.HD21"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "9.416"
-    y "5.528"
-    z "3.522"
-  ]
-  node [
-    id 893
-    label "ASN58.A.HD22"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "10.653"
-    y "4.893"
-    z "4.626"
-  ]
-  node [
-    id 894
+    id 449
     label "ASN58.A.OD1"
     element 0
     element 0
@@ -10740,7 +5400,7 @@ graph [
     z "5.686"
   ]
   node [
-    id 895
+    id 450
     label "MET59.A.N"
     element 1
     element 0
@@ -10752,19 +5412,7 @@ graph [
     z "3.122"
   ]
   node [
-    id 896
-    label "MET59.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "5.345"
-    y "2.768"
-    z "2.369"
-  ]
-  node [
-    id 897
+    id 451
     label "MET59.A.CA"
     element 0
     element 1
@@ -10776,19 +5424,7 @@ graph [
     z "2.777"
   ]
   node [
-    id 898
-    label "MET59.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "2.922"
-    y "3.983"
-    z "3.173"
-  ]
-  node [
-    id 899
+    id 452
     label "MET59.A.C"
     element 0
     element 0
@@ -10800,7 +5436,7 @@ graph [
     z "3.406"
   ]
   node [
-    id 900
+    id 453
     label "MET59.A.CB"
     element 0
     element 0
@@ -10812,31 +5448,7 @@ graph [
     z "1.249"
   ]
   node [
-    id 901
-    label "MET59.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "3.821"
-    y "3.787"
-    z "0.835"
-  ]
-  node [
-    id 902
-    label "MET59.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "3.423"
-    y "2.07"
-    z "0.842"
-  ]
-  node [
-    id 903
+    id 454
     label "MET59.A.O"
     element 0
     element 0
@@ -10848,7 +5460,7 @@ graph [
     z "4.048"
   ]
   node [
-    id 904
+    id 455
     label "MET59.A.CG"
     element 0
     element 0
@@ -10860,31 +5472,7 @@ graph [
     z "0.802"
   ]
   node [
-    id 905
-    label "MET59.A.HG2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "1.073"
-    y "2.531"
-    z "1.059"
-  ]
-  node [
-    id 906
-    label "MET59.A.HG3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "1.729"
-    y "3.47"
-    z "-0.283"
-  ]
-  node [
-    id 907
+    id 456
     label "MET59.A.SD"
     element 0
     element 0
@@ -10896,7 +5484,7 @@ graph [
     z "1.497"
   ]
   node [
-    id 908
+    id 457
     label "MET59.A.CE"
     element 0
     element 0
@@ -10908,43 +5496,7 @@ graph [
     z "1.128"
   ]
   node [
-    id 909
-    label "MET59.A.HE1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "3.123"
-    y "5.945"
-    z "1.851"
-  ]
-  node [
-    id 910
-    label "MET59.A.HE2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "2.698"
-    y "5.879"
-    z "0.123"
-  ]
-  node [
-    id 911
-    label "MET59.A.HE3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "1.921"
-    y "7.066"
-    z "1.189"
-  ]
-  node [
-    id 912
+    id 458
     label "PHE60.A.N"
     element 1
     element 0
@@ -10956,19 +5508,7 @@ graph [
     z "3.308"
   ]
   node [
-    id 913
-    label "PHE60.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "3.651"
-    y "0.46"
-    z "2.764"
-  ]
-  node [
-    id 914
+    id 459
     label "PHE60.A.CA"
     element 0
     element 1
@@ -10980,19 +5520,7 @@ graph [
     z "3.913"
   ]
   node [
-    id 915
-    label "PHE60.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "1.024"
-    y "-0.351"
-    z "3.653"
-  ]
-  node [
-    id 916
+    id 460
     label "PHE60.A.C"
     element 0
     element 0
@@ -11004,7 +5532,7 @@ graph [
     z "5.438"
   ]
   node [
-    id 917
+    id 461
     label "PHE60.A.CB"
     element 0
     element 0
@@ -11016,31 +5544,7 @@ graph [
     z "3.367"
   ]
   node [
-    id 918
-    label "PHE60.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "3.674"
-    y "-1.826"
-    z "3.533"
-  ]
-  node [
-    id 919
-    label "PHE60.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "2.139"
-    y "-2.58"
-    z "3.941"
-  ]
-  node [
-    id 920
+    id 462
     label "PHE60.A.O"
     element 0
     element 0
@@ -11052,7 +5556,7 @@ graph [
     z "6.081"
   ]
   node [
-    id 921
+    id 463
     label "PHE60.A.CG"
     element 0
     element 0
@@ -11064,7 +5568,7 @@ graph [
     z "1.898"
   ]
   node [
-    id 922
+    id 464
     label "PHE60.A.CD1"
     element 0
     element 0
@@ -11076,19 +5580,7 @@ graph [
     z "1.116"
   ]
   node [
-    id 923
-    label "PHE60.A.HD1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "1.037"
-    y "-0.329"
-    z "1.52"
-  ]
-  node [
-    id 924
+    id 465
     label "PHE60.A.CD2"
     element 0
     element 0
@@ -11100,19 +5592,7 @@ graph [
     z "1.305"
   ]
   node [
-    id 925
-    label "PHE60.A.HD2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "3.568"
-    y "-3.814"
-    z "1.888"
-  ]
-  node [
-    id 926
+    id 466
     label "PHE60.A.CE1"
     element 0
     element 0
@@ -11124,19 +5604,7 @@ graph [
     z "-0.228"
   ]
   node [
-    id 927
-    label "PHE60.A.HE1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "0.595"
-    y "-0.896"
-    z "-0.825"
-  ]
-  node [
-    id 928
+    id 467
     label "PHE60.A.CE2"
     element 0
     element 0
@@ -11148,19 +5616,7 @@ graph [
     z "-0.049"
   ]
   node [
-    id 929
-    label "PHE60.A.HE2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "3.19"
-    y "-4.308"
-    z "-0.513"
-  ]
-  node [
-    id 930
+    id 468
     label "PHE60.A.CZ"
     element 0
     element 0
@@ -11172,19 +5628,7 @@ graph [
     z "-0.813"
   ]
   node [
-    id 931
-    label "PHE60.A.HZ"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "1.671"
-    y "-2.862"
-    z "-1.861"
-  ]
-  node [
-    id 932
+    id 469
     label "LYS61.A.N"
     element 1
     element 0
@@ -11196,19 +5640,7 @@ graph [
     z "6.028"
   ]
   node [
-    id 933
-    label "LYS61.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "4.019"
-    y "0.291"
-    z "5.447"
-  ]
-  node [
-    id 934
+    id 470
     label "LYS61.A.CA"
     element 0
     element 1
@@ -11220,19 +5652,7 @@ graph [
     z "7.463"
   ]
   node [
-    id 935
-    label "LYS61.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "2.998"
-    y "-0.534"
-    z "8.015"
-  ]
-  node [
-    id 936
+    id 471
     label "LYS61.A.C"
     element 0
     element 0
@@ -11244,7 +5664,7 @@ graph [
     z "7.858"
   ]
   node [
-    id 937
+    id 472
     label "LYS61.A.CB"
     element 0
     element 0
@@ -11256,31 +5676,7 @@ graph [
     z "7.825"
   ]
   node [
-    id 938
-    label "LYS61.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "5.395"
-    y "-0.108"
-    z "7.546"
-  ]
-  node [
-    id 939
-    label "LYS61.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "5.041"
-    y "1.601"
-    z "7.263"
-  ]
-  node [
-    id 940
+    id 473
     label "LYS61.A.O"
     element 0
     element 0
@@ -11292,7 +5688,7 @@ graph [
     z "8.875"
   ]
   node [
-    id 941
+    id 474
     label "LYS61.A.CG"
     element 0
     element 0
@@ -11304,31 +5700,7 @@ graph [
     z "9.325"
   ]
   node [
-    id 942
-    label "LYS61.A.HG2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "4.208"
-    y "1.781"
-    z "9.63"
-  ]
-  node [
-    id 943
-    label "LYS61.A.HG3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "4.682"
-    y "0.09"
-    z "9.891"
-  ]
-  node [
-    id 944
+    id 475
     label "LYS61.A.CD"
     element 0
     element 0
@@ -11340,31 +5712,7 @@ graph [
     z "9.634"
   ]
   node [
-    id 945
-    label "LYS61.A.HD2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "6.554"
-    y "2.324"
-    z "8.998"
-  ]
-  node [
-    id 946
-    label "LYS61.A.HD3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "7.028"
-    y "0.666"
-    z "9.43"
-  ]
-  node [
-    id 947
+    id 476
     label "LYS61.A.CE"
     element 0
     element 0
@@ -11376,31 +5724,7 @@ graph [
     z "11.105"
   ]
   node [
-    id 948
-    label "LYS61.A.HE2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "6.241"
-    y "1.007"
-    z "11.729"
-  ]
-  node [
-    id 949
-    label "LYS61.A.HE3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "5.572"
-    y "2.58"
-    z "11.304"
-  ]
-  node [
-    id 950
+    id 477
     label "LYS61.A.NZ"
     element 1
     element 0
@@ -11412,43 +5736,7 @@ graph [
     z "11.416"
   ]
   node [
-    id 951
-    label "LYS61.A.HZ1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "7.71"
-    y "2.83"
-    z "12.383"
-  ]
-  node [
-    id 952
-    label "LYS61.A.HZ2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "8.455"
-    y "1.91"
-    z "11.235"
-  ]
-  node [
-    id 953
-    label "LYS61.A.HZ3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "7.802"
-    y "3.36"
-    z "10.838"
-  ]
-  node [
-    id 954
+    id 478
     label "HIS62.A.N"
     element 1
     element 0
@@ -11460,19 +5748,7 @@ graph [
     z "7.068"
   ]
   node [
-    id 955
-    label "HIS62.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "2.811"
-    y "2.602"
-    z "6.264"
-  ]
-  node [
-    id 956
+    id 479
     label "HIS62.A.CA"
     element 0
     element 1
@@ -11484,19 +5760,7 @@ graph [
     z "7.297"
   ]
   node [
-    id 957
-    label "HIS62.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "1.385"
-    y "4.002"
-    z "8.304"
-  ]
-  node [
-    id 958
+    id 480
     label "HIS62.A.C"
     element 0
     element 0
@@ -11508,7 +5772,7 @@ graph [
     z "7.219"
   ]
   node [
-    id 959
+    id 481
     label "HIS62.A.CB"
     element 0
     element 0
@@ -11520,31 +5784,7 @@ graph [
     z "6.305"
   ]
   node [
-    id 960
-    label "HIS62.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "2.505"
-    y "5.158"
-    z "6.481"
-  ]
-  node [
-    id 961
-    label "HIS62.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "1.481"
-    y "4.373"
-    z "5.282"
-  ]
-  node [
-    id 962
+    id 482
     label "HIS62.A.O"
     element 0
     element 0
@@ -11556,7 +5796,7 @@ graph [
     z "8.145"
   ]
   node [
-    id 963
+    id 483
     label "HIS62.A.CG"
     element 0
     element 0
@@ -11568,7 +5808,7 @@ graph [
     z "6.421"
   ]
   node [
-    id 964
+    id 484
     label "HIS62.A.CD2"
     element 0
     element 0
@@ -11580,19 +5820,7 @@ graph [
     z "5.505"
   ]
   node [
-    id 965
-    label "HIS62.A.HD2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-0.626"
-    y "5.701"
-    z "4.555"
-  ]
-  node [
-    id 966
+    id 485
     label "HIS62.A.ND1"
     element 1
     element 0
@@ -11604,19 +5832,7 @@ graph [
     z "7.483"
   ]
   node [
-    id 967
-    label "HIS62.A.HD1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "0.937"
-    y "6.764"
-    z "8.315"
-  ]
-  node [
-    id 968
+    id 486
     label "HIS62.A.CE1"
     element 0
     element 0
@@ -11628,19 +5844,7 @@ graph [
     z "7.208"
   ]
   node [
-    id 969
-    label "HIS62.A.HE1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-1.0"
-    y "8.354"
-    z "7.85"
-  ]
-  node [
-    id 970
+    id 487
     label "HIS62.A.NE2"
     element 1
     element 0
@@ -11652,7 +5856,7 @@ graph [
     z "6.018"
   ]
   node [
-    id 971
+    id 488
     label "LEU63.A.N"
     element 1
     element 0
@@ -11664,19 +5868,7 @@ graph [
     z "6.187"
   ]
   node [
-    id 972
-    label "LEU63.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "0.123"
-    y "2.214"
-    z "5.436"
-  ]
-  node [
-    id 973
+    id 489
     label "LEU63.A.CA"
     element 0
     element 1
@@ -11688,19 +5880,7 @@ graph [
     z "6.06"
   ]
   node [
-    id 974
-    label "LEU63.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-2.63"
-    y "2.475"
-    z "6.04"
-  ]
-  node [
-    id 975
+    id 490
     label "LEU63.A.C"
     element 0
     element 0
@@ -11712,7 +5892,7 @@ graph [
     z "7.232"
   ]
   node [
-    id 976
+    id 491
     label "LEU63.A.CB"
     element 0
     element 0
@@ -11724,31 +5904,7 @@ graph [
     z "4.777"
   ]
   node [
-    id 977
-    label "LEU63.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-1.082"
-    y "0.163"
-    z "4.783"
-  ]
-  node [
-    id 978
-    label "LEU63.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-2.838"
-    y "0.292"
-    z "4.795"
-  ]
-  node [
-    id 979
+    id 492
     label "LEU63.A.O"
     element 0
     element 0
@@ -11760,7 +5916,7 @@ graph [
     z "7.747"
   ]
   node [
-    id 980
+    id 493
     label "LEU63.A.CG"
     element 0
     element 0
@@ -11772,19 +5928,7 @@ graph [
     z "3.466"
   ]
   node [
-    id 981
-    label "LEU63.A.HG"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-0.978"
-    y "2.262"
-    z "3.389"
-  ]
-  node [
-    id 982
+    id 494
     label "LEU63.A.CD1"
     element 0
     element 0
@@ -11796,43 +5940,7 @@ graph [
     z "2.342"
   ]
   node [
-    id 983
-    label "LEU63.A.HD11"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-0.938"
-    y "0.108"
-    z "2.316"
-  ]
-  node [
-    id 984
-    label "LEU63.A.HD12"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-2.063"
-    y "1.137"
-    z "1.392"
-  ]
-  node [
-    id 985
-    label "LEU63.A.HD13"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-2.685"
-    y "-0.101"
-    z "2.51"
-  ]
-  node [
-    id 986
+    id 495
     label "LEU63.A.CD2"
     element 0
     element 0
@@ -11844,43 +5952,7 @@ graph [
     z "3.328"
   ]
   node [
-    id 987
-    label "LEU63.A.HD21"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-3.027"
-    y "3.386"
-    z "4.059"
-  ]
-  node [
-    id 988
-    label "LEU63.A.HD22"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-4.011"
-    y "2.02"
-    z "3.487"
-  ]
-  node [
-    id 989
-    label "LEU63.A.HD23"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-3.094"
-    y "3.026"
-    z "2.334"
-  ]
-  node [
-    id 990
+    id 496
     label "ALA64.A.N"
     element 1
     element 0
@@ -11892,19 +5964,7 @@ graph [
     z "7.656"
   ]
   node [
-    id 991
-    label "ALA64.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-0.349"
-    y "-0.067"
-    z "7.167"
-  ]
-  node [
-    id 992
+    id 497
     label "ALA64.A.CA"
     element 0
     element 1
@@ -11916,19 +5976,7 @@ graph [
     z "8.805"
   ]
   node [
-    id 993
-    label "ALA64.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-2.255"
-    y "-1.593"
-    z "8.621"
-  ]
-  node [
-    id 994
+    id 498
     label "ALA64.A.C"
     element 0
     element 0
@@ -11940,7 +5988,7 @@ graph [
     z "10.076"
   ]
   node [
-    id 995
+    id 499
     label "ALA64.A.CB"
     element 0
     element 0
@@ -11952,43 +6000,7 @@ graph [
     z "8.981"
   ]
   node [
-    id 996
-    label "ALA64.A.HB1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "0.717"
-    y "-1.147"
-    z "9.157"
-  ]
-  node [
-    id 997
-    label "ALA64.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "0.015"
-    y "-2.383"
-    z "8.086"
-  ]
-  node [
-    id 998
-    label "ALA64.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-0.283"
-    y "-2.45"
-    z "9.833"
-  ]
-  node [
-    id 999
+    id 500
     label "ALA64.A.O"
     element 0
     element 0
@@ -12000,7 +6012,7 @@ graph [
     z "10.864"
   ]
   node [
-    id 1000
+    id 501
     label "HIS65.A.N"
     element 1
     element 0
@@ -12012,19 +6024,7 @@ graph [
     z "10.266"
   ]
   node [
-    id 1001
-    label "HIS65.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-0.409"
-    y "1.339"
-    z "9.576"
-  ]
-  node [
-    id 1002
+    id 502
     label "HIS65.A.CA"
     element 0
     element 1
@@ -12036,19 +6036,7 @@ graph [
     z "11.394"
   ]
   node [
-    id 1003
-    label "HIS65.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-1.36"
-    y "1.303"
-    z "12.306"
-  ]
-  node [
-    id 1004
+    id 503
     label "HIS65.A.C"
     element 0
     element 0
@@ -12060,7 +6048,7 @@ graph [
     z "11.281"
   ]
   node [
-    id 1005
+    id 504
     label "HIS65.A.CB"
     element 0
     element 0
@@ -12072,31 +6060,7 @@ graph [
     z "11.504"
   ]
   node [
-    id 1006
-    label "HIS65.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "0.688"
-    y "2.462"
-    z "11.577"
-  ]
-  node [
-    id 1007
-    label "HIS65.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-0.272"
-    y "3.573"
-    z "10.601"
-  ]
-  node [
-    id 1008
+    id 505
     label "HIS65.A.O"
     element 0
     element 0
@@ -12108,7 +6072,7 @@ graph [
     z "12.153"
   ]
   node [
-    id 1009
+    id 506
     label "HIS65.A.CG"
     element 0
     element 0
@@ -12120,7 +6084,7 @@ graph [
     z "12.692"
   ]
   node [
-    id 1010
+    id 507
     label "HIS65.A.CD2"
     element 0
     element 0
@@ -12132,19 +6096,7 @@ graph [
     z "12.732"
   ]
   node [
-    id 1011
-    label "HIS65.A.HD2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "0.393"
-    y "5.75"
-    z "11.915"
-  ]
-  node [
-    id 1012
+    id 508
     label "HIS65.A.ND1"
     element 1
     element 0
@@ -12156,19 +6108,7 @@ graph [
     z "13.934"
   ]
   node [
-    id 1013
-    label "HIS65.A.HD1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-1.597"
-    y "2.839"
-    z "14.128"
-  ]
-  node [
-    id 1014
+    id 509
     label "HIS65.A.CE1"
     element 0
     element 0
@@ -12180,19 +6120,7 @@ graph [
     z "14.694"
   ]
   node [
-    id 1015
-    label "HIS65.A.HE1"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-1.312"
-    y "4.791"
-    z "15.664"
-  ]
-  node [
-    id 1016
+    id 510
     label "HIS65.A.NE2"
     element 1
     element 0
@@ -12204,7 +6132,7 @@ graph [
     z "14.016"
   ]
   node [
-    id 1017
+    id 511
     label "VAL66.A.N"
     element 1
     element 0
@@ -12216,19 +6144,7 @@ graph [
     z "10.182"
   ]
   node [
-    id 1018
-    label "VAL66.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-2.37"
-    y "3.312"
-    z "9.477"
-  ]
-  node [
-    id 1019
+    id 512
     label "VAL66.A.CA"
     element 0
     element 1
@@ -12240,19 +6156,7 @@ graph [
     z "10.025"
   ]
   node [
-    id 1020
-    label "VAL66.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-4.46"
-    y "4.607"
-    z "10.901"
-  ]
-  node [
-    id 1021
+    id 513
     label "VAL66.A.C"
     element 0
     element 0
@@ -12264,7 +6168,7 @@ graph [
     z "9.944"
   ]
   node [
-    id 1022
+    id 514
     label "VAL66.A.CB"
     element 0
     element 0
@@ -12276,19 +6180,7 @@ graph [
     z "8.775"
   ]
   node [
-    id 1023
-    label "VAL66.A.HB"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-3.949"
-    y "4.253"
-    z "7.919"
-  ]
-  node [
-    id 1024
+    id 515
     label "VAL66.A.O"
     element 0
     element 0
@@ -12300,7 +6192,7 @@ graph [
     z "10.41"
   ]
   node [
-    id 1025
+    id 516
     label "VAL66.A.CG1"
     element 0
     element 0
@@ -12312,43 +6204,7 @@ graph [
     z "8.423"
   ]
   node [
-    id 1026
-    label "VAL66.A.HG11"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-5.355"
-    y "6.292"
-    z "7.592"
-  ]
-  node [
-    id 1027
-    label "VAL66.A.HG12"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-6.295"
-    y "4.898"
-    z "8.122"
-  ]
-  node [
-    id 1028
-    label "VAL66.A.HG13"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-5.876"
-    y "6.167"
-    z "9.289"
-  ]
-  node [
-    id 1029
+    id 517
     label "VAL66.A.CG2"
     element 0
     element 0
@@ -12360,43 +6216,7 @@ graph [
     z "8.971"
   ]
   node [
-    id 1030
-    label "VAL66.A.HG21"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-3.086"
-    y "6.566"
-    z "8.084"
-  ]
-  node [
-    id 1031
-    label "VAL66.A.HG22"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-2.166"
-    y "5.471"
-    z "9.125"
-  ]
-  node [
-    id 1032
-    label "VAL66.A.HG23"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-3.381"
-    y "6.553"
-    z "9.837"
-  ]
-  node [
-    id 1033
+    id 518
     label "LEU67.A.N"
     element 1
     element 0
@@ -12408,19 +6228,7 @@ graph [
     z "9.325"
   ]
   node [
-    id 1034
-    label "LEU67.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-4.604"
-    y "1.636"
-    z "8.946"
-  ]
-  node [
-    id 1035
+    id 519
     label "LEU67.A.CA"
     element 0
     element 1
@@ -12432,19 +6240,7 @@ graph [
     z "9.072"
   ]
   node [
-    id 1036
-    label "LEU67.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-7.571"
-    y "1.671"
-    z "9.159"
-  ]
-  node [
-    id 1037
+    id 520
     label "LEU67.A.C"
     element 0
     element 0
@@ -12456,7 +6252,7 @@ graph [
     z "10.104"
   ]
   node [
-    id 1038
+    id 521
     label "LEU67.A.CB"
     element 0
     element 0
@@ -12468,31 +6264,7 @@ graph [
     z "7.636"
   ]
   node [
-    id 1039
-    label "LEU67.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-5.694"
-    y "-0.086"
-    z "7.535"
-  ]
-  node [
-    id 1040
-    label "LEU67.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-7.452"
-    y "-0.159"
-    z "7.49"
-  ]
-  node [
-    id 1041
+    id 522
     label "LEU67.A.O"
     element 0
     element 0
@@ -12504,7 +6276,7 @@ graph [
     z "10.012"
   ]
   node [
-    id 1042
+    id 523
     label "LEU67.A.CG"
     element 0
     element 0
@@ -12516,19 +6288,7 @@ graph [
     z "6.518"
   ]
   node [
-    id 1043
-    label "LEU67.A.HG"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-5.822"
-    y "2.275"
-    z "6.637"
-  ]
-  node [
-    id 1044
+    id 524
     label "LEU67.A.CD1"
     element 0
     element 0
@@ -12540,43 +6300,7 @@ graph [
     z "5.161"
   ]
   node [
-    id 1045
-    label "LEU67.A.HD11"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-5.493"
-    y "0.425"
-    z "5.103"
-  ]
-  node [
-    id 1046
-    label "LEU67.A.HD12"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-6.577"
-    y "1.61"
-    z "4.363"
-  ]
-  node [
-    id 1047
-    label "LEU67.A.HD13"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-7.256"
-    y "0.113"
-    z "5.034"
-  ]
-  node [
-    id 1048
+    id 525
     label "LEU67.A.CD2"
     element 0
     element 0
@@ -12588,43 +6312,7 @@ graph [
     z "6.507"
   ]
   node [
-    id 1049
-    label "LEU67.A.HD21"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-8.805"
-    y "1.626"
-    z "6.451"
-  ]
-  node [
-    id 1050
-    label "LEU67.A.HD22"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-8.01"
-    y "2.999"
-    z "5.653"
-  ]
-  node [
-    id 1051
-    label "LEU67.A.HD23"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-8.061"
-    y "2.923"
-    z "7.412"
-  ]
-  node [
-    id 1052
+    id 526
     label "SER68.A.N"
     element 1
     element 0
@@ -12636,19 +6324,7 @@ graph [
     z "11.034"
   ]
   node [
-    id 1053
-    label "SER68.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-5.161"
-    y "0.43"
-    z "11.09"
-  ]
-  node [
-    id 1054
+    id 527
     label "SER68.A.CA"
     element 0
     element 1
@@ -12660,19 +6336,7 @@ graph [
     z "12.123"
   ]
   node [
-    id 1055
-    label "SER68.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-6.863"
-    y "-1.919"
-    z "11.882"
-  ]
-  node [
-    id 1056
+    id 528
     label "SER68.A.C"
     element 0
     element 0
@@ -12684,7 +6348,7 @@ graph [
     z "13.474"
   ]
   node [
-    id 1057
+    id 529
     label "SER68.A.CB"
     element 0
     element 0
@@ -12696,31 +6360,7 @@ graph [
     z "12.341"
   ]
   node [
-    id 1058
-    label "SER68.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-4.051"
-    y "-1.435"
-    z "12.855"
-  ]
-  node [
-    id 1059
-    label "SER68.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-5.041"
-    y "-2.895"
-    z "12.978"
-  ]
-  node [
-    id 1060
+    id 530
     label "SER68.A.O"
     element 0
     element 0
@@ -12732,7 +6372,7 @@ graph [
     z "14.409"
   ]
   node [
-    id 1061
+    id 531
     label "SER68.A.OG"
     element 0
     element 0
@@ -12744,19 +6384,7 @@ graph [
     z "11.127"
   ]
   node [
-    id 1062
-    label "SER68.A.HG"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-3.699"
-    y "-1.766"
-    z "10.847"
-  ]
-  node [
-    id 1063
+    id 532
     label "GLU69.A.N"
     element 1
     element 0
@@ -12768,19 +6396,7 @@ graph [
     z "13.587"
   ]
   node [
-    id 1064
-    label "GLU69.A.H"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-6.177"
-    y "1.264"
-    z "12.757"
-  ]
-  node [
-    id 1065
+    id 533
     label "GLU69.A.CA"
     element 0
     element 1
@@ -12792,19 +6408,7 @@ graph [
     z "14.717"
   ]
   node [
-    id 1066
-    label "GLU69.A.HA"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-6.624"
-    y "0.992"
-    z "15.656"
-  ]
-  node [
-    id 1067
+    id 534
     label "GLU69.A.C"
     element 0
     element 0
@@ -12816,7 +6420,7 @@ graph [
     z "14.701"
   ]
   node [
-    id 1068
+    id 535
     label "GLU69.A.CB"
     element 0
     element 0
@@ -12828,31 +6432,7 @@ graph [
     z "14.696"
   ]
   node [
-    id 1069
-    label "GLU69.A.HB2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-6.459"
-    y "3.325"
-    z "13.694"
-  ]
-  node [
-    id 1070
-    label "GLU69.A.HB3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-6.954"
-    y "3.517"
-    z "15.382"
-  ]
-  node [
-    id 1071
+    id 536
     label "GLU69.A.O"
     element 0
     element 0
@@ -12864,7 +6444,7 @@ graph [
     z "15.804"
   ]
   node [
-    id 1072
+    id 537
     label "GLU69.A.CG"
     element 0
     element 0
@@ -12876,31 +6456,7 @@ graph [
     z "15.152"
   ]
   node [
-    id 1073
-    label "GLU69.A.HG2"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-4.274"
-    y "2.334"
-    z "14.512"
-  ]
-  node [
-    id 1074
-    label "GLU69.A.HG3"
-    element 0
-    element 0
-    element 0
-    element 0
-    element 0
-    x "-4.843"
-    y "2.513"
-    z "16.145"
-  ]
-  node [
-    id 1075
+    id 538
     label "GLU69.A.CD"
     element 0
     element 0
@@ -12912,7 +6468,7 @@ graph [
     z "15.219"
   ]
   node [
-    id 1076
+    id 539
     label "GLU69.A.OE1"
     element 0
     element 0
@@ -12924,7 +6480,7 @@ graph [
     z "16.266"
   ]
   node [
-    id 1077
+    id 540
     label "GLU69.A.OE2"
     element 0
     element 0
@@ -12936,7 +6492,7 @@ graph [
     z "14.229"
   ]
   node [
-    id 1078
+    id 541
     label "GLU69.A.OXT"
     element 0
     element 0
@@ -12950,6522 +6506,3300 @@ graph [
   edge [
     source 0
     target 1
-    distance "1.0099043"
-    bond_angle "109.91132"
-  ]
-  edge [
-    source 0
-    target 2
-    distance "1.0100248"
-    bond_angle "108.470375"
-  ]
-  edge [
-    source 0
-    target 3
-    distance "1.0096109"
-    bond_angle "109.81728"
-  ]
-  edge [
-    source 0
-    target 4
     distance "1.4737922"
-    bond_angle "109.66088"
+    bond_angle "109.31918"
   ]
   edge [
-    source 4
-    target 5
-    distance "1.0900277"
-    bond_angle "108.85198"
-  ]
-  edge [
-    source 4
-    target 6
+    source 1
+    target 2
     distance "1.5257965"
-    bond_angle "113.225204"
+    bond_angle "114.39164"
   ]
   edge [
-    source 4
-    target 7
+    source 1
+    target 3
     distance "1.5291089"
-    bond_angle "109.37961"
+    bond_angle "109.7573"
   ]
   edge [
-    source 6
-    target 10
+    source 2
+    target 4
     distance "1.2274752"
     bond_angle "120.60115"
   ]
   edge [
-    source 6
-    target 14
-    distance "1.3395092"
-    bond_angle "120.67439"
-  ]
-  edge [
-    source 7
+    source 2
     target 8
-    distance "1.0902469"
-    bond_angle "109.45522"
+    distance "1.3395092"
+    bond_angle "121.454865"
   ]
   edge [
-    source 7
-    target 9
-    distance "1.0895042"
-    bond_angle "109.81905"
-  ]
-  edge [
-    source 7
-    target 11
+    source 3
+    target 5
     distance "1.5177495"
-    bond_angle "112.15587"
+    bond_angle "113.287575"
   ]
   edge [
-    source 11
-    target 12
+    source 5
+    target 6
     distance "1.2485682"
     bond_angle "121.21875"
   ]
   edge [
-    source 11
-    target 13
+    source 5
+    target 7
     distance "1.2436429"
     bond_angle "120.72781"
   ]
   edge [
-    source 14
-    target 15
-    distance "1.0100355"
-    bond_angle "118.33104"
-  ]
-  edge [
-    source 14
-    target 16
+    source 8
+    target 9
     distance "1.4767286"
-    bond_angle "114.44753"
+    bond_angle "114.80608"
   ]
   edge [
-    source 16
-    target 17
-    distance "1.0899222"
-    bond_angle "108.29135"
-  ]
-  edge [
-    source 16
-    target 18
+    source 9
+    target 10
     distance "1.5299478"
-    bond_angle "113.23218"
+    bond_angle "115.004845"
   ]
   edge [
-    source 16
-    target 19
+    source 9
+    target 11
     distance "1.5414145"
-    bond_angle "109.957825"
+    bond_angle "111.0131"
   ]
   edge [
-    source 18
-    target 22
+    source 10
+    target 12
     distance "1.2250823"
     bond_angle "121.06619"
   ]
   edge [
-    source 18
-    target 38
+    source 10
+    target 19
     distance "1.32971"
-    bond_angle "120.64977"
+    bond_angle "121.01013"
+  ]
+  edge [
+    source 11
+    target 13
+    distance "1.541476"
+    bond_angle "112.983765"
+  ]
+  edge [
+    source 13
+    target 14
+    distance "1.5329099"
+    bond_angle "112.33533"
+  ]
+  edge [
+    source 14
+    target 15
+    distance "1.4779601"
+    bond_angle "119.29228"
+  ]
+  edge [
+    source 15
+    target 18
+    distance "1.3207828"
+    bond_angle "122.878296"
+  ]
+  edge [
+    source 16
+    target 18
+    distance "1.3049023"
+    bond_angle "119.91827"
+  ]
+  edge [
+    source 17
+    target 18
+    distance "1.3039434"
+    bond_angle "119.09104"
   ]
   edge [
     source 19
     target 20
-    distance "1.0902607"
-    bond_angle "108.53355"
-  ]
-  edge [
-    source 19
-    target 21
-    distance "1.0890483"
-    bond_angle "108.659935"
-  ]
-  edge [
-    source 19
-    target 23
-    distance "1.541476"
-    bond_angle "110.50205"
-  ]
-  edge [
-    source 23
-    target 24
-    distance "1.0901147"
-    bond_angle "109.21857"
-  ]
-  edge [
-    source 23
-    target 25
-    distance "1.0898019"
-    bond_angle "108.3266"
-  ]
-  edge [
-    source 23
-    target 26
-    distance "1.5329099"
-    bond_angle "109.62147"
-  ]
-  edge [
-    source 26
-    target 27
-    distance "1.0899957"
-    bond_angle "109.19317"
-  ]
-  edge [
-    source 26
-    target 28
-    distance "1.0903671"
-    bond_angle "108.621254"
-  ]
-  edge [
-    source 26
-    target 29
-    distance "1.4779601"
-    bond_angle "115.016014"
-  ]
-  edge [
-    source 29
-    target 30
-    distance "1.0096959"
-    bond_angle "116.663666"
-  ]
-  edge [
-    source 29
-    target 37
-    distance "1.3207828"
-    bond_angle "121.21771"
-  ]
-  edge [
-    source 31
-    target 32
-    distance "1.0106401"
-    bond_angle "119.73973"
-  ]
-  edge [
-    source 31
-    target 33
-    distance "1.0096575"
-    bond_angle "120.60654"
-  ]
-  edge [
-    source 31
-    target 37
-    distance "1.3049023"
-    bond_angle "119.663605"
-  ]
-  edge [
-    source 34
-    target 35
-    distance "1.0099337"
-    bond_angle "119.42614"
-  ]
-  edge [
-    source 34
-    target 36
-    distance "1.009788"
-    bond_angle "119.67543"
-  ]
-  edge [
-    source 34
-    target 37
-    distance "1.3039434"
-    bond_angle "119.98082"
-  ]
-  edge [
-    source 38
-    target 39
-    distance "1.0101832"
-    bond_angle "118.211914"
-  ]
-  edge [
-    source 38
-    target 40
     distance "1.4640038"
-    bond_angle "114.23102"
+    bond_angle "114.83432"
   ]
   edge [
-    source 40
-    target 41
-    distance "1.0906991"
-    bond_angle "108.53199"
-  ]
-  edge [
-    source 40
-    target 42
+    source 20
+    target 21
     distance "1.5240848"
-    bond_angle "113.0829"
+    bond_angle "114.53363"
   ]
   edge [
-    source 40
-    target 43
+    source 20
+    target 22
     distance "1.5302737"
-    bond_angle "109.70035"
+    bond_angle "110.732666"
   ]
   edge [
-    source 42
-    target 46
+    source 21
+    target 23
     distance "1.2294041"
     bond_angle "120.99526"
   ]
   edge [
-    source 42
-    target 53
+    source 21
+    target 28
     distance "1.3355742"
-    bond_angle "120.36099"
+    bond_angle "120.93799"
   ]
   edge [
-    source 43
-    target 44
-    distance "1.090058"
-    bond_angle "109.326454"
-  ]
-  edge [
-    source 43
-    target 45
-    distance "1.0901356"
-    bond_angle "108.34259"
-  ]
-  edge [
-    source 43
-    target 47
+    source 22
+    target 24
     distance "1.5324265"
-    bond_angle "110.19495"
+    bond_angle "112.38446"
   ]
   edge [
-    source 47
-    target 48
-    distance "1.090571"
-    bond_angle "108.793816"
-  ]
-  edge [
-    source 47
-    target 49
-    distance "1.0893875"
-    bond_angle "108.558716"
-  ]
-  edge [
-    source 47
-    target 50
+    source 24
+    target 25
     distance "1.5331697"
-    bond_angle "113.021996"
+    bond_angle "115.54786"
   ]
   edge [
-    source 50
-    target 51
+    source 25
+    target 26
     distance "1.2522565"
     bond_angle "120.59851"
   ]
   edge [
-    source 50
-    target 52
+    source 25
+    target 27
     distance "1.255118"
     bond_angle "122.27872"
   ]
   edge [
-    source 53
-    target 54
-    distance "1.0093888"
-    bond_angle "118.66121"
-  ]
-  edge [
-    source 53
-    target 55
+    source 28
+    target 29
     distance "1.4681233"
-    bond_angle "114.50191"
+    bond_angle "114.99753"
   ]
   edge [
-    source 55
-    target 56
-    distance "1.0899619"
-    bond_angle "108.198235"
-  ]
-  edge [
-    source 55
-    target 57
+    source 29
+    target 30
     distance "1.5280968"
-    bond_angle "113.149536"
+    bond_angle "114.61795"
   ]
   edge [
-    source 55
-    target 58
+    source 29
+    target 31
     distance "1.5324428"
-    bond_angle "110.3277"
+    bond_angle "111.02689"
   ]
   edge [
-    source 57
-    target 60
+    source 30
+    target 32
     distance "1.2280239"
     bond_angle "120.7869"
   ]
   edge [
-    source 57
-    target 67
+    source 30
+    target 35
     distance "1.339678"
-    bond_angle "120.535904"
+    bond_angle "121.12093"
   ]
   edge [
-    source 58
-    target 59
-    distance "1.0903696"
-    bond_angle "109.14077"
-  ]
-  edge [
-    source 58
-    target 61
+    source 31
+    target 33
     distance "1.5264701"
-    bond_angle "109.74658"
+    bond_angle "109.40347"
   ]
   edge [
-    source 58
-    target 65
+    source 31
+    target 34
     distance "1.4069564"
-    bond_angle "108.30704"
+    bond_angle "108.25574"
   ]
   edge [
-    source 61
-    target 62
-    distance "1.0900137"
-    bond_angle "108.97585"
-  ]
-  edge [
-    source 61
-    target 63
-    distance "1.089853"
-    bond_angle "109.136635"
-  ]
-  edge [
-    source 61
-    target 64
-    distance "1.0900362"
-    bond_angle "109.59861"
-  ]
-  edge [
-    source 65
-    target 66
-    distance "0.960042"
-    bond_angle "107.87694"
-  ]
-  edge [
-    source 67
-    target 68
-    distance "1.0100936"
-    bond_angle "118.73392"
-  ]
-  edge [
-    source 67
-    target 69
+    source 35
+    target 36
     distance "1.4685271"
-    bond_angle "114.47954"
+    bond_angle "114.87283"
   ]
   edge [
-    source 69
-    target 70
-    distance "1.0897403"
-    bond_angle "108.2381"
-  ]
-  edge [
-    source 69
-    target 71
+    source 36
+    target 37
     distance "1.5327094"
-    bond_angle "113.24538"
+    bond_angle "115.04146"
   ]
   edge [
-    source 69
-    target 72
+    source 36
+    target 38
     distance "1.5385046"
-    bond_angle "110.219574"
+    bond_angle "111.5588"
   ]
   edge [
-    source 71
-    target 75
+    source 37
+    target 39
     distance "1.2249469"
     bond_angle "120.786545"
   ]
   edge [
-    source 71
-    target 86
+    source 37
+    target 43
     distance "1.335231"
-    bond_angle "120.303276"
+    bond_angle "120.85989"
   ]
   edge [
-    source 72
-    target 73
-    distance "1.0907335"
-    bond_angle "108.41729"
-  ]
-  edge [
-    source 72
-    target 74
-    distance "1.089324"
-    bond_angle "108.06802"
-  ]
-  edge [
-    source 72
-    target 76
+    source 38
+    target 40
     distance "1.5377505"
-    bond_angle "110.500465"
+    bond_angle "111.98535"
   ]
   edge [
-    source 76
-    target 77
-    distance "1.0895387"
-    bond_angle "109.023766"
-  ]
-  edge [
-    source 76
-    target 78
+    source 40
+    target 41
     distance "1.5301826"
-    bond_angle "109.22181"
+    bond_angle "108.75244"
   ]
   edge [
-    source 76
-    target 82
+    source 40
+    target 42
     distance "1.5278234"
-    bond_angle "110.16952"
+    bond_angle "110.35361"
   ]
   edge [
-    source 78
-    target 79
-    distance "1.090436"
-    bond_angle "109.263306"
-  ]
-  edge [
-    source 78
-    target 80
-    distance "1.0906924"
-    bond_angle "109.61835"
-  ]
-  edge [
-    source 78
-    target 81
-    distance "1.090226"
-    bond_angle "109.21869"
-  ]
-  edge [
-    source 82
-    target 83
-    distance "1.0892974"
-    bond_angle "109.27541"
-  ]
-  edge [
-    source 82
-    target 84
-    distance "1.0900729"
-    bond_angle "108.960205"
-  ]
-  edge [
-    source 82
-    target 85
-    distance "1.0901937"
-    bond_angle "109.05646"
-  ]
-  edge [
-    source 86
-    target 87
-    distance "1.0100895"
-    bond_angle "118.84955"
-  ]
-  edge [
-    source 86
-    target 88
+    source 43
+    target 44
     distance "1.4652431"
-    bond_angle "114.563194"
+    bond_angle "114.95764"
   ]
   edge [
-    source 88
-    target 89
-    distance "1.0908151"
-    bond_angle "107.93595"
-  ]
-  edge [
-    source 88
-    target 90
+    source 44
+    target 45
     distance "1.5317065"
-    bond_angle "113.36717"
+    bond_angle "115.30928"
   ]
   edge [
-    source 88
-    target 91
+    source 44
+    target 46
     distance "1.5361139"
-    bond_angle "110.177055"
+    bond_angle "111.40723"
   ]
   edge [
-    source 90
-    target 94
+    source 45
+    target 47
     distance "1.2281748"
     bond_angle "120.637436"
   ]
   edge [
-    source 90
-    target 105
+    source 45
+    target 51
     distance "1.3369503"
-    bond_angle "120.35102"
+    bond_angle "121.03573"
   ]
   edge [
-    source 91
-    target 92
-    distance "1.0901147"
-    bond_angle "108.68994"
-  ]
-  edge [
-    source 91
-    target 93
-    distance "1.0907323"
-    bond_angle "108.1073"
-  ]
-  edge [
-    source 91
-    target 95
+    source 46
+    target 48
     distance "1.5357178"
-    bond_angle "110.452484"
+    bond_angle "111.8077"
   ]
   edge [
-    source 95
-    target 96
-    distance "1.0898021"
-    bond_angle "108.892365"
-  ]
-  edge [
-    source 95
-    target 97
+    source 48
+    target 49
     distance "1.5289414"
-    bond_angle "109.32415"
+    bond_angle "109.05579"
   ]
   edge [
-    source 95
-    target 101
+    source 48
+    target 50
     distance "1.5267853"
-    bond_angle "109.881966"
+    bond_angle "110.32295"
   ]
   edge [
-    source 97
-    target 98
-    distance "1.089628"
-    bond_angle "109.23764"
-  ]
-  edge [
-    source 97
-    target 99
-    distance "1.0893961"
-    bond_angle "109.480415"
-  ]
-  edge [
-    source 97
-    target 100
-    distance "1.0901657"
-    bond_angle "109.333916"
-  ]
-  edge [
-    source 101
-    target 102
-    distance "1.0902969"
-    bond_angle "108.825676"
-  ]
-  edge [
-    source 101
-    target 103
-    distance "1.089097"
-    bond_angle "109.43081"
-  ]
-  edge [
-    source 101
-    target 104
-    distance "1.0896194"
-    bond_angle "109.533936"
-  ]
-  edge [
-    source 105
-    target 106
-    distance "1.0102874"
-    bond_angle "118.665665"
-  ]
-  edge [
-    source 105
-    target 107
+    source 51
+    target 52
     distance "1.4717988"
-    bond_angle "114.50774"
+    bond_angle "114.75748"
   ]
   edge [
-    source 107
-    target 108
-    distance "1.0903366"
-    bond_angle "108.015236"
-  ]
-  edge [
-    source 107
-    target 109
+    source 52
+    target 53
     distance "1.5257359"
-    bond_angle "112.84359"
+    bond_angle "114.62875"
   ]
   edge [
-    source 107
-    target 110
+    source 52
+    target 54
     distance "1.5354224"
-    bond_angle "110.11367"
+    bond_angle "111.05005"
   ]
   edge [
-    source 109
-    target 113
+    source 53
+    target 55
     distance "1.228131"
     bond_angle "121.07312"
   ]
   edge [
-    source 109
-    target 127
+    source 53
+    target 60
     distance "1.3313644"
-    bond_angle "120.80017"
+    bond_angle "121.3458"
   ]
   edge [
-    source 110
-    target 111
-    distance "1.090755"
-    bond_angle "108.51416"
-  ]
-  edge [
-    source 110
-    target 112
-    distance "1.0900692"
-    bond_angle "109.19794"
-  ]
-  edge [
-    source 110
-    target 114
+    source 54
+    target 56
     distance "1.5347365"
-    bond_angle "110.01178"
+    bond_angle "111.263214"
   ]
   edge [
-    source 114
-    target 115
-    distance "1.0902535"
-    bond_angle "109.01602"
-  ]
-  edge [
-    source 114
-    target 116
-    distance "1.089549"
-    bond_angle "109.091484"
-  ]
-  edge [
-    source 114
-    target 117
+    source 56
+    target 57
     distance "1.5337778"
-    bond_angle "109.51733"
+    bond_angle "110.05157"
   ]
   edge [
-    source 117
-    target 118
-    distance "1.0900081"
-    bond_angle "109.17105"
-  ]
-  edge [
-    source 117
-    target 119
-    distance "1.0900986"
-    bond_angle "109.81661"
-  ]
-  edge [
-    source 117
-    target 120
+    source 57
+    target 58
     distance "1.5332277"
-    bond_angle "109.69977"
+    bond_angle "110.73988"
   ]
   edge [
-    source 120
-    target 121
-    distance "1.090217"
-    bond_angle "108.28318"
-  ]
-  edge [
-    source 120
-    target 122
-    distance "1.089874"
-    bond_angle "109.09655"
-  ]
-  edge [
-    source 120
-    target 123
+    source 58
+    target 59
     distance "1.4841995"
-    bond_angle "110.61419"
+    bond_angle "112.19748"
   ]
   edge [
-    source 123
-    target 124
-    distance "1.0097544"
-    bond_angle "108.427025"
-  ]
-  edge [
-    source 123
-    target 125
-    distance "1.0101895"
-    bond_angle "108.57574"
-  ]
-  edge [
-    source 123
-    target 126
-    distance "1.0099362"
-    bond_angle "110.251495"
-  ]
-  edge [
-    source 127
-    target 128
-    distance "1.0101864"
-    bond_angle "118.65733"
-  ]
-  edge [
-    source 127
-    target 129
+    source 60
+    target 61
     distance "1.4662251"
-    bond_angle "114.07051"
+    bond_angle "114.614044"
   ]
   edge [
-    source 129
-    target 130
-    distance "1.0901251"
-    bond_angle "108.04352"
-  ]
-  edge [
-    source 129
-    target 131
+    source 61
+    target 62
     distance "1.5332849"
-    bond_angle "113.65839"
+    bond_angle "115.30707"
   ]
   edge [
-    source 129
-    target 132
+    source 61
+    target 63
     distance "1.5385883"
-    bond_angle "110.217896"
+    bond_angle "111.3193"
   ]
   edge [
-    source 131
-    target 135
+    source 62
+    target 64
     distance "1.2271138"
     bond_angle "120.93198"
   ]
   edge [
-    source 131
-    target 142
+    source 62
+    target 69
     distance "1.3348931"
-    bond_angle "120.21234"
+    bond_angle "120.66947"
   ]
   edge [
-    source 132
-    target 133
-    distance "1.0900801"
-    bond_angle "108.54715"
-  ]
-  edge [
-    source 132
-    target 134
-    distance "1.0893346"
-    bond_angle "108.578636"
-  ]
-  edge [
-    source 132
-    target 136
+    source 63
+    target 65
     distance "1.5412184"
-    bond_angle "110.18634"
+    bond_angle "113.22146"
   ]
   edge [
-    source 136
-    target 137
-    distance "1.0894188"
-    bond_angle "108.8088"
-  ]
-  edge [
-    source 136
-    target 138
-    distance "1.0899589"
-    bond_angle "108.096924"
-  ]
-  edge [
-    source 136
-    target 139
+    source 65
+    target 66
     distance "1.5448052"
-    bond_angle "113.99873"
+    bond_angle "117.190025"
   ]
   edge [
-    source 139
-    target 140
+    source 66
+    target 67
     distance "1.2507017"
     bond_angle "120.559074"
   ]
   edge [
-    source 139
-    target 141
+    source 66
+    target 68
     distance "1.2544719"
     bond_angle "120.45449"
   ]
   edge [
-    source 142
-    target 143
-    distance "1.0101461"
-    bond_angle "118.53279"
-  ]
-  edge [
-    source 142
-    target 144
+    source 69
+    target 70
     distance "1.4583268"
-    bond_angle "114.02528"
+    bond_angle "114.415436"
   ]
   edge [
-    source 144
-    target 145
-    distance "1.0899074"
-    bond_angle "108.39571"
-  ]
-  edge [
-    source 144
-    target 146
+    source 70
+    target 71
     distance "1.5350808"
-    bond_angle "113.883385"
+    bond_angle "115.514465"
   ]
   edge [
-    source 144
-    target 147
+    source 70
+    target 72
     distance "1.529581"
-    bond_angle "109.56687"
+    bond_angle "109.633865"
   ]
   edge [
-    source 146
-    target 151
+    source 71
+    target 73
     distance "1.2272187"
     bond_angle "120.978134"
   ]
   edge [
-    source 146
-    target 152
+    source 71
+    target 74
     distance "1.3355467"
-    bond_angle "120.07599"
+    bond_angle "120.58179"
   ]
   edge [
-    source 147
-    target 148
-    distance "1.0906391"
-    bond_angle "109.47312"
-  ]
-  edge [
-    source 147
-    target 149
-    distance "1.089336"
-    bond_angle "109.50704"
-  ]
-  edge [
-    source 147
-    target 150
-    distance "1.08975"
-    bond_angle "109.25248"
-  ]
-  edge [
-    source 152
-    target 153
-    distance "1.0097531"
-    bond_angle "118.79117"
-  ]
-  edge [
-    source 152
-    target 154
+    source 74
+    target 75
     distance "1.4639843"
-    bond_angle "114.607666"
+    bond_angle "115.14636"
   ]
   edge [
-    source 154
-    target 155
-    distance "1.0900319"
-    bond_angle "107.27299"
-  ]
-  edge [
-    source 154
-    target 156
+    source 75
+    target 76
     distance "1.5319614"
-    bond_angle "113.75743"
+    bond_angle "115.8696"
   ]
   edge [
-    source 154
-    target 157
+    source 75
+    target 77
     distance "1.5317134"
-    bond_angle "109.93389"
+    bond_angle "110.63873"
   ]
   edge [
-    source 156
-    target 160
+    source 76
+    target 78
     distance "1.2294899"
     bond_angle "120.6016"
   ]
   edge [
-    source 156
-    target 166
+    source 76
+    target 82
     distance "1.3353189"
-    bond_angle "120.44075"
+    bond_angle "120.99048"
   ]
   edge [
-    source 157
-    target 158
-    distance "1.0897435"
-    bond_angle "109.99097"
-  ]
-  edge [
-    source 157
-    target 159
-    distance "1.0906558"
-    bond_angle "108.18215"
-  ]
-  edge [
-    source 157
-    target 161
+    source 77
+    target 79
     distance "1.5136532"
-    bond_angle "113.582664"
+    bond_angle "116.73278"
   ]
   edge [
-    source 161
-    target 162
+    source 79
+    target 80
     distance "1.3082451"
-    bond_angle "118.85487"
+    bond_angle "119.45439"
   ]
   edge [
-    source 161
-    target 165
+    source 79
+    target 81
     distance "1.2172637"
     bond_angle "120.79659"
   ]
   edge [
-    source 162
-    target 163
-    distance "1.0096796"
-    bond_angle "119.80258"
-  ]
-  edge [
-    source 162
-    target 164
-    distance "1.0097412"
-    bond_angle "120.70622"
-  ]
-  edge [
-    source 166
-    target 167
-    distance "1.0101357"
-    bond_angle "118.44848"
-  ]
-  edge [
-    source 166
-    target 168
+    source 82
+    target 83
     distance "1.4622755"
-    bond_angle "113.84003"
+    bond_angle "113.86399"
   ]
   edge [
-    source 168
-    target 169
-    distance "1.0901325"
-    bond_angle "107.94028"
-  ]
-  edge [
-    source 168
-    target 170
+    source 83
+    target 84
     distance "1.5333478"
-    bond_angle "113.285645"
+    bond_angle "115.13442"
   ]
   edge [
-    source 168
-    target 171
+    source 83
+    target 85
     distance "1.53033"
-    bond_angle "110.27508"
+    bond_angle "111.4936"
   ]
   edge [
-    source 170
-    target 174
+    source 84
+    target 86
     distance "1.2256962"
     bond_angle "120.64305"
   ]
   edge [
-    source 170
-    target 188
+    source 84
+    target 91
     distance "1.3359915"
-    bond_angle "120.81409"
+    bond_angle "121.74847"
   ]
   edge [
-    source 171
-    target 172
-    distance "1.0904435"
-    bond_angle "108.69168"
-  ]
-  edge [
-    source 171
-    target 173
-    distance "1.0896173"
-    bond_angle "109.06204"
-  ]
-  edge [
-    source 171
-    target 175
+    source 85
+    target 87
     distance "1.529059"
-    bond_angle "109.71954"
+    bond_angle "110.44292"
   ]
   edge [
-    source 175
-    target 176
-    distance "1.08953"
-    bond_angle "108.992165"
-  ]
-  edge [
-    source 175
-    target 177
-    distance "1.089799"
-    bond_angle "110.03002"
-  ]
-  edge [
-    source 175
-    target 178
+    source 87
+    target 88
     distance "1.526861"
-    bond_angle "109.310486"
+    bond_angle "108.79434"
   ]
   edge [
-    source 178
-    target 179
-    distance "1.0896862"
-    bond_angle "108.90631"
-  ]
-  edge [
-    source 178
-    target 180
-    distance "1.0903753"
-    bond_angle "110.195"
-  ]
-  edge [
-    source 178
-    target 181
+    source 88
+    target 89
     distance "1.5249494"
-    bond_angle "109.43812"
+    bond_angle "109.08394"
   ]
   edge [
-    source 181
-    target 182
-    distance "1.0904782"
-    bond_angle "107.9805"
-  ]
-  edge [
-    source 181
-    target 183
-    distance "1.0904198"
-    bond_angle "109.9533"
-  ]
-  edge [
-    source 181
-    target 184
+    source 89
+    target 90
     distance "1.4769354"
-    bond_angle "110.15482"
+    bond_angle "109.56826"
   ]
   edge [
-    source 184
-    target 185
-    distance "1.0101633"
-    bond_angle "107.75588"
-  ]
-  edge [
-    source 184
-    target 186
-    distance "1.0101488"
-    bond_angle "109.647804"
-  ]
-  edge [
-    source 184
-    target 187
-    distance "1.0097095"
-    bond_angle "110.47585"
-  ]
-  edge [
-    source 188
-    target 189
-    distance "1.0098729"
-    bond_angle "118.08255"
-  ]
-  edge [
-    source 188
-    target 190
+    source 91
+    target 92
     distance "1.4771576"
-    bond_angle "114.42592"
+    bond_angle "115.11222"
   ]
   edge [
-    source 190
-    target 191
-    distance "1.0905023"
-    bond_angle "107.89218"
-  ]
-  edge [
-    source 190
-    target 192
+    source 92
+    target 93
     distance "1.5371776"
-    bond_angle "113.49638"
+    bond_angle "115.16054"
   ]
   edge [
-    source 190
-    target 193
+    source 92
+    target 94
     distance "1.5479938"
-    bond_angle "109.97485"
+    bond_angle "110.87477"
   ]
   edge [
-    source 192
-    target 195
+    source 93
+    target 95
     distance "1.2263358"
     bond_angle "120.96919"
   ]
   edge [
-    source 192
-    target 207
+    source 93
+    target 99
     distance "1.3381555"
-    bond_angle "120.27497"
+    bond_angle "121.195404"
   ]
   edge [
-    source 193
-    target 194
-    distance "1.0895605"
-    bond_angle "108.258575"
-  ]
-  edge [
-    source 193
-    target 196
+    source 94
+    target 96
     distance "1.5456301"
-    bond_angle "110.37383"
+    bond_angle "111.54075"
   ]
   edge [
-    source 193
-    target 199
+    source 94
+    target 97
     distance "1.5431274"
-    bond_angle "110.340645"
+    bond_angle "110.67667"
   ]
   edge [
-    source 196
-    target 197
-    distance "1.0896106"
-    bond_angle "108.094246"
-  ]
-  edge [
-    source 196
-    target 198
-    distance "1.0898463"
-    bond_angle "108.67917"
-  ]
-  edge [
-    source 196
-    target 203
+    source 96
+    target 98
     distance "1.532892"
-    bond_angle "109.92016"
+    bond_angle "113.760956"
   ]
   edge [
-    source 199
-    target 200
-    distance "1.0900583"
-    bond_angle "108.96879"
-  ]
-  edge [
-    source 199
-    target 201
-    distance "1.0890329"
-    bond_angle "109.118774"
-  ]
-  edge [
-    source 199
-    target 202
-    distance "1.0902052"
-    bond_angle "108.9725"
-  ]
-  edge [
-    source 203
-    target 204
-    distance "1.0904686"
-    bond_angle "109.67084"
-  ]
-  edge [
-    source 203
-    target 205
-    distance "1.0902425"
-    bond_angle "108.697754"
-  ]
-  edge [
-    source 203
-    target 206
-    distance "1.0902419"
-    bond_angle "109.58712"
-  ]
-  edge [
-    source 207
-    target 208
-    distance "1.0105273"
-    bond_angle "118.0579"
-  ]
-  edge [
-    source 207
-    target 209
+    source 99
+    target 100
     distance "1.4761096"
-    bond_angle "114.49213"
+    bond_angle "114.903076"
   ]
   edge [
-    source 209
-    target 210
-    distance "1.0895963"
-    bond_angle "108.36619"
-  ]
-  edge [
-    source 209
-    target 211
+    source 100
+    target 101
     distance "1.536467"
-    bond_angle "113.51493"
+    bond_angle "115.19054"
   ]
   edge [
-    source 209
-    target 212
+    source 100
+    target 102
     distance "1.5489773"
-    bond_angle "110.29078"
+    bond_angle "111.25779"
   ]
   edge [
-    source 211
-    target 214
+    source 101
+    target 103
     distance "1.225462"
     bond_angle "120.86541"
   ]
   edge [
-    source 211
-    target 226
+    source 101
+    target 107
     distance "1.3384271"
-    bond_angle "120.2124"
+    bond_angle "120.94518"
   ]
   edge [
-    source 212
-    target 213
-    distance "1.0910746"
-    bond_angle "107.962135"
-  ]
-  edge [
-    source 212
-    target 215
+    source 102
+    target 104
     distance "1.5436518"
-    bond_angle "110.15438"
+    bond_angle "111.288124"
   ]
   edge [
-    source 212
-    target 218
+    source 102
+    target 105
     distance "1.5401798"
-    bond_angle "110.24337"
+    bond_angle "111.08177"
   ]
   edge [
-    source 215
-    target 216
-    distance "1.0898921"
-    bond_angle "107.55448"
-  ]
-  edge [
-    source 215
-    target 217
-    distance "1.0897747"
-    bond_angle "108.424095"
-  ]
-  edge [
-    source 215
-    target 222
+    source 104
+    target 106
     distance "1.5368894"
-    bond_angle "110.511986"
+    bond_angle "115.317986"
   ]
   edge [
-    source 218
-    target 219
-    distance "1.0894843"
-    bond_angle "109.46116"
-  ]
-  edge [
-    source 218
-    target 220
-    distance "1.0906109"
-    bond_angle "107.92376"
-  ]
-  edge [
-    source 218
-    target 221
-    distance "1.0897403"
-    bond_angle "109.705605"
-  ]
-  edge [
-    source 222
-    target 223
-    distance "1.0903187"
-    bond_angle "109.41668"
-  ]
-  edge [
-    source 222
-    target 224
-    distance "1.0898945"
-    bond_angle "108.51397"
-  ]
-  edge [
-    source 222
-    target 225
-    distance "1.090344"
-    bond_angle "109.4705"
-  ]
-  edge [
-    source 226
-    target 227
-    distance "1.0106682"
-    bond_angle "118.42935"
-  ]
-  edge [
-    source 226
-    target 228
+    source 107
+    target 108
     distance "1.4743739"
-    bond_angle "114.890915"
+    bond_angle "115.344185"
   ]
   edge [
-    source 228
-    target 229
-    distance "1.0899283"
-    bond_angle "108.25062"
-  ]
-  edge [
-    source 228
-    target 230
+    source 108
+    target 109
     distance "1.5243583"
-    bond_angle "112.742455"
+    bond_angle "114.60614"
   ]
   edge [
-    source 228
-    target 231
+    source 108
+    target 110
     distance "1.5303075"
-    bond_angle "109.85831"
+    bond_angle "110.455894"
   ]
   edge [
-    source 230
-    target 234
+    source 109
+    target 111
     distance "1.2251511"
     bond_angle "121.258385"
   ]
   edge [
-    source 230
-    target 250
+    source 109
+    target 118
     distance "1.3267235"
-    bond_angle "120.904045"
+    bond_angle "121.72195"
   ]
   edge [
-    source 231
-    target 232
-    distance "1.089582"
-    bond_angle "108.49813"
-  ]
-  edge [
-    source 231
-    target 233
-    distance "1.0900265"
-    bond_angle "108.90979"
-  ]
-  edge [
-    source 231
-    target 235
+    source 110
+    target 112
     distance "1.5313473"
-    bond_angle "109.844124"
+    bond_angle "110.35038"
   ]
   edge [
-    source 235
-    target 236
-    distance "1.089292"
-    bond_angle "109.52718"
-  ]
-  edge [
-    source 235
-    target 237
-    distance "1.0902236"
-    bond_angle "109.55609"
-  ]
-  edge [
-    source 235
-    target 238
+    source 112
+    target 113
     distance "1.5288682"
-    bond_angle "109.37839"
+    bond_angle "109.804535"
   ]
   edge [
-    source 238
-    target 239
-    distance "1.0895236"
-    bond_angle "108.709724"
-  ]
-  edge [
-    source 238
-    target 240
-    distance "1.0897788"
-    bond_angle "109.39139"
-  ]
-  edge [
-    source 238
-    target 241
+    source 113
+    target 114
     distance "1.4735757"
-    bond_angle "114.692665"
+    bond_angle "118.69293"
   ]
   edge [
-    source 241
-    target 242
-    distance "1.0097702"
-    bond_angle "116.808655"
-  ]
-  edge [
-    source 241
-    target 249
+    source 114
+    target 117
     distance "1.3195989"
-    bond_angle "121.33986"
+    bond_angle "122.682655"
   ]
   edge [
-    source 243
-    target 244
-    distance "1.0103492"
-    bond_angle "121.00568"
-  ]
-  edge [
-    source 243
-    target 245
-    distance "1.010005"
-    bond_angle "119.29959"
-  ]
-  edge [
-    source 243
-    target 249
+    source 115
+    target 117
     distance "1.3060359"
-    bond_angle "119.50612"
+    bond_angle "119.83502"
   ]
   edge [
-    source 246
-    target 247
-    distance "1.0099632"
-    bond_angle "119.15323"
-  ]
-  edge [
-    source 246
-    target 248
-    distance "1.010097"
-    bond_angle "119.7886"
-  ]
-  edge [
-    source 246
-    target 249
+    source 116
+    target 117
     distance "1.3035233"
-    bond_angle "119.9039"
+    bond_angle "119.12643"
   ]
   edge [
-    source 250
-    target 251
-    distance "1.0106002"
-    bond_angle "117.92509"
-  ]
-  edge [
-    source 250
-    target 252
+    source 118
+    target 119
     distance "1.4651332"
-    bond_angle "114.50706"
+    bond_angle "115.177086"
   ]
   edge [
-    source 252
-    target 253
-    distance "1.0900154"
-    bond_angle "107.826904"
-  ]
-  edge [
-    source 252
-    target 254
+    source 119
+    target 120
     distance "1.5367761"
-    bond_angle "113.74306"
+    bond_angle "115.71165"
   ]
   edge [
-    source 252
-    target 255
+    source 119
+    target 121
     distance "1.5424882"
-    bond_angle "109.78933"
+    bond_angle "110.83667"
   ]
   edge [
-    source 254
-    target 258
+    source 120
+    target 122
     distance "1.2277589"
     bond_angle "120.70439"
   ]
   edge [
-    source 254
-    target 265
+    source 120
+    target 127
     distance "1.3347183"
-    bond_angle "120.37835"
+    bond_angle "120.9697"
   ]
   edge [
-    source 255
-    target 256
-    distance "1.0904953"
-    bond_angle "109.12082"
-  ]
-  edge [
-    source 255
-    target 257
-    distance "1.090005"
-    bond_angle "108.72401"
-  ]
-  edge [
-    source 255
-    target 259
+    source 121
+    target 123
     distance "1.5429474"
-    bond_angle "110.41608"
+    bond_angle "113.3363"
   ]
   edge [
-    source 259
-    target 260
-    distance "1.0902594"
-    bond_angle "108.2138"
-  ]
-  edge [
-    source 259
-    target 261
-    distance "1.0896872"
-    bond_angle "108.06295"
-  ]
-  edge [
-    source 259
-    target 262
+    source 123
+    target 124
     distance "1.5425841"
-    bond_angle "113.973495"
+    bond_angle "117.6352"
   ]
   edge [
-    source 262
-    target 263
+    source 124
+    target 125
     distance "1.2577549"
     bond_angle "119.78389"
   ]
   edge [
-    source 262
-    target 264
+    source 124
+    target 126
     distance "1.2496455"
     bond_angle "121.11621"
   ]
   edge [
-    source 265
-    target 266
-    distance "1.009718"
-    bond_angle "118.43982"
-  ]
-  edge [
-    source 265
-    target 267
+    source 127
+    target 128
     distance "1.4581282"
-    bond_angle "113.65178"
+    bond_angle "114.03312"
   ]
   edge [
-    source 267
-    target 268
-    distance "1.0898446"
-    bond_angle "107.26123"
-  ]
-  edge [
-    source 267
-    target 269
+    source 128
+    target 129
     distance "1.5418804"
-    bond_angle "114.46895"
+    bond_angle "116.248184"
   ]
   edge [
-    source 267
-    target 270
+    source 128
+    target 130
     distance "1.5320714"
-    bond_angle "110.38376"
+    bond_angle "112.57458"
   ]
   edge [
-    source 269
-    target 273
+    source 129
+    target 131
     distance "1.232988"
     bond_angle "121.49909"
   ]
   edge [
-    source 269
-    target 282
+    source 129
+    target 137
     distance "1.3392859"
-    bond_angle "120.40492"
+    bond_angle "121.44772"
   ]
   edge [
-    source 270
-    target 271
-    distance "1.0899823"
-    bond_angle "109.01639"
-  ]
-  edge [
-    source 270
-    target 272
-    distance "1.0900141"
-    bond_angle "106.752174"
-  ]
-  edge [
-    source 270
-    target 274
+    source 130
+    target 132
     distance "1.5069034"
-    bond_angle "117.08291"
+    bond_angle "122.53198"
   ]
   edge [
-    source 274
-    target 275
+    source 132
+    target 133
     distance "1.3683349"
-    bond_angle "116.62913"
+    bond_angle "113.49811"
   ]
   edge [
-    source 274
-    target 277
+    source 132
+    target 134
     distance "1.3782406"
-    bond_angle "117.184616"
+    bond_angle "114.18582"
   ]
   edge [
-    source 275
-    target 276
-    distance "1.0797378"
-    bond_angle "125.96144"
-  ]
-  edge [
-    source 275
-    target 281
+    source 133
+    target 136
     distance "1.3977317"
-    bond_angle "113.47308"
+    bond_angle "107.25927"
   ]
   edge [
-    source 277
-    target 278
-    distance "1.0091804"
-    bond_angle "126.08002"
-  ]
-  edge [
-    source 277
-    target 279
+    source 134
+    target 135
     distance "1.3467258"
-    bond_angle "117.41113"
+    bond_angle "109.12634"
   ]
   edge [
-    source 279
-    target 280
-    distance "1.0797654"
-    bond_angle "124.79218"
-  ]
-  edge [
-    source 279
-    target 281
+    source 135
+    target 136
     distance "1.3424398"
-    bond_angle "113.677605"
+    bond_angle "108.43062"
   ]
   edge [
-    source 282
-    target 283
-    distance "1.010254"
-    bond_angle "116.67129"
-  ]
-  edge [
-    source 282
-    target 284
+    source 137
+    target 138
     distance "1.4770492"
-    bond_angle "114.78306"
+    bond_angle "116.35852"
   ]
   edge [
-    source 284
-    target 285
-    distance "1.0894665"
-    bond_angle "107.775"
-  ]
-  edge [
-    source 284
-    target 286
+    source 138
+    target 139
     distance "1.5387301"
-    bond_angle "113.6505"
+    bond_angle "115.44577"
   ]
   edge [
-    source 284
-    target 287
+    source 138
+    target 140
     distance "1.5431554"
-    bond_angle "109.62717"
+    bond_angle "110.82862"
   ]
   edge [
-    source 286
-    target 290
+    source 139
+    target 141
     distance "1.2294216"
     bond_angle "120.922035"
   ]
   edge [
-    source 286
-    target 297
+    source 139
+    target 146
     distance "1.3374472"
-    bond_angle "119.78715"
+    bond_angle "120.85233"
   ]
   edge [
-    source 287
-    target 288
-    distance "1.0904042"
-    bond_angle "108.38686"
-  ]
-  edge [
-    source 287
-    target 289
-    distance "1.0903326"
-    bond_angle "108.970924"
-  ]
-  edge [
-    source 287
-    target 291
+    source 140
+    target 142
     distance "1.5398337"
-    bond_angle "110.282166"
+    bond_angle "113.37947"
   ]
   edge [
-    source 291
-    target 292
-    distance "1.0897652"
-    bond_angle "108.47494"
-  ]
-  edge [
-    source 291
-    target 293
-    distance "1.0898666"
-    bond_angle "108.542305"
-  ]
-  edge [
-    source 291
-    target 294
+    source 142
+    target 143
     distance "1.5409392"
-    bond_angle "113.58557"
+    bond_angle "116.61264"
   ]
   edge [
-    source 294
-    target 295
+    source 143
+    target 144
     distance "1.2543299"
     bond_angle "120.53917"
   ]
   edge [
-    source 294
-    target 296
+    source 143
+    target 145
     distance "1.2514117"
     bond_angle "121.32999"
   ]
   edge [
-    source 297
-    target 298
-    distance "1.0100248"
-    bond_angle "117.401184"
-  ]
-  edge [
-    source 297
-    target 299
+    source 146
+    target 147
     distance "1.4756339"
-    bond_angle "114.73161"
+    bond_angle "115.82669"
   ]
   edge [
-    source 299
-    target 300
-    distance "1.0898415"
-    bond_angle "107.48974"
-  ]
-  edge [
-    source 299
-    target 301
+    source 147
+    target 148
     distance "1.54049"
-    bond_angle "114.10921"
+    bond_angle "115.92723"
   ]
   edge [
-    source 299
-    target 302
+    source 147
+    target 149
     distance "1.5320709"
-    bond_angle "109.81555"
+    bond_angle "111.0459"
   ]
   edge [
-    source 301
-    target 305
+    source 148
+    target 150
     distance "1.2378747"
     bond_angle "120.75658"
   ]
   edge [
-    source 301
-    target 309
+    source 148
+    target 154
     distance "1.3337563"
-    bond_angle "119.805725"
+    bond_angle "120.04565"
   ]
   edge [
-    source 302
-    target 303
-    distance "1.0904906"
-    bond_angle "107.85502"
-  ]
-  edge [
-    source 302
-    target 304
-    distance "1.0897398"
-    bond_angle "108.95489"
-  ]
-  edge [
-    source 302
-    target 306
+    source 149
+    target 151
     distance "1.5248699"
-    bond_angle "113.02052"
+    bond_angle "115.81442"
   ]
   edge [
-    source 306
-    target 307
+    source 151
+    target 152
     distance "1.2495657"
     bond_angle "121.84577"
   ]
   edge [
-    source 306
-    target 308
+    source 151
+    target 153
     distance "1.2500434"
     bond_angle "121.123604"
   ]
   edge [
-    source 309
-    target 310
-    distance "1.0099682"
-    bond_angle "119.27029"
-  ]
-  edge [
-    source 309
-    target 311
+    source 154
+    target 155
     distance "1.4645767"
-    bond_angle "114.35789"
+    bond_angle "115.07467"
   ]
   edge [
-    source 311
-    target 312
-    distance "1.0894171"
-    bond_angle "107.31504"
-  ]
-  edge [
-    source 311
-    target 313
+    source 155
+    target 156
     distance "1.5181044"
-    bond_angle "113.621826"
+    bond_angle "114.93405"
   ]
   edge [
-    source 311
-    target 314
+    source 155
+    target 157
     distance "1.5282443"
-    bond_angle "110.31803"
+    bond_angle "111.076744"
   ]
   edge [
-    source 313
-    target 316
+    source 156
+    target 158
     distance "1.2299442"
     bond_angle "121.951096"
   ]
   edge [
-    source 313
-    target 323
+    source 156
+    target 161
     distance "1.3334173"
-    bond_angle "119.480865"
+    bond_angle "120.085175"
   ]
   edge [
-    source 314
-    target 315
-    distance "1.0897425"
-    bond_angle "110.076294"
-  ]
-  edge [
-    source 314
-    target 317
+    source 157
+    target 159
     distance "1.5255721"
-    bond_angle "109.24"
+    bond_angle "108.59439"
   ]
   edge [
-    source 314
-    target 321
+    source 157
+    target 160
     distance "1.3917959"
-    bond_angle "107.49418"
+    bond_angle "107.68615"
   ]
   edge [
-    source 317
-    target 318
-    distance "1.0904628"
-    bond_angle "110.1199"
-  ]
-  edge [
-    source 317
-    target 319
-    distance "1.0892447"
-    bond_angle "109.57162"
-  ]
-  edge [
-    source 317
-    target 320
-    distance "1.089595"
-    bond_angle "108.85098"
-  ]
-  edge [
-    source 321
-    target 322
-    distance "0.95970595"
-    bond_angle "105.80121"
-  ]
-  edge [
-    source 323
-    target 324
-    distance "1.0105485"
-    bond_angle "118.78271"
-  ]
-  edge [
-    source 323
-    target 325
+    source 161
+    target 162
     distance "1.4597795"
-    bond_angle "114.23519"
+    bond_angle "114.43447"
   ]
   edge [
-    source 325
-    target 326
-    distance "1.0903604"
-    bond_angle "108.27993"
-  ]
-  edge [
-    source 325
-    target 327
+    source 162
+    target 163
     distance "1.5343379"
-    bond_angle "113.36582"
+    bond_angle "114.86697"
   ]
   edge [
-    source 325
-    target 328
+    source 162
+    target 164
     distance "1.5394735"
-    bond_angle "110.317055"
+    bond_angle "111.81356"
   ]
   edge [
-    source 327
-    target 331
+    source 163
+    target 165
     distance "1.232593"
     bond_angle "121.79759"
   ]
   edge [
-    source 327
-    target 342
+    source 163
+    target 169
     distance "1.3355873"
-    bond_angle "119.89503"
+    bond_angle "120.426384"
   ]
   edge [
-    source 328
-    target 329
-    distance "1.0901309"
-    bond_angle "108.34443"
-  ]
-  edge [
-    source 328
-    target 330
-    distance "1.0896491"
-    bond_angle "108.37528"
-  ]
-  edge [
-    source 328
-    target 332
+    source 164
+    target 166
     distance "1.5404681"
-    bond_angle "110.51249"
+    bond_angle "111.89358"
   ]
   edge [
-    source 332
-    target 333
-    distance "1.0902599"
-    bond_angle "109.11431"
-  ]
-  edge [
-    source 332
-    target 334
+    source 166
+    target 167
     distance "1.5283108"
-    bond_angle "109.04597"
+    bond_angle "108.60123"
   ]
   edge [
-    source 332
-    target 338
+    source 166
+    target 168
     distance "1.5298917"
-    bond_angle "109.955666"
+    bond_angle "110.11557"
   ]
   edge [
-    source 334
-    target 335
-    distance "1.0898559"
-    bond_angle "109.10207"
-  ]
-  edge [
-    source 334
-    target 336
-    distance "1.0904263"
-    bond_angle "110.091484"
-  ]
-  edge [
-    source 334
-    target 337
-    distance "1.0897292"
-    bond_angle "109.04723"
-  ]
-  edge [
-    source 338
-    target 339
-    distance "1.0903248"
-    bond_angle "109.01185"
-  ]
-  edge [
-    source 338
-    target 340
-    distance "1.0897343"
-    bond_angle "108.73984"
-  ]
-  edge [
-    source 338
-    target 341
-    distance "1.0900009"
-    bond_angle "110.034065"
-  ]
-  edge [
-    source 342
-    target 343
-    distance "1.0098524"
-    bond_angle "118.49803"
-  ]
-  edge [
-    source 342
-    target 344
+    source 169
+    target 170
     distance "1.4580941"
-    bond_angle "113.9931"
+    bond_angle "114.582726"
   ]
   edge [
-    source 344
-    target 345
-    distance "1.0894117"
-    bond_angle "108.05945"
-  ]
-  edge [
-    source 344
-    target 346
+    source 170
+    target 171
     distance "1.5419062"
-    bond_angle "113.910095"
+    bond_angle "115.29396"
   ]
   edge [
-    source 344
-    target 347
+    source 170
+    target 172
     distance "1.5339855"
-    bond_angle "109.772156"
+    bond_angle "110.36554"
   ]
   edge [
-    source 346
-    target 351
+    source 171
+    target 173
     distance "1.2374898"
     bond_angle "121.84288"
   ]
   edge [
-    source 346
-    target 352
+    source 171
+    target 174
     distance "1.3338008"
-    bond_angle "120.295845"
+    bond_angle "121.12811"
   ]
   edge [
-    source 347
-    target 348
-    distance "1.0902239"
-    bond_angle "109.3041"
-  ]
-  edge [
-    source 347
-    target 349
-    distance "1.0901331"
-    bond_angle "109.16909"
-  ]
-  edge [
-    source 347
-    target 350
-    distance "1.0898699"
-    bond_angle "109.530365"
-  ]
-  edge [
-    source 352
-    target 353
-    distance "1.0105513"
-    bond_angle "117.53104"
-  ]
-  edge [
-    source 352
-    target 354
+    source 174
+    target 175
     distance "1.4650044"
-    bond_angle "115.2663"
+    bond_angle "120.41922"
   ]
   edge [
-    source 354
-    target 355
-    distance "1.089198"
-    bond_angle "107.56607"
-  ]
-  edge [
-    source 354
-    target 356
-    distance "1.0903119"
-    bond_angle "108.47689"
-  ]
-  edge [
-    source 354
-    target 357
+    source 175
+    target 176
     distance "1.5294148"
-    bond_angle "113.737595"
+    bond_angle "117.94303"
   ]
   edge [
-    source 357
-    target 358
+    source 176
+    target 177
     distance "1.2231525"
     bond_angle "119.981735"
   ]
   edge [
-    source 357
-    target 359
+    source 176
+    target 178
     distance "1.3381218"
-    bond_angle "120.76732"
+    bond_angle "121.12323"
   ]
   edge [
-    source 359
-    target 360
-    distance "1.0097295"
-    bond_angle "118.86621"
-  ]
-  edge [
-    source 359
-    target 361
+    source 178
+    target 179
     distance "1.4712274"
-    bond_angle "113.575485"
+    bond_angle "113.79794"
   ]
   edge [
-    source 361
-    target 362
-    distance "1.0904884"
-    bond_angle "107.904144"
-  ]
-  edge [
-    source 361
-    target 363
+    source 179
+    target 180
     distance "1.5334257"
-    bond_angle "113.22377"
+    bond_angle "114.63784"
   ]
   edge [
-    source 361
-    target 364
+    source 179
+    target 181
     distance "1.5485715"
-    bond_angle "110.03806"
+    bond_angle "110.97956"
   ]
   edge [
-    source 363
-    target 366
+    source 180
+    target 182
     distance "1.2284429"
     bond_angle "121.63478"
   ]
   edge [
-    source 363
-    target 378
+    source 180
+    target 186
     distance "1.3303598"
-    bond_angle "120.75021"
+    bond_angle "121.32528"
   ]
   edge [
-    source 364
-    target 365
-    distance "1.0900543"
-    bond_angle "108.68903"
-  ]
-  edge [
-    source 364
-    target 367
+    source 181
+    target 183
     distance "1.5482523"
-    bond_angle "110.566986"
+    bond_angle "112.07972"
   ]
   edge [
-    source 364
-    target 370
+    source 181
+    target 184
     distance "1.5438402"
-    bond_angle "110.30563"
+    bond_angle "111.02326"
   ]
   edge [
-    source 367
-    target 368
-    distance "1.0898117"
-    bond_angle "107.420006"
-  ]
-  edge [
-    source 367
-    target 369
-    distance "1.0895307"
-    bond_angle "108.08657"
-  ]
-  edge [
-    source 367
-    target 374
+    source 183
+    target 185
     distance "1.5347682"
-    bond_angle "110.34916"
+    bond_angle "116.29432"
   ]
   edge [
-    source 370
-    target 371
-    distance "1.0899193"
-    bond_angle "108.79666"
-  ]
-  edge [
-    source 370
-    target 372
-    distance "1.0896304"
-    bond_angle "109.76651"
-  ]
-  edge [
-    source 370
-    target 373
-    distance "1.0897326"
-    bond_angle "108.81516"
-  ]
-  edge [
-    source 374
-    target 375
-    distance "1.089714"
-    bond_angle "108.44773"
-  ]
-  edge [
-    source 374
-    target 376
-    distance "1.0894774"
-    bond_angle "109.33984"
-  ]
-  edge [
-    source 374
-    target 377
-    distance "1.0904957"
-    bond_angle "109.96938"
-  ]
-  edge [
-    source 378
-    target 379
-    distance "1.0100381"
-    bond_angle "117.74252"
-  ]
-  edge [
-    source 378
-    target 380
+    source 186
+    target 187
     distance "1.4624721"
-    bond_angle "113.871994"
+    bond_angle "114.59707"
   ]
   edge [
-    source 380
-    target 381
-    distance "1.0902469"
-    bond_angle "108.60004"
-  ]
-  edge [
-    source 380
-    target 382
+    source 187
+    target 188
     distance "1.5330852"
-    bond_angle "113.504395"
+    bond_angle "114.74004"
   ]
   edge [
-    source 380
-    target 383
+    source 187
+    target 189
     distance "1.5415685"
-    bond_angle "109.969765"
+    bond_angle "111.26775"
   ]
   edge [
-    source 382
-    target 386
+    source 188
+    target 190
     distance "1.234919"
     bond_angle "121.56785"
   ]
   edge [
-    source 382
-    target 393
+    source 188
+    target 195
     distance "1.3322439"
-    bond_angle "119.83159"
+    bond_angle "120.49195"
   ]
   edge [
-    source 383
-    target 384
-    distance "1.090045"
-    bond_angle "108.58017"
-  ]
-  edge [
-    source 383
-    target 385
-    distance "1.089982"
-    bond_angle "109.18506"
-  ]
-  edge [
-    source 383
-    target 387
+    source 189
+    target 191
     distance "1.5381505"
-    bond_angle "110.34396"
+    bond_angle "113.4851"
   ]
   edge [
-    source 387
-    target 388
-    distance "1.0895069"
-    bond_angle "107.87809"
-  ]
-  edge [
-    source 387
-    target 389
-    distance "1.0901531"
-    bond_angle "108.98276"
-  ]
-  edge [
-    source 387
-    target 390
+    source 191
+    target 192
     distance "1.5356978"
-    bond_angle "113.34678"
+    bond_angle "116.87979"
   ]
   edge [
-    source 390
-    target 391
+    source 192
+    target 193
     distance "1.2536545"
     bond_angle "120.36358"
   ]
   edge [
-    source 390
-    target 392
+    source 192
+    target 194
     distance "1.2497827"
     bond_angle "121.673775"
   ]
   edge [
-    source 393
-    target 394
-    distance "1.0097747"
-    bond_angle "117.892"
-  ]
-  edge [
-    source 393
-    target 395
+    source 195
+    target 196
     distance "1.4553205"
-    bond_angle "113.664"
+    bond_angle "113.72831"
   ]
   edge [
-    source 395
-    target 396
-    distance "1.0891879"
-    bond_angle "108.525734"
-  ]
-  edge [
-    source 395
-    target 397
+    source 196
+    target 197
     distance "1.5345386"
-    bond_angle "113.605576"
+    bond_angle "114.855835"
   ]
   edge [
-    source 395
-    target 398
+    source 196
+    target 198
     distance "1.5325603"
-    bond_angle "109.85737"
+    bond_angle "111.1086"
   ]
   edge [
-    source 397
-    target 402
+    source 197
+    target 199
     distance "1.2316731"
     bond_angle "121.5071"
   ]
   edge [
-    source 397
-    target 403
+    source 197
+    target 200
     distance "1.3306981"
-    bond_angle "120.4247"
+    bond_angle "121.26188"
   ]
   edge [
-    source 398
-    target 399
-    distance "1.0894798"
-    bond_angle "109.20803"
-  ]
-  edge [
-    source 398
-    target 400
-    distance "1.0907638"
-    bond_angle "109.33838"
-  ]
-  edge [
-    source 398
-    target 401
-    distance "1.0899105"
-    bond_angle "109.61526"
-  ]
-  edge [
-    source 403
-    target 404
-    distance "1.0100788"
-    bond_angle "117.59408"
-  ]
-  edge [
-    source 403
-    target 405
+    source 200
+    target 201
     distance "1.4738531"
-    bond_angle "114.978905"
+    bond_angle "116.04407"
   ]
   edge [
-    source 405
-    target 406
-    distance "1.0906333"
-    bond_angle "107.89341"
-  ]
-  edge [
-    source 405
-    target 407
+    source 201
+    target 202
     distance "1.5272541"
-    bond_angle "113.53401"
+    bond_angle "115.18536"
   ]
   edge [
-    source 405
-    target 408
+    source 201
+    target 203
     distance "1.5322169"
-    bond_angle "109.79693"
+    bond_angle "110.635376"
   ]
   edge [
-    source 407
-    target 410
+    source 202
+    target 204
     distance "1.2315898"
     bond_angle "121.22961"
   ]
   edge [
-    source 407
-    target 417
+    source 202
+    target 207
     distance "1.3340002"
-    bond_angle "120.19844"
+    bond_angle "121.00302"
   ]
   edge [
-    source 408
-    target 409
-    distance "1.0905594"
-    bond_angle "108.75226"
-  ]
-  edge [
-    source 408
-    target 411
+    source 203
+    target 205
     distance "1.5286822"
-    bond_angle "109.95716"
+    bond_angle "110.25947"
   ]
   edge [
-    source 408
-    target 415
+    source 203
+    target 206
     distance "1.4105804"
-    bond_angle "108.391266"
+    bond_angle "109.07469"
   ]
   edge [
-    source 411
-    target 412
-    distance "1.0902365"
-    bond_angle "108.92135"
-  ]
-  edge [
-    source 411
-    target 413
-    distance "1.0901104"
-    bond_angle "109.225555"
-  ]
-  edge [
-    source 411
-    target 414
-    distance "1.0902926"
-    bond_angle "109.487274"
-  ]
-  edge [
-    source 415
-    target 416
-    distance "0.9600807"
-    bond_angle "106.68184"
-  ]
-  edge [
-    source 417
-    target 418
-    distance "1.0097406"
-    bond_angle "118.02549"
-  ]
-  edge [
-    source 417
-    target 419
+    source 207
+    target 208
     distance "1.4564632"
-    bond_angle "114.72701"
+    bond_angle "118.16313"
   ]
   edge [
-    source 419
-    target 420
-    distance "1.0902792"
-    bond_angle "108.61991"
-  ]
-  edge [
-    source 419
-    target 421
-    distance "1.0899386"
-    bond_angle "108.82126"
-  ]
-  edge [
-    source 419
-    target 422
+    source 208
+    target 209
     distance "1.5216836"
-    bond_angle "113.36947"
+    bond_angle "116.499245"
   ]
   edge [
-    source 422
-    target 423
+    source 209
+    target 210
     distance "1.2296835"
     bond_angle "122.33467"
   ]
   edge [
-    source 422
-    target 424
+    source 209
+    target 211
     distance "1.3296783"
-    bond_angle "120.22833"
+    bond_angle "120.792175"
   ]
   edge [
-    source 424
-    target 425
-    distance "1.0100048"
-    bond_angle "117.69498"
-  ]
-  edge [
-    source 424
-    target 426
+    source 211
+    target 212
     distance "1.4608439"
-    bond_angle "113.964806"
+    bond_angle "115.10006"
   ]
   edge [
-    source 426
-    target 427
-    distance "1.0896919"
-    bond_angle "107.3826"
-  ]
-  edge [
-    source 426
-    target 428
+    source 212
+    target 213
     distance "1.5240829"
-    bond_angle "113.45195"
+    bond_angle "114.834"
   ]
   edge [
-    source 426
-    target 429
+    source 212
+    target 214
     distance "1.5442307"
-    bond_angle "110.84308"
+    bond_angle "112.74403"
   ]
   edge [
-    source 428
-    target 431
+    source 213
+    target 215
     distance "1.2335585"
     bond_angle "122.018936"
   ]
   edge [
-    source 428
-    target 440
+    source 213
+    target 218
     distance "1.3279444"
-    bond_angle "120.24065"
+    bond_angle "121.2443"
   ]
   edge [
-    source 429
-    target 430
-    distance "1.0899013"
-    bond_angle "107.46417"
-  ]
-  edge [
-    source 429
-    target 432
+    source 214
+    target 216
     distance "1.5324054"
-    bond_angle "109.87677"
+    bond_angle "111.32144"
   ]
   edge [
-    source 429
-    target 436
+    source 214
+    target 217
     distance "1.5328696"
-    bond_angle "109.72068"
+    bond_angle "110.16052"
   ]
   edge [
-    source 432
-    target 433
-    distance "1.0905073"
-    bond_angle "109.924904"
-  ]
-  edge [
-    source 432
-    target 434
-    distance "1.0894705"
-    bond_angle "108.81139"
-  ]
-  edge [
-    source 432
-    target 435
-    distance "1.0903857"
-    bond_angle "109.35018"
-  ]
-  edge [
-    source 436
-    target 437
-    distance "1.0896653"
-    bond_angle "108.78006"
-  ]
-  edge [
-    source 436
-    target 438
-    distance "1.0898381"
-    bond_angle "109.867805"
-  ]
-  edge [
-    source 436
-    target 439
-    distance "1.0904781"
-    bond_angle "109.061005"
-  ]
-  edge [
-    source 440
-    target 441
-    distance "1.009678"
-    bond_angle "117.226944"
-  ]
-  edge [
-    source 440
-    target 442
+    source 218
+    target 219
     distance "1.4694234"
-    bond_angle "114.54353"
+    bond_angle "115.36869"
   ]
   edge [
-    source 442
-    target 443
-    distance "1.0906193"
-    bond_angle "108.24198"
-  ]
-  edge [
-    source 442
-    target 444
+    source 219
+    target 220
     distance "1.5234096"
-    bond_angle "113.08567"
+    bond_angle "114.507065"
   ]
   edge [
-    source 442
-    target 445
+    source 219
+    target 221
     distance "1.5384932"
-    bond_angle "110.72843"
+    bond_angle "112.01344"
   ]
   edge [
-    source 444
-    target 447
+    source 220
+    target 222
     distance "1.2241118"
     bond_angle "120.52206"
   ]
   edge [
-    source 444
-    target 454
+    source 220
+    target 225
     distance "1.331888"
-    bond_angle "120.80471"
+    bond_angle "121.02064"
   ]
   edge [
-    source 445
-    target 446
-    distance "1.090211"
-    bond_angle "108.137"
-  ]
-  edge [
-    source 445
-    target 448
+    source 221
+    target 223
     distance "1.5282265"
-    bond_angle "109.59448"
+    bond_angle "109.97916"
   ]
   edge [
-    source 445
-    target 452
+    source 221
+    target 224
     distance "1.4093955"
-    bond_angle "108.737045"
+    bond_angle "109.77326"
   ]
   edge [
-    source 448
-    target 449
-    distance "1.0900074"
-    bond_angle "109.310844"
-  ]
-  edge [
-    source 448
-    target 450
-    distance "1.0904024"
-    bond_angle "109.50104"
-  ]
-  edge [
-    source 448
-    target 451
-    distance "1.0900049"
-    bond_angle "109.16816"
-  ]
-  edge [
-    source 452
-    target 453
-    distance "0.95982885"
-    bond_angle "107.28623"
-  ]
-  edge [
-    source 454
-    target 455
-    distance "1.0105298"
-    bond_angle "118.62908"
-  ]
-  edge [
-    source 454
-    target 456
+    source 225
+    target 226
     distance "1.4646739"
-    bond_angle "113.726845"
+    bond_angle "114.04369"
   ]
   edge [
-    source 456
-    target 457
-    distance "1.0907359"
-    bond_angle "107.97415"
-  ]
-  edge [
-    source 456
-    target 458
+    source 226
+    target 227
     distance "1.528836"
-    bond_angle "113.62544"
+    bond_angle "115.08953"
   ]
   edge [
-    source 456
-    target 459
+    source 226
+    target 228
     distance "1.5347503"
-    bond_angle "110.04153"
+    bond_angle "111.790016"
   ]
   edge [
-    source 458
-    target 462
+    source 227
+    target 229
     distance "1.2317833"
     bond_angle "121.34319"
   ]
   edge [
-    source 458
-    target 471
+    source 227
+    target 234
     distance "1.3341844"
-    bond_angle "120.569984"
+    bond_angle "121.52255"
   ]
   edge [
-    source 459
-    target 460
-    distance "1.0901092"
-    bond_angle "108.4387"
-  ]
-  edge [
-    source 459
-    target 461
-    distance "1.0891781"
-    bond_angle "109.23475"
-  ]
-  edge [
-    source 459
-    target 463
+    source 228
+    target 230
     distance "1.5392421"
-    bond_angle "110.34663"
+    bond_angle "112.37619"
   ]
   edge [
-    source 463
-    target 464
-    distance "1.0903639"
-    bond_angle "108.55404"
-  ]
-  edge [
-    source 463
-    target 465
-    distance "1.089692"
-    bond_angle "108.8968"
-  ]
-  edge [
-    source 463
-    target 466
+    source 230
+    target 231
     distance "1.5259675"
-    bond_angle "113.952576"
+    bond_angle "117.70893"
   ]
   edge [
-    source 466
-    target 467
+    source 231
+    target 232
     distance "1.315636"
-    bond_angle "119.261406"
+    bond_angle "119.02604"
   ]
   edge [
-    source 466
-    target 470
+    source 231
+    target 233
     distance "1.2214721"
     bond_angle "120.68477"
   ]
   edge [
-    source 467
-    target 468
-    distance "1.0101104"
-    bond_angle "120.83484"
-  ]
-  edge [
-    source 467
-    target 469
-    distance "1.0095984"
-    bond_angle "118.19389"
-  ]
-  edge [
-    source 471
-    target 472
-    distance "1.009802"
-    bond_angle "117.51651"
-  ]
-  edge [
-    source 471
-    target 473
+    source 234
+    target 235
     distance "1.4682508"
-    bond_angle "114.348694"
+    bond_angle "114.950905"
   ]
   edge [
-    source 473
-    target 474
-    distance "1.0900393"
-    bond_angle "108.91571"
-  ]
-  edge [
-    source 473
-    target 475
+    source 235
+    target 236
     distance "1.5213107"
-    bond_angle "112.9824"
+    bond_angle "114.17757"
   ]
   edge [
-    source 473
-    target 476
+    source 235
+    target 237
     distance "1.5365366"
-    bond_angle "110.00643"
+    bond_angle "111.1788"
   ]
   edge [
-    source 475
-    target 479
+    source 236
+    target 238
     distance "1.2241625"
     bond_angle "121.3658"
   ]
   edge [
-    source 475
-    target 495
+    source 236
+    target 245
     distance "1.3340205"
-    bond_angle "120.63338"
+    bond_angle "121.305115"
   ]
   edge [
-    source 476
-    target 477
-    distance "1.0904783"
-    bond_angle "108.99957"
-  ]
-  edge [
-    source 476
-    target 478
-    distance "1.0899605"
-    bond_angle "108.35902"
-  ]
-  edge [
-    source 476
-    target 480
+    source 237
+    target 239
     distance "1.5342914"
-    bond_angle "110.00022"
+    bond_angle "111.33351"
   ]
   edge [
-    source 480
-    target 481
-    distance "1.0901388"
-    bond_angle "109.5778"
-  ]
-  edge [
-    source 480
-    target 482
-    distance "1.0903891"
-    bond_angle "109.16668"
-  ]
-  edge [
-    source 480
-    target 483
+    source 239
+    target 240
     distance "1.5305519"
-    bond_angle "109.50301"
+    bond_angle "110.615776"
   ]
   edge [
-    source 483
-    target 484
-    distance "1.0900286"
-    bond_angle "109.049034"
-  ]
-  edge [
-    source 483
-    target 485
-    distance "1.08989"
-    bond_angle "109.03695"
-  ]
-  edge [
-    source 483
-    target 486
+    source 240
+    target 241
     distance "1.4730294"
-    bond_angle "114.63828"
+    bond_angle "118.90463"
   ]
   edge [
-    source 486
-    target 487
-    distance "1.00972"
-    bond_angle "116.78227"
-  ]
-  edge [
-    source 486
-    target 494
+    source 241
+    target 244
     distance "1.3210609"
-    bond_angle "121.499405"
+    bond_angle "122.88816"
   ]
   edge [
-    source 488
-    target 489
-    distance "1.0095787"
-    bond_angle "119.46656"
-  ]
-  edge [
-    source 488
-    target 490
-    distance "1.0104855"
-    bond_angle "120.635666"
-  ]
-  edge [
-    source 488
-    target 494
+    source 242
+    target 244
     distance "1.3051091"
-    bond_angle "119.80321"
+    bond_angle "119.86101"
   ]
   edge [
-    source 491
-    target 492
-    distance "1.009178"
-    bond_angle "119.80031"
-  ]
-  edge [
-    source 491
-    target 493
-    distance "1.0099076"
-    bond_angle "120.08191"
-  ]
-  edge [
-    source 491
-    target 494
+    source 243
+    target 244
     distance "1.3028767"
-    bond_angle "119.49485"
+    bond_angle "118.96175"
   ]
   edge [
-    source 495
-    target 496
-    distance "1.0099188"
-    bond_angle "118.058685"
-  ]
-  edge [
-    source 495
-    target 497
+    source 245
+    target 246
     distance "1.469924"
-    bond_angle "114.326126"
+    bond_angle "115.4824"
   ]
   edge [
-    source 497
-    target 498
-    distance "1.0898135"
-    bond_angle "106.84717"
-  ]
-  edge [
-    source 497
-    target 499
+    source 246
+    target 247
     distance "1.5446017"
-    bond_angle "113.95231"
+    bond_angle "116.02602"
   ]
   edge [
-    source 497
-    target 500
+    source 246
+    target 248
     distance "1.5409666"
-    bond_angle "110.30566"
+    bond_angle "112.03898"
   ]
   edge [
-    source 499
-    target 503
+    source 247
+    target 249
     distance "1.2243954"
     bond_angle "121.36799"
   ]
   edge [
-    source 499
-    target 509
+    source 247
+    target 253
     distance "1.336913"
-    bond_angle "120.435234"
+    bond_angle "121.079704"
   ]
   edge [
-    source 500
-    target 501
-    distance "1.089599"
-    bond_angle "108.779915"
-  ]
-  edge [
-    source 500
-    target 502
-    distance "1.0894765"
-    bond_angle "108.214966"
-  ]
-  edge [
-    source 500
-    target 504
+    source 248
+    target 250
     distance "1.5149816"
-    bond_angle "114.16612"
+    bond_angle "117.90972"
   ]
   edge [
-    source 504
-    target 505
+    source 250
+    target 251
     distance "1.3113223"
-    bond_angle "118.348236"
+    bond_angle "118.70795"
   ]
   edge [
-    source 504
-    target 508
+    source 250
+    target 252
     distance "1.2193472"
     bond_angle "121.10835"
   ]
   edge [
-    source 505
-    target 506
-    distance "1.0100374"
-    bond_angle "121.572525"
-  ]
-  edge [
-    source 505
-    target 507
-    distance "1.0095713"
-    bond_angle "119.83296"
-  ]
-  edge [
-    source 509
-    target 510
-    distance "1.0103763"
-    bond_angle "118.08864"
-  ]
-  edge [
-    source 509
-    target 511
+    source 253
+    target 254
     distance "1.467416"
-    bond_angle "115.01471"
+    bond_angle "119.43153"
   ]
   edge [
-    source 511
-    target 512
-    distance "1.089696"
-    bond_angle "108.39379"
-  ]
-  edge [
-    source 511
-    target 513
-    distance "1.0899391"
-    bond_angle "108.01959"
-  ]
-  edge [
-    source 511
-    target 514
+    source 254
+    target 255
     distance "1.5333252"
-    bond_angle "113.64368"
+    bond_angle "117.63181"
   ]
   edge [
-    source 514
-    target 515
+    source 255
+    target 256
     distance "1.2225854"
     bond_angle "120.108734"
   ]
   edge [
-    source 514
-    target 516
+    source 255
+    target 257
     distance "1.3350122"
-    bond_angle "121.03081"
+    bond_angle "121.787315"
   ]
   edge [
-    source 516
-    target 517
-    distance "1.010952"
-    bond_angle "117.81749"
-  ]
-  edge [
-    source 516
-    target 518
+    source 257
+    target 258
     distance "1.4728049"
-    bond_angle "114.29502"
+    bond_angle "115.42267"
   ]
   edge [
-    source 518
-    target 519
-    distance "1.0904417"
-    bond_angle "107.58102"
-  ]
-  edge [
-    source 518
-    target 520
+    source 258
+    target 259
     distance "1.5298789"
-    bond_angle "113.797386"
+    bond_angle "115.34731"
   ]
   edge [
-    source 518
-    target 521
+    source 258
+    target 260
     distance "1.5417625"
-    bond_angle "110.28637"
+    bond_angle "111.41717"
   ]
   edge [
-    source 520
-    target 523
+    source 259
+    target 261
     distance "1.2326311"
     bond_angle "121.29418"
   ]
   edge [
-    source 520
-    target 532
+    source 259
+    target 264
     distance "1.330541"
-    bond_angle "120.543564"
+    bond_angle "121.429054"
   ]
   edge [
-    source 521
-    target 522
-    distance "1.0902666"
-    bond_angle "108.57412"
-  ]
-  edge [
-    source 521
-    target 524
+    source 260
+    target 262
     distance "1.5340437"
-    bond_angle "109.74581"
+    bond_angle "109.82561"
   ]
   edge [
-    source 521
-    target 528
+    source 260
+    target 263
     distance "1.536195"
-    bond_angle "109.62078"
+    bond_angle "109.446556"
   ]
   edge [
-    source 524
-    target 525
-    distance "1.0891453"
-    bond_angle "109.18508"
-  ]
-  edge [
-    source 524
-    target 526
-    distance "1.0899153"
-    bond_angle "109.39676"
-  ]
-  edge [
-    source 524
-    target 527
-    distance "1.0903093"
-    bond_angle "109.070076"
-  ]
-  edge [
-    source 528
-    target 529
-    distance "1.0895896"
-    bond_angle "109.27719"
-  ]
-  edge [
-    source 528
-    target 530
-    distance "1.0902505"
-    bond_angle "109.06815"
-  ]
-  edge [
-    source 528
-    target 531
-    distance "1.0902658"
-    bond_angle "109.343475"
-  ]
-  edge [
-    source 532
-    target 533
-    distance "1.0100337"
-    bond_angle "117.21779"
-  ]
-  edge [
-    source 532
-    target 534
+    source 264
+    target 265
     distance "1.4589111"
-    bond_angle "114.35399"
+    bond_angle "115.61527"
   ]
   edge [
-    source 534
-    target 535
-    distance "1.090239"
-    bond_angle "108.17275"
-  ]
-  edge [
-    source 534
-    target 536
+    source 265
+    target 266
     distance "1.5335429"
-    bond_angle "113.40741"
+    bond_angle "114.81585"
   ]
   edge [
-    source 534
-    target 537
+    source 265
+    target 267
     distance "1.53938"
-    bond_angle "110.32542"
+    bond_angle "112.31988"
   ]
   edge [
-    source 536
-    target 540
+    source 266
+    target 268
     distance "1.2272409"
     bond_angle "122.11258"
   ]
   edge [
-    source 536
-    target 551
+    source 266
+    target 272
     distance "1.3265481"
-    bond_angle "120.076584"
+    bond_angle "121.14087"
   ]
   edge [
-    source 537
-    target 538
-    distance "1.0896589"
-    bond_angle "107.97912"
-  ]
-  edge [
-    source 537
-    target 539
-    distance "1.0898968"
-    bond_angle "108.09244"
-  ]
-  edge [
-    source 537
-    target 541
+    source 267
+    target 269
     distance "1.5389103"
-    bond_angle "110.588104"
+    bond_angle "112.18104"
   ]
   edge [
-    source 541
-    target 542
-    distance "1.0895361"
-    bond_angle "109.44308"
-  ]
-  edge [
-    source 541
-    target 543
+    source 269
+    target 270
     distance "1.5249857"
-    bond_angle "109.09147"
+    bond_angle "108.08509"
   ]
   edge [
-    source 541
-    target 547
+    source 269
+    target 271
     distance "1.5316908"
-    bond_angle "109.64025"
+    bond_angle "109.89247"
   ]
   edge [
-    source 543
-    target 544
-    distance "1.0902954"
-    bond_angle "108.54073"
-  ]
-  edge [
-    source 543
-    target 545
-    distance "1.0892543"
-    bond_angle "110.23197"
-  ]
-  edge [
-    source 543
-    target 546
-    distance "1.0898006"
-    bond_angle "109.30163"
-  ]
-  edge [
-    source 547
-    target 548
-    distance "1.0896254"
-    bond_angle "109.93399"
-  ]
-  edge [
-    source 547
-    target 549
-    distance "1.0902224"
-    bond_angle "109.04712"
-  ]
-  edge [
-    source 547
-    target 550
-    distance "1.0894352"
-    bond_angle "109.29153"
-  ]
-  edge [
-    source 551
-    target 552
-    distance "1.0103534"
-    bond_angle "117.16275"
-  ]
-  edge [
-    source 551
-    target 553
+    source 272
+    target 273
     distance "1.4621565"
-    bond_angle "114.370384"
+    bond_angle "114.96979"
   ]
   edge [
-    source 553
-    target 554
-    distance "1.0889982"
-    bond_angle "108.74436"
-  ]
-  edge [
-    source 553
-    target 555
+    source 273
+    target 274
     distance "1.5205746"
-    bond_angle "112.82168"
+    bond_angle "113.8463"
   ]
   edge [
-    source 553
-    target 556
+    source 273
+    target 275
     distance "1.539561"
-    bond_angle "110.480675"
+    bond_angle "111.342636"
   ]
   edge [
-    source 555
-    target 558
+    source 274
+    target 276
     distance "1.2351106"
     bond_angle "122.09319"
   ]
   edge [
-    source 555
-    target 567
+    source 274
+    target 279
     distance "1.3305615"
-    bond_angle "120.70333"
+    bond_angle "121.46066"
   ]
   edge [
-    source 556
-    target 557
-    distance "1.0896285"
-    bond_angle "108.61713"
-  ]
-  edge [
-    source 556
-    target 559
+    source 275
+    target 277
     distance "1.5345508"
-    bond_angle "109.62621"
+    bond_angle "109.42859"
   ]
   edge [
-    source 556
-    target 563
+    source 275
+    target 278
     distance "1.5346957"
-    bond_angle "109.71011"
+    bond_angle "110.077545"
   ]
   edge [
-    source 559
-    target 560
-    distance "1.089869"
-    bond_angle "109.24503"
-  ]
-  edge [
-    source 559
-    target 561
-    distance "1.090654"
-    bond_angle "109.37012"
-  ]
-  edge [
-    source 559
-    target 562
-    distance "1.0901585"
-    bond_angle "109.10541"
-  ]
-  edge [
-    source 563
-    target 564
-    distance "1.0904224"
-    bond_angle "109.37838"
-  ]
-  edge [
-    source 563
-    target 565
-    distance "1.0903754"
-    bond_angle "109.357216"
-  ]
-  edge [
-    source 563
-    target 566
-    distance "1.0902631"
-    bond_angle "109.0633"
-  ]
-  edge [
-    source 567
-    target 568
-    distance "1.0098138"
-    bond_angle "117.66322"
-  ]
-  edge [
-    source 567
-    target 569
+    source 279
+    target 280
     distance "1.4603205"
-    bond_angle "114.29942"
+    bond_angle "115.35473"
   ]
   edge [
-    source 569
-    target 570
-    distance "1.0897254"
-    bond_angle "107.71131"
-  ]
-  edge [
-    source 569
-    target 571
+    source 280
+    target 281
     distance "1.5311503"
-    bond_angle "113.696335"
+    bond_angle "115.26004"
   ]
   edge [
-    source 569
-    target 572
+    source 280
+    target 282
     distance "1.5347452"
-    bond_angle "110.043365"
+    bond_angle "111.58053"
   ]
   edge [
-    source 571
-    target 575
+    source 281
+    target 283
     distance "1.2314358"
     bond_angle "121.96271"
   ]
   edge [
-    source 571
-    target 587
+    source 281
+    target 290
     distance "1.3301221"
-    bond_angle "120.40327"
+    bond_angle "121.212685"
   ]
   edge [
-    source 572
-    target 573
-    distance "1.0900223"
-    bond_angle "108.268745"
-  ]
-  edge [
-    source 572
-    target 574
-    distance "1.0899693"
-    bond_angle "108.8266"
-  ]
-  edge [
-    source 572
-    target 576
+    source 282
+    target 284
     distance "1.5159715"
-    bond_angle "114.226234"
+    bond_angle "117.68162"
   ]
   edge [
-    source 576
-    target 577
+    source 284
+    target 285
     distance "1.4079843"
-    bond_angle "119.9136"
+    bond_angle "119.85712"
   ]
   edge [
-    source 576
-    target 579
+    source 284
+    target 286
     distance "1.4094056"
-    bond_angle "120.19315"
+    bond_angle "120.11013"
   ]
   edge [
-    source 577
-    target 578
-    distance "1.0795647"
-    bond_angle "119.952705"
-  ]
-  edge [
-    source 577
-    target 581
+    source 285
+    target 287
     distance "1.4055094"
-    bond_angle "120.02121"
+    bond_angle "120.033005"
   ]
   edge [
-    source 579
-    target 580
-    distance "1.0799432"
-    bond_angle "119.943665"
-  ]
-  edge [
-    source 579
-    target 583
+    source 286
+    target 288
     distance "1.4057297"
-    bond_angle "119.91344"
+    bond_angle "120.02586"
   ]
   edge [
-    source 581
-    target 582
-    distance "1.0796565"
-    bond_angle "120.01203"
-  ]
-  edge [
-    source 581
-    target 585
+    source 287
+    target 289
     distance "1.4056599"
-    bond_angle "120.00656"
+    bond_angle "120.05736"
   ]
   edge [
-    source 583
-    target 584
-    distance "1.0798606"
-    bond_angle "120.02841"
-  ]
-  edge [
-    source 583
-    target 585
+    source 288
+    target 289
     distance "1.404405"
-    bond_angle "119.93852"
+    bond_angle "120.03915"
   ]
   edge [
-    source 585
-    target 586
-    distance "1.0805489"
-    bond_angle "119.929886"
-  ]
-  edge [
-    source 587
-    target 588
-    distance "1.0108422"
-    bond_angle "117.556625"
-  ]
-  edge [
-    source 587
-    target 589
+    source 290
+    target 291
     distance "1.467336"
-    bond_angle "114.78772"
+    bond_angle "115.89562"
   ]
   edge [
-    source 589
-    target 590
-    distance "1.0896615"
-    bond_angle "108.1011"
-  ]
-  edge [
-    source 589
-    target 591
+    source 291
+    target 292
     distance "1.5257716"
-    bond_angle "112.9099"
+    bond_angle "114.31313"
   ]
   edge [
-    source 589
-    target 592
+    source 291
+    target 293
     distance "1.5384678"
-    bond_angle "110.24999"
+    bond_angle "111.28317"
   ]
   edge [
-    source 591
-    target 594
+    source 292
+    target 294
     distance "1.23089"
     bond_angle "121.677505"
   ]
   edge [
-    source 591
-    target 601
+    source 292
+    target 297
     distance "1.3302249"
-    bond_angle "121.22592"
+    bond_angle "121.78365"
   ]
   edge [
-    source 592
-    target 593
-    distance "1.0903087"
-    bond_angle "108.49026"
-  ]
-  edge [
-    source 592
-    target 595
+    source 293
+    target 295
     distance "1.5295321"
-    bond_angle "109.57205"
+    bond_angle "110.13268"
   ]
   edge [
-    source 592
-    target 599
+    source 293
+    target 296
     distance "1.4116848"
-    bond_angle "108.71681"
+    bond_angle "109.361084"
   ]
   edge [
-    source 595
-    target 596
-    distance "1.089408"
-    bond_angle "109.26544"
-  ]
-  edge [
-    source 595
-    target 597
-    distance "1.0899508"
-    bond_angle "109.297424"
-  ]
-  edge [
-    source 595
-    target 598
-    distance "1.0902733"
-    bond_angle "109.64347"
-  ]
-  edge [
-    source 599
-    target 600
-    distance "0.9600375"
-    bond_angle "107.29125"
-  ]
-  edge [
-    source 601
-    target 602
-    distance "1.0107207"
-    bond_angle "117.15065"
-  ]
-  edge [
-    source 601
-    target 603
+    source 297
+    target 298
     distance "1.461749"
-    bond_angle "114.34546"
+    bond_angle "118.16228"
   ]
   edge [
-    source 603
-    target 604
-    distance "1.0896486"
-    bond_angle "108.951256"
-  ]
-  edge [
-    source 603
-    target 605
-    distance "1.0902864"
-    bond_angle "109.17043"
-  ]
-  edge [
-    source 603
-    target 606
+    source 298
+    target 299
     distance "1.5268576"
-    bond_angle "112.94033"
+    bond_angle "115.809044"
   ]
   edge [
-    source 606
-    target 607
+    source 299
+    target 300
     distance "1.2312956"
     bond_angle "121.41043"
   ]
   edge [
-    source 606
-    target 608
+    source 299
+    target 301
     distance "1.3308876"
-    bond_angle "120.59044"
+    bond_angle "120.93653"
   ]
   edge [
-    source 608
-    target 609
-    distance "1.010035"
-    bond_angle "118.57895"
-  ]
-  edge [
-    source 608
-    target 610
+    source 301
+    target 302
     distance "1.4656689"
-    bond_angle "113.70955"
+    bond_angle "114.26768"
   ]
   edge [
-    source 610
-    target 611
-    distance "1.0899806"
-    bond_angle "107.82023"
-  ]
-  edge [
-    source 610
-    target 612
+    source 302
+    target 303
     distance "1.5397469"
-    bond_angle "113.87199"
+    bond_angle "115.353806"
   ]
   edge [
-    source 610
-    target 613
+    source 302
+    target 304
     distance "1.5378765"
-    bond_angle "110.21603"
+    bond_angle "112.1795"
   ]
   edge [
-    source 612
-    target 616
+    source 303
+    target 305
     distance "1.2303778"
     bond_angle "121.64599"
   ]
   edge [
-    source 612
-    target 620
+    source 303
+    target 309
     distance "1.3332175"
-    bond_angle "119.90315"
+    bond_angle "121.15891"
   ]
   edge [
-    source 613
-    target 614
-    distance "1.090052"
-    bond_angle "108.8222"
-  ]
-  edge [
-    source 613
-    target 615
-    distance "1.0905163"
-    bond_angle "107.893425"
-  ]
-  edge [
-    source 613
-    target 617
+    source 304
+    target 306
     distance "1.5358002"
-    bond_angle "113.46973"
+    bond_angle "116.589836"
   ]
   edge [
-    source 617
-    target 618
+    source 306
+    target 307
     distance "1.2543557"
     bond_angle "121.50385"
   ]
   edge [
-    source 617
-    target 619
+    source 306
+    target 308
     distance "1.2483819"
     bond_angle "120.64412"
   ]
   edge [
-    source 620
-    target 621
-    distance "1.0093473"
-    bond_angle "117.2751"
-  ]
-  edge [
-    source 620
-    target 622
+    source 309
+    target 310
     distance "1.4626318"
-    bond_angle "114.78983"
+    bond_angle "115.63996"
   ]
   edge [
-    source 622
-    target 623
-    distance "1.0894891"
-    bond_angle "107.6049"
-  ]
-  edge [
-    source 622
-    target 624
+    source 310
+    target 311
     distance "1.5340309"
-    bond_angle "113.69169"
+    bond_angle "115.48854"
   ]
   edge [
-    source 622
-    target 625
+    source 310
+    target 312
     distance "1.5348798"
-    bond_angle "110.06693"
+    bond_angle "111.59449"
   ]
   edge [
-    source 624
-    target 628
+    source 311
+    target 313
     distance "1.2308223"
     bond_angle "120.556335"
   ]
   edge [
-    source 624
-    target 641
+    source 311
+    target 321
     distance "1.3387973"
-    bond_angle "121.21504"
+    bond_angle "122.2779"
   ]
   edge [
-    source 625
-    target 626
-    distance "1.0901366"
-    bond_angle "108.15281"
-  ]
-  edge [
-    source 625
-    target 627
-    distance "1.0897317"
-    bond_angle "108.597755"
-  ]
-  edge [
-    source 625
-    target 629
+    source 312
+    target 314
     distance "1.5173148"
-    bond_angle "114.29169"
+    bond_angle "117.94308"
   ]
   edge [
-    source 629
-    target 630
+    source 314
+    target 315
     distance "1.4081776"
-    bond_angle "119.90347"
+    bond_angle "120.01126"
   ]
   edge [
-    source 629
-    target 632
+    source 314
+    target 316
     distance "1.4089283"
-    bond_angle "120.03468"
+    bond_angle "120.05517"
   ]
   edge [
-    source 630
-    target 631
-    distance "1.0800155"
-    bond_angle "119.88829"
-  ]
-  edge [
-    source 630
-    target 634
+    source 315
+    target 317
     distance "1.4081565"
-    bond_angle "120.00261"
+    bond_angle "120.0037"
   ]
   edge [
-    source 632
-    target 633
-    distance "1.079351"
-    bond_angle "119.93834"
-  ]
-  edge [
-    source 632
-    target 636
+    source 316
+    target 318
     distance "1.4084085"
-    bond_angle "120.07725"
+    bond_angle "120.02992"
   ]
   edge [
-    source 634
-    target 635
-    distance "1.0798175"
-    bond_angle "120.1009"
-  ]
-  edge [
-    source 634
-    target 640
+    source 317
+    target 320
     distance "1.4124062"
-    bond_angle "119.999176"
+    bond_angle "119.86715"
   ]
   edge [
-    source 636
-    target 637
-    distance "1.0800781"
-    bond_angle "120.01108"
-  ]
-  edge [
-    source 636
-    target 640
+    source 318
+    target 320
     distance "1.4089069"
-    bond_angle "119.964195"
+    bond_angle "120.0601"
   ]
   edge [
-    source 638
-    target 639
-    distance "0.95944744"
-    bond_angle "110.7147"
-  ]
-  edge [
-    source 638
-    target 640
+    source 319
+    target 320
     distance "1.3608743"
-    bond_angle "116.89376"
+    bond_angle "119.983284"
   ]
   edge [
-    source 641
-    target 642
-    distance "1.009858"
-    bond_angle "117.16287"
-  ]
-  edge [
-    source 641
-    target 643
+    source 321
+    target 322
     distance "1.4694926"
-    bond_angle "114.500465"
+    bond_angle "116.558846"
   ]
   edge [
-    source 643
-    target 644
-    distance "1.0894555"
-    bond_angle "106.53376"
-  ]
-  edge [
-    source 643
-    target 645
+    source 322
+    target 323
     distance "1.5305467"
-    bond_angle "113.6619"
+    bond_angle "115.586754"
   ]
   edge [
-    source 643
-    target 646
+    source 322
+    target 324
     distance "1.5334829"
-    bond_angle "110.3619"
+    bond_angle "112.40991"
   ]
   edge [
-    source 645
-    target 649
+    source 323
+    target 325
     distance "1.2345791"
     bond_angle "122.19108"
   ]
   edge [
-    source 645
-    target 661
+    source 323
+    target 332
     distance "1.331182"
-    bond_angle "120.0615"
+    bond_angle "120.83435"
   ]
   edge [
-    source 646
-    target 647
-    distance "1.0894809"
-    bond_angle "108.22495"
-  ]
-  edge [
-    source 646
-    target 648
-    distance "1.090424"
-    bond_angle "108.68943"
-  ]
-  edge [
-    source 646
-    target 650
+    source 324
+    target 326
     distance "1.5083729"
-    bond_angle "114.27541"
+    bond_angle "117.929115"
   ]
   edge [
-    source 650
-    target 651
+    source 326
+    target 327
     distance "1.4050444"
-    bond_angle "120.03097"
+    bond_angle "120.11209"
   ]
   edge [
-    source 650
-    target 653
+    source 326
+    target 328
     distance "1.3974305"
-    bond_angle "119.523605"
+    bond_angle "119.89279"
   ]
   edge [
-    source 651
-    target 652
-    distance "1.0797459"
-    bond_angle "119.99"
-  ]
-  edge [
-    source 651
-    target 655
+    source 327
+    target 329
     distance "1.406503"
-    bond_angle "120.047844"
+    bond_angle "119.911095"
   ]
   edge [
-    source 653
-    target 654
-    distance "1.0799232"
-    bond_angle "119.43962"
-  ]
-  edge [
-    source 653
-    target 657
+    source 328
+    target 330
     distance "1.4027283"
-    bond_angle "120.22323"
+    bond_angle "120.1161"
   ]
   edge [
-    source 655
-    target 656
-    distance "1.080054"
-    bond_angle "119.78784"
-  ]
-  edge [
-    source 655
-    target 659
+    source 329
+    target 331
     distance "1.4042712"
-    bond_angle "119.88991"
+    bond_angle "120.08884"
   ]
   edge [
-    source 657
-    target 658
-    distance "1.0792083"
-    bond_angle "120.03876"
-  ]
-  edge [
-    source 657
-    target 659
+    source 330
+    target 331
     distance "1.400556"
-    bond_angle "119.68539"
+    bond_angle "119.77736"
   ]
   edge [
-    source 659
-    target 660
-    distance "1.0803394"
-    bond_angle "119.64496"
-  ]
-  edge [
-    source 661
-    target 662
-    distance "1.0103991"
-    bond_angle "117.64566"
-  ]
-  edge [
-    source 661
-    target 663
+    source 332
+    target 333
     distance "1.4587426"
-    bond_angle "114.01723"
+    bond_angle "114.61764"
   ]
   edge [
-    source 663
-    target 664
-    distance "1.0896171"
-    bond_angle "108.278786"
-  ]
-  edge [
-    source 663
-    target 665
+    source 333
+    target 334
     distance "1.5342271"
-    bond_angle "113.3289"
+    bond_angle "114.81686"
   ]
   edge [
-    source 663
-    target 666
+    source 333
+    target 335
     distance "1.5394427"
-    bond_angle "110.26803"
+    bond_angle "112.29966"
   ]
   edge [
-    source 665
-    target 669
+    source 334
+    target 336
     distance "1.232376"
     bond_angle "121.49925"
   ]
   edge [
-    source 665
-    target 680
+    source 334
+    target 340
     distance "1.327987"
-    bond_angle "120.19913"
+    bond_angle "120.64469"
   ]
   edge [
-    source 666
-    target 667
-    distance "1.0894412"
-    bond_angle "108.09171"
-  ]
-  edge [
-    source 666
-    target 668
-    distance "1.0897453"
-    bond_angle "108.31293"
-  ]
-  edge [
-    source 666
-    target 670
+    source 335
+    target 337
     distance "1.5410461"
-    bond_angle "110.86465"
+    bond_angle "112.82174"
   ]
   edge [
-    source 670
-    target 671
-    distance "1.0897108"
-    bond_angle "108.28658"
-  ]
-  edge [
-    source 670
-    target 672
+    source 337
+    target 338
     distance "1.5281494"
-    bond_angle "109.30962"
+    bond_angle "109.54764"
   ]
   edge [
-    source 670
-    target 676
+    source 337
+    target 339
     distance "1.5287098"
-    bond_angle "109.75787"
+    bond_angle "110.67461"
   ]
   edge [
-    source 672
-    target 673
-    distance "1.0896534"
-    bond_angle "109.251465"
-  ]
-  edge [
-    source 672
-    target 674
-    distance "1.0902247"
-    bond_angle "109.33973"
-  ]
-  edge [
-    source 672
-    target 675
-    distance "1.0902355"
-    bond_angle "109.46583"
-  ]
-  edge [
-    source 676
-    target 677
-    distance "1.089092"
-    bond_angle "109.33267"
-  ]
-  edge [
-    source 676
-    target 678
-    distance "1.090007"
-    bond_angle "109.31772"
-  ]
-  edge [
-    source 676
-    target 679
-    distance "1.0901381"
-    bond_angle "109.61887"
-  ]
-  edge [
-    source 680
-    target 681
-    distance "1.010357"
-    bond_angle "118.49154"
-  ]
-  edge [
-    source 680
-    target 682
+    source 340
+    target 341
     distance "1.4629986"
-    bond_angle "114.12102"
+    bond_angle "114.82516"
   ]
   edge [
-    source 682
-    target 683
-    distance "1.0900961"
-    bond_angle "106.8666"
-  ]
-  edge [
-    source 682
-    target 684
+    source 341
+    target 342
     distance "1.5431361"
-    bond_angle "114.22345"
+    bond_angle "116.23789"
   ]
   edge [
-    source 682
-    target 685
+    source 341
+    target 343
     distance "1.5387692"
-    bond_angle "110.40101"
+    bond_angle "112.97204"
   ]
   edge [
-    source 684
-    target 688
+    source 342
+    target 344
     distance "1.2327362"
     bond_angle "121.526535"
   ]
   edge [
-    source 684
-    target 692
+    source 342
+    target 348
     distance "1.3348728"
-    bond_angle "120.092674"
+    bond_angle "120.60465"
   ]
   edge [
-    source 685
-    target 686
-    distance "1.09081"
-    bond_angle "107.91447"
-  ]
-  edge [
-    source 685
-    target 687
-    distance "1.0897894"
-    bond_angle "108.118996"
-  ]
-  edge [
-    source 685
-    target 689
+    source 343
+    target 345
     distance "1.5331997"
-    bond_angle "113.620346"
+    bond_angle "117.00482"
   ]
   edge [
-    source 689
-    target 690
+    source 345
+    target 346
     distance "1.2532623"
     bond_angle "121.8064"
   ]
   edge [
-    source 689
-    target 691
+    source 345
+    target 347
     distance "1.2467011"
     bond_angle "120.35835"
   ]
   edge [
-    source 692
-    target 693
-    distance "1.0097302"
-    bond_angle "118.09526"
-  ]
-  edge [
-    source 692
-    target 694
+    source 348
+    target 349
     distance "1.4702249"
-    bond_angle "114.664734"
+    bond_angle "115.538765"
   ]
   edge [
-    source 694
-    target 695
-    distance "1.090239"
-    bond_angle "108.324684"
-  ]
-  edge [
-    source 694
-    target 696
+    source 349
+    target 350
     distance "1.540125"
-    bond_angle "113.56471"
+    bond_angle "115.19879"
   ]
   edge [
-    source 694
-    target 697
+    source 349
+    target 351
     distance "1.5365441"
-    bond_angle "109.57989"
+    bond_angle "110.52442"
   ]
   edge [
-    source 696
-    target 700
+    source 350
+    target 352
     distance "1.2308875"
     bond_angle "120.94055"
   ]
   edge [
-    source 696
-    target 707
+    source 350
+    target 357
     distance "1.3380808"
-    bond_angle "120.69165"
+    bond_angle "121.47665"
   ]
   edge [
-    source 697
-    target 698
-    distance "1.0895327"
-    bond_angle "108.5007"
-  ]
-  edge [
-    source 697
-    target 699
-    distance "1.0891478"
-    bond_angle "108.779755"
-  ]
-  edge [
-    source 697
-    target 701
+    source 351
+    target 353
     distance "1.5378913"
-    bond_angle "110.286255"
+    bond_angle "112.98976"
   ]
   edge [
-    source 701
-    target 702
-    distance "1.0899553"
-    bond_angle "108.73916"
-  ]
-  edge [
-    source 701
-    target 703
-    distance "1.0899929"
-    bond_angle "108.668335"
-  ]
-  edge [
-    source 701
-    target 704
+    source 353
+    target 354
     distance "1.53864"
-    bond_angle "113.28534"
+    bond_angle "116.088615"
   ]
   edge [
-    source 704
-    target 705
+    source 354
+    target 355
     distance "1.2517198"
     bond_angle "120.77375"
   ]
   edge [
-    source 704
-    target 706
+    source 354
+    target 356
     distance "1.2523615"
     bond_angle "121.37285"
   ]
   edge [
-    source 707
-    target 708
-    distance "1.0104144"
-    bond_angle "117.24748"
-  ]
-  edge [
-    source 707
-    target 709
+    source 357
+    target 358
     distance "1.4644527"
-    bond_angle "114.32143"
+    bond_angle "115.551125"
   ]
   edge [
-    source 709
-    target 710
-    distance "1.0892111"
-    bond_angle "107.745445"
-  ]
-  edge [
-    source 709
-    target 711
+    source 358
+    target 359
     distance "1.5370195"
-    bond_angle "113.644775"
+    bond_angle "115.455505"
   ]
   edge [
-    source 709
-    target 712
+    source 358
+    target 360
     distance "1.5378714"
-    bond_angle "109.98791"
+    bond_angle "111.0657"
   ]
   edge [
-    source 711
-    target 715
+    source 359
+    target 361
     distance "1.2328966"
     bond_angle "120.890564"
   ]
   edge [
-    source 711
-    target 724
+    source 359
+    target 366
     distance "1.3361553"
-    bond_angle "120.56455"
+    bond_angle "121.429924"
   ]
   edge [
-    source 712
-    target 713
-    distance "1.0903507"
-    bond_angle "109.153465"
-  ]
-  edge [
-    source 712
-    target 714
-    distance "1.0901438"
-    bond_angle "108.47208"
-  ]
-  edge [
-    source 712
-    target 716
+    source 360
+    target 362
     distance "1.5356284"
-    bond_angle "110.19976"
+    bond_angle "112.40158"
   ]
   edge [
-    source 716
-    target 717
-    distance "1.0898931"
-    bond_angle "108.71313"
-  ]
-  edge [
-    source 716
-    target 718
-    distance "1.0903858"
-    bond_angle "108.71781"
-  ]
-  edge [
-    source 716
-    target 719
+    source 362
+    target 363
     distance "1.5241684"
-    bond_angle "114.42715"
+    bond_angle "118.336395"
   ]
   edge [
-    source 719
-    target 720
+    source 363
+    target 364
     distance "1.3150326"
-    bond_angle "117.76959"
+    bond_angle "118.00859"
   ]
   edge [
-    source 719
-    target 723
+    source 363
+    target 365
     distance "1.2176816"
     bond_angle "120.84835"
   ]
   edge [
-    source 720
-    target 721
-    distance "1.0102303"
-    bond_angle "122.25125"
-  ]
-  edge [
-    source 720
-    target 722
-    distance "1.0103362"
-    bond_angle "119.82991"
-  ]
-  edge [
-    source 724
-    target 725
-    distance "1.0099157"
-    bond_angle "117.69363"
-  ]
-  edge [
-    source 724
-    target 726
+    source 366
+    target 367
     distance "1.4595191"
-    bond_angle "114.598755"
+    bond_angle "118.92397"
   ]
   edge [
-    source 726
-    target 727
-    distance "1.0904222"
-    bond_angle "108.398445"
-  ]
-  edge [
-    source 726
-    target 728
-    distance "1.0903989"
-    bond_angle "108.85962"
-  ]
-  edge [
-    source 726
-    target 729
+    source 367
+    target 368
     distance "1.529934"
-    bond_angle "113.714355"
+    bond_angle "117.27753"
   ]
   edge [
-    source 729
-    target 730
+    source 368
+    target 369
     distance "1.2322863"
     bond_angle "120.506996"
   ]
   edge [
-    source 729
-    target 731
+    source 368
+    target 370
     distance "1.3364"
-    bond_angle "120.78717"
+    bond_angle "121.319305"
   ]
   edge [
-    source 731
-    target 732
-    distance "1.0101792"
-    bond_angle "118.3273"
-  ]
-  edge [
-    source 731
-    target 733
+    source 370
+    target 371
     distance "1.4613626"
-    bond_angle "114.03225"
+    bond_angle "115.20544"
   ]
   edge [
-    source 733
-    target 734
-    distance "1.0899429"
-    bond_angle "107.54645"
-  ]
-  edge [
-    source 733
-    target 735
+    source 371
+    target 372
     distance "1.537741"
-    bond_angle "114.05508"
+    bond_angle "115.50702"
   ]
   edge [
-    source 733
-    target 736
+    source 371
+    target 373
     distance "1.5363165"
-    bond_angle "110.24963"
+    bond_angle "112.345314"
   ]
   edge [
-    source 735
-    target 739
+    source 372
+    target 374
     distance "1.2341726"
     bond_angle "120.77351"
   ]
   edge [
-    source 735
-    target 750
+    source 372
+    target 378
     distance "1.3491001"
     bond_angle "122.36907"
   ]
   edge [
-    source 736
-    target 737
-    distance "1.0902462"
-    bond_angle "108.00901"
-  ]
-  edge [
-    source 736
-    target 738
-    distance "1.0904742"
-    bond_angle "108.31705"
-  ]
-  edge [
-    source 736
-    target 740
+    source 373
+    target 375
     distance "1.5376259"
-    bond_angle "110.6402"
+    bond_angle "112.07395"
   ]
   edge [
-    source 740
-    target 741
-    distance "1.0902975"
-    bond_angle "109.11264"
-  ]
-  edge [
-    source 740
-    target 742
+    source 375
+    target 376
     distance "1.5279024"
-    bond_angle "109.18591"
+    bond_angle "108.7734"
   ]
   edge [
-    source 740
-    target 746
+    source 375
+    target 377
     distance "1.5348208"
-    bond_angle "109.60342"
+    bond_angle "109.923996"
   ]
   edge [
-    source 742
-    target 743
-    distance "1.089445"
-    bond_angle "108.691795"
-  ]
-  edge [
-    source 742
-    target 744
-    distance "1.0904369"
-    bond_angle "110.003685"
-  ]
-  edge [
-    source 742
-    target 745
-    distance "1.0904346"
-    bond_angle "109.39667"
-  ]
-  edge [
-    source 746
-    target 747
-    distance "1.0898035"
-    bond_angle "108.97488"
-  ]
-  edge [
-    source 746
-    target 748
-    distance "1.0899514"
-    bond_angle "109.99465"
-  ]
-  edge [
-    source 746
-    target 749
-    distance "1.0896944"
-    bond_angle "109.27068"
-  ]
-  edge [
-    source 750
-    target 751
+    source 378
+    target 379
     distance "1.4577171"
-    bond_angle "111.86686"
+    bond_angle "112.77277"
   ]
   edge [
-    source 750
-    target 761
+    source 378
+    target 384
     distance "1.4556005"
-    bond_angle "112.88151"
+    bond_angle "114.20623"
   ]
   edge [
-    source 751
-    target 752
-    distance "1.0893735"
-    bond_angle "108.939186"
-  ]
-  edge [
-    source 751
-    target 753
+    source 379
+    target 380
     distance "1.529106"
-    bond_angle "114.09316"
+    bond_angle "115.26178"
   ]
   edge [
-    source 751
-    target 754
+    source 379
+    target 381
     distance "1.5331199"
-    bond_angle "108.671"
+    bond_angle "106.93765"
   ]
   edge [
-    source 753
-    target 757
+    source 380
+    target 382
     distance "1.2307822"
     bond_angle "121.90727"
   ]
   edge [
-    source 753
-    target 764
+    source 380
+    target 385
     distance "1.3281115"
-    bond_angle "120.09807"
+    bond_angle "120.886086"
   ]
   edge [
-    source 754
-    target 755
-    distance "1.0891556"
-    bond_angle "111.24482"
-  ]
-  edge [
-    source 754
-    target 756
-    distance "1.0896909"
-    bond_angle "109.942604"
-  ]
-  edge [
-    source 754
-    target 758
+    source 381
+    target 383
     distance "1.525337"
-    bond_angle "108.1126"
+    bond_angle "103.222084"
   ]
   edge [
-    source 758
-    target 759
-    distance "1.0905988"
-    bond_angle "111.4907"
-  ]
-  edge [
-    source 758
-    target 760
-    distance "1.0904163"
-    bond_angle "109.941895"
-  ]
-  edge [
-    source 758
-    target 761
+    source 383
+    target 384
     distance "1.5252869"
-    bond_angle "108.09785"
+    bond_angle "104.098236"
   ]
   edge [
-    source 761
-    target 762
-    distance "1.0902741"
-    bond_angle "110.08944"
-  ]
-  edge [
-    source 761
-    target 763
-    distance "1.0902231"
-    bond_angle "110.63392"
-  ]
-  edge [
-    source 764
-    target 765
-    distance "1.010357"
-    bond_angle "117.798996"
-  ]
-  edge [
-    source 764
-    target 766
+    source 385
+    target 386
     distance "1.4648514"
-    bond_angle "114.63242"
+    bond_angle "115.40116"
   ]
   edge [
-    source 766
-    target 767
-    distance "1.0899509"
-    bond_angle "108.01129"
-  ]
-  edge [
-    source 766
-    target 768
+    source 386
+    target 387
     distance "1.5317451"
-    bond_angle "113.73592"
+    bond_angle "115.23312"
   ]
   edge [
-    source 766
-    target 769
+    source 386
+    target 388
     distance "1.5366373"
-    bond_angle "110.15244"
+    bond_angle "111.44161"
   ]
   edge [
-    source 768
-    target 771
+    source 387
+    target 389
     distance "1.233067"
     bond_angle "121.1935"
   ]
   edge [
-    source 768
-    target 778
+    source 387
+    target 392
     distance "1.337206"
-    bond_angle "119.77806"
+    bond_angle "119.991905"
   ]
   edge [
-    source 769
-    target 770
-    distance "1.0893121"
-    bond_angle "107.71808"
-  ]
-  edge [
-    source 769
-    target 772
+    source 388
+    target 390
     distance "1.5277858"
-    bond_angle "110.23818"
+    bond_angle "111.54332"
   ]
   edge [
-    source 769
-    target 776
+    source 388
+    target 391
     distance "1.409582"
-    bond_angle "108.3952"
+    bond_angle "109.93182"
   ]
   edge [
-    source 772
-    target 773
-    distance "1.090753"
-    bond_angle "109.02389"
-  ]
-  edge [
-    source 772
-    target 774
-    distance "1.0894578"
-    bond_angle "109.2103"
-  ]
-  edge [
-    source 772
-    target 775
-    distance "1.0901587"
-    bond_angle "109.38071"
-  ]
-  edge [
-    source 776
-    target 777
-    distance "0.9594942"
-    bond_angle "106.11667"
-  ]
-  edge [
-    source 778
-    target 779
-    distance "1.009928"
-    bond_angle "118.97943"
-  ]
-  edge [
-    source 778
-    target 780
+    source 392
+    target 393
     distance "1.465462"
-    bond_angle "114.01528"
+    bond_angle "114.120705"
   ]
   edge [
-    source 780
-    target 781
-    distance "1.0896169"
-    bond_angle "108.44149"
-  ]
-  edge [
-    source 780
-    target 782
+    source 393
+    target 394
     distance "1.5444596"
-    bond_angle "113.801575"
+    bond_angle "115.36964"
   ]
   edge [
-    source 780
-    target 783
+    source 393
+    target 395
     distance "1.5332873"
-    bond_angle "109.61535"
+    bond_angle "109.56885"
   ]
   edge [
-    source 782
-    target 787
+    source 394
+    target 396
     distance "1.2325217"
     bond_angle "121.27629"
   ]
   edge [
-    source 782
-    target 788
+    source 394
+    target 397
     distance "1.3392252"
-    bond_angle "120.19487"
+    bond_angle "120.7902"
   ]
   edge [
-    source 783
-    target 784
-    distance "1.0906183"
-    bond_angle "109.54422"
-  ]
-  edge [
-    source 783
-    target 785
-    distance "1.0903184"
-    bond_angle "109.08563"
-  ]
-  edge [
-    source 783
-    target 786
-    distance "1.0898503"
-    bond_angle "109.362"
-  ]
-  edge [
-    source 788
-    target 789
-    distance "1.0104734"
-    bond_angle "118.251175"
-  ]
-  edge [
-    source 788
-    target 790
+    source 397
+    target 398
     distance "1.4629015"
-    bond_angle "114.03508"
+    bond_angle "114.76646"
   ]
   edge [
-    source 790
-    target 791
-    distance "1.0906265"
-    bond_angle "107.357666"
-  ]
-  edge [
-    source 790
-    target 792
+    source 398
+    target 399
     distance "1.5304401"
-    bond_angle "113.846634"
+    bond_angle "115.84349"
   ]
   edge [
-    source 790
-    target 793
+    source 398
+    target 400
     distance "1.5320174"
-    bond_angle "110.052826"
+    bond_angle "111.17492"
   ]
   edge [
-    source 792
-    target 796
+    source 399
+    target 401
     distance "1.2281574"
     bond_angle "120.4906"
   ]
   edge [
-    source 792
-    target 810
+    source 399
+    target 406
     distance "1.3354808"
-    bond_angle "120.90038"
+    bond_angle "121.400215"
   ]
   edge [
-    source 793
-    target 794
-    distance "1.0902555"
-    bond_angle "109.44489"
-  ]
-  edge [
-    source 793
-    target 795
-    distance "1.0899405"
-    bond_angle "108.45396"
-  ]
-  edge [
-    source 793
-    target 797
+    source 400
+    target 402
     distance "1.5322145"
-    bond_angle "109.91315"
+    bond_angle "110.76902"
   ]
   edge [
-    source 797
-    target 798
-    distance "1.090173"
-    bond_angle "109.03143"
-  ]
-  edge [
-    source 797
-    target 799
-    distance "1.0893579"
-    bond_angle "109.427864"
-  ]
-  edge [
-    source 797
-    target 800
+    source 402
+    target 403
     distance "1.5283773"
-    bond_angle "109.43325"
+    bond_angle "109.469025"
   ]
   edge [
-    source 800
-    target 801
-    distance "1.0897084"
-    bond_angle "109.74435"
-  ]
-  edge [
-    source 800
-    target 802
-    distance "1.0899212"
-    bond_angle "109.18644"
-  ]
-  edge [
-    source 800
-    target 803
+    source 403
+    target 404
     distance "1.5285267"
-    bond_angle "109.69488"
+    bond_angle "110.1357"
   ]
   edge [
-    source 803
-    target 804
-    distance "1.0901326"
-    bond_angle "108.802025"
-  ]
-  edge [
-    source 803
-    target 805
-    distance "1.0897269"
-    bond_angle "108.92971"
-  ]
-  edge [
-    source 803
-    target 806
+    source 404
+    target 405
     distance "1.4789015"
-    bond_angle "110.1132"
+    bond_angle "111.3637"
   ]
   edge [
-    source 806
-    target 807
-    distance "1.0093045"
-    bond_angle "108.37069"
-  ]
-  edge [
-    source 806
-    target 808
-    distance "1.0105461"
-    bond_angle "109.575714"
-  ]
-  edge [
-    source 806
-    target 809
-    distance "1.0099154"
-    bond_angle "110.05267"
-  ]
-  edge [
-    source 810
-    target 811
-    distance "1.0101453"
-    bond_angle "118.439804"
-  ]
-  edge [
-    source 810
-    target 812
+    source 406
+    target 407
     distance "1.4716758"
-    bond_angle "114.52559"
+    bond_angle "115.320465"
   ]
   edge [
-    source 812
-    target 813
-    distance "1.0899712"
-    bond_angle "108.65296"
-  ]
-  edge [
-    source 812
-    target 814
+    source 407
+    target 408
     distance "1.5292763"
-    bond_angle "113.13768"
+    bond_angle "114.36837"
   ]
   edge [
-    source 812
-    target 815
+    source 407
+    target 409
     distance "1.5322224"
-    bond_angle "109.63471"
+    bond_angle "110.08332"
   ]
   edge [
-    source 814
-    target 818
+    source 408
+    target 410
     distance "1.2305146"
     bond_angle "121.24231"
   ]
   edge [
-    source 814
-    target 821
+    source 408
+    target 412
     distance "1.3359522"
-    bond_angle "120.25713"
+    bond_angle "120.77567"
   ]
   edge [
-    source 815
-    target 816
-    distance "1.0900953"
-    bond_angle "109.04269"
-  ]
-  edge [
-    source 815
-    target 817
-    distance "1.0904961"
-    bond_angle "108.983696"
-  ]
-  edge [
-    source 815
-    target 819
+    source 409
+    target 411
     distance "1.4070624"
-    bond_angle "109.27223"
+    bond_angle "111.156715"
   ]
   edge [
-    source 819
-    target 820
-    distance "0.95955914"
-    bond_angle "107.74037"
-  ]
-  edge [
-    source 821
-    target 822
-    distance "1.0096835"
-    bond_angle "118.51737"
-  ]
-  edge [
-    source 821
-    target 823
+    source 412
+    target 413
     distance "1.4707311"
-    bond_angle "114.46739"
+    bond_angle "115.094025"
   ]
   edge [
-    source 823
-    target 824
-    distance "1.0898725"
-    bond_angle "108.12045"
-  ]
-  edge [
-    source 823
-    target 825
+    source 413
+    target 414
     distance "1.5280851"
-    bond_angle "113.395706"
+    bond_angle "114.83142"
   ]
   edge [
-    source 823
-    target 826
+    source 413
+    target 415
     distance "1.5332612"
-    bond_angle "110.068115"
+    bond_angle "110.653336"
   ]
   edge [
-    source 825
-    target 828
+    source 414
+    target 416
     distance "1.2304901"
     bond_angle "120.984566"
   ]
   edge [
-    source 825
-    target 835
+    source 414
+    target 419
     distance "1.3375974"
-    bond_angle "120.40664"
+    bond_angle "120.91132"
   ]
   edge [
-    source 826
-    target 827
-    distance "1.0903155"
-    bond_angle "109.3151"
-  ]
-  edge [
-    source 826
-    target 829
+    source 415
+    target 417
     distance "1.5282205"
-    bond_angle "109.7631"
+    bond_angle "109.89569"
   ]
   edge [
-    source 826
-    target 833
+    source 415
+    target 418
     distance "1.407953"
-    bond_angle "108.296646"
+    bond_angle "107.94647"
   ]
   edge [
-    source 829
-    target 830
-    distance "1.0907563"
-    bond_angle "109.234"
-  ]
-  edge [
-    source 829
-    target 831
-    distance "1.0891539"
-    bond_angle "109.549225"
-  ]
-  edge [
-    source 829
-    target 832
-    distance "1.0902336"
-    bond_angle "109.196846"
-  ]
-  edge [
-    source 833
-    target 834
-    distance "0.9600467"
-    bond_angle "108.25353"
-  ]
-  edge [
-    source 835
-    target 836
-    distance "1.0098627"
-    bond_angle "118.72049"
-  ]
-  edge [
-    source 835
-    target 837
+    source 419
+    target 420
     distance "1.4635303"
-    bond_angle "114.102295"
+    bond_angle "114.425964"
   ]
   edge [
-    source 837
-    target 838
-    distance "1.0897746"
-    bond_angle "108.00888"
-  ]
-  edge [
-    source 837
-    target 839
+    source 420
+    target 421
     distance "1.5398313"
-    bond_angle "113.82656"
+    bond_angle "115.48052"
   ]
   edge [
-    source 837
-    target 840
+    source 420
+    target 422
     distance "1.533205"
-    bond_angle "109.769356"
+    bond_angle "110.42383"
   ]
   edge [
-    source 839
-    target 844
+    source 421
+    target 423
     distance "1.229444"
     bond_angle "120.9704"
   ]
   edge [
-    source 839
-    target 845
+    source 421
+    target 424
     distance "1.3366586"
-    bond_angle "120.32715"
+    bond_angle "121.025475"
   ]
   edge [
-    source 840
-    target 841
-    distance "1.0899475"
-    bond_angle "109.0116"
-  ]
-  edge [
-    source 840
-    target 842
-    distance "1.0899231"
-    bond_angle "109.61819"
-  ]
-  edge [
-    source 840
-    target 843
-    distance "1.0900725"
-    bond_angle "109.36442"
-  ]
-  edge [
-    source 845
-    target 846
-    distance "1.0096899"
-    bond_angle "118.26611"
-  ]
-  edge [
-    source 845
-    target 847
+    source 424
+    target 425
     distance "1.474049"
-    bond_angle "114.72783"
+    bond_angle "115.217316"
   ]
   edge [
-    source 847
-    target 848
-    distance "1.0895935"
-    bond_angle "108.607605"
-  ]
-  edge [
-    source 847
-    target 849
+    source 425
+    target 426
     distance "1.5161905"
-    bond_angle "113.10486"
+    bond_angle "114.49895"
   ]
   edge [
-    source 847
-    target 850
+    source 425
+    target 427
     distance "1.5290552"
-    bond_angle "109.79426"
+    bond_angle "110.35782"
   ]
   edge [
-    source 849
-    target 852
+    source 426
+    target 428
     distance "1.2279272"
     bond_angle "121.06546"
   ]
   edge [
-    source 849
-    target 861
+    source 426
+    target 431
     distance "1.3349004"
-    bond_angle "120.299866"
+    bond_angle "120.72115"
   ]
   edge [
-    source 850
-    target 851
-    distance "1.0901054"
-    bond_angle "108.45661"
-  ]
-  edge [
-    source 850
-    target 853
+    source 427
+    target 429
     distance "1.5328449"
-    bond_angle "110.20678"
+    bond_angle "111.098694"
   ]
   edge [
-    source 850
-    target 857
+    source 427
+    target 430
     distance "1.5214643"
-    bond_angle "109.3507"
+    bond_angle "109.17076"
   ]
   edge [
-    source 853
-    target 854
-    distance "1.0894608"
-    bond_angle "108.82174"
-  ]
-  edge [
-    source 853
-    target 855
-    distance "1.0897826"
-    bond_angle "109.24753"
-  ]
-  edge [
-    source 853
-    target 856
-    distance "1.0905728"
-    bond_angle "109.51035"
-  ]
-  edge [
-    source 857
-    target 858
-    distance "1.0897857"
-    bond_angle "109.55706"
-  ]
-  edge [
-    source 857
-    target 859
-    distance "1.0901908"
-    bond_angle "107.8833"
-  ]
-  edge [
-    source 857
-    target 860
-    distance "1.0900134"
-    bond_angle "110.59757"
-  ]
-  edge [
-    source 861
-    target 862
-    distance "1.0103729"
-    bond_angle "119.01833"
-  ]
-  edge [
-    source 861
-    target 863
+    source 431
+    target 432
     distance "1.4577444"
-    bond_angle "114.14541"
+    bond_angle "114.25818"
   ]
   edge [
-    source 863
-    target 864
-    distance "1.0902"
-    bond_angle "108.35015"
-  ]
-  edge [
-    source 863
-    target 865
+    source 432
+    target 433
     distance "1.5327563"
-    bond_angle "113.40056"
+    bond_angle "114.927025"
   ]
   edge [
-    source 863
-    target 866
+    source 432
+    target 434
     distance "1.5312107"
-    bond_angle "110.019615"
+    bond_angle "110.89498"
   ]
   edge [
-    source 865
-    target 869
+    source 433
+    target 435
     distance "1.2320426"
     bond_angle "121.259"
   ]
   edge [
-    source 865
-    target 881
+    source 433
+    target 442
     distance "1.3353374"
-    bond_angle "120.32674"
+    bond_angle "120.912315"
   ]
   edge [
-    source 866
-    target 867
-    distance "1.0903734"
-    bond_angle "108.676636"
-  ]
-  edge [
-    source 866
-    target 868
-    distance "1.0903422"
-    bond_angle "108.68151"
-  ]
-  edge [
-    source 866
-    target 870
+    source 434
+    target 436
     distance "1.5131866"
-    bond_angle "114.100365"
+    bond_angle "117.442894"
   ]
   edge [
-    source 870
-    target 871
+    source 436
+    target 437
     distance "1.4083744"
-    bond_angle "120.04438"
+    bond_angle "120.01864"
   ]
   edge [
-    source 870
-    target 873
+    source 436
+    target 438
     distance "1.4058428"
-    bond_angle "119.94466"
+    bond_angle "119.94346"
   ]
   edge [
-    source 871
-    target 872
-    distance "1.07955"
-    bond_angle "119.98216"
-  ]
-  edge [
-    source 871
-    target 875
+    source 437
+    target 439
     distance "1.4049996"
-    bond_angle "119.8296"
+    bond_angle "120.03111"
   ]
   edge [
-    source 873
-    target 874
-    distance "1.0800115"
-    bond_angle "119.976875"
-  ]
-  edge [
-    source 873
-    target 877
+    source 438
+    target 440
     distance "1.4060628"
-    bond_angle "119.982056"
+    bond_angle "120.04375"
   ]
   edge [
-    source 875
-    target 876
-    distance "1.0806798"
-    bond_angle "119.98473"
-  ]
-  edge [
-    source 875
-    target 879
+    source 439
+    target 441
     distance "1.4064171"
-    bond_angle "120.180435"
+    bond_angle "119.99538"
   ]
   edge [
-    source 877
-    target 878
-    distance "1.0799522"
-    bond_angle "119.97893"
-  ]
-  edge [
-    source 877
-    target 879
+    source 440
+    target 441
     distance "1.4057461"
-    bond_angle "119.997154"
+    bond_angle "120.00225"
   ]
   edge [
-    source 879
-    target 880
-    distance "1.0800743"
-    bond_angle "120.018234"
-  ]
-  edge [
-    source 881
-    target 882
-    distance "1.0100421"
-    bond_angle "118.579956"
-  ]
-  edge [
-    source 881
-    target 883
+    source 442
+    target 443
     distance "1.4619749"
-    bond_angle "114.21373"
+    bond_angle "114.48698"
   ]
   edge [
-    source 883
-    target 884
-    distance "1.0906296"
-    bond_angle "108.25695"
-  ]
-  edge [
-    source 883
-    target 885
+    source 443
+    target 444
     distance "1.5319366"
-    bond_angle "113.36072"
+    bond_angle "115.002945"
   ]
   edge [
-    source 883
-    target 886
+    source 443
+    target 445
     distance "1.535839"
-    bond_angle "110.22877"
+    bond_angle "111.219215"
   ]
   edge [
-    source 885
-    target 889
+    source 444
+    target 446
     distance "1.2298721"
     bond_angle "121.14787"
   ]
   edge [
-    source 885
-    target 895
+    source 444
+    target 450
     distance "1.3333676"
-    bond_angle "120.55423"
+    bond_angle "121.17623"
   ]
   edge [
-    source 886
-    target 887
-    distance "1.090511"
-    bond_angle "108.15261"
-  ]
-  edge [
-    source 886
-    target 888
-    distance "1.0899624"
-    bond_angle "108.99677"
-  ]
-  edge [
-    source 886
-    target 890
+    source 445
+    target 447
     distance "1.5168822"
-    bond_angle "114.029945"
+    bond_angle "117.7656"
   ]
   edge [
-    source 890
-    target 891
+    source 447
+    target 448
     distance "1.3107802"
-    bond_angle "118.49335"
+    bond_angle "118.51427"
   ]
   edge [
-    source 890
-    target 894
+    source 447
+    target 449
     distance "1.2223046"
     bond_angle "121.367615"
   ]
   edge [
-    source 891
-    target 892
-    distance "1.0102832"
-    bond_angle "121.493034"
-  ]
-  edge [
-    source 891
-    target 893
-    distance "1.0096284"
-    bond_angle "120.01662"
-  ]
-  edge [
-    source 895
-    target 896
-    distance "1.0106343"
-    bond_angle "118.32831"
-  ]
-  edge [
-    source 895
-    target 897
+    source 450
+    target 451
     distance "1.4588252"
-    bond_angle "113.94954"
+    bond_angle "114.66091"
   ]
   edge [
-    source 897
-    target 898
-    distance "1.0897363"
-    bond_angle "108.13473"
-  ]
-  edge [
-    source 897
-    target 899
+    source 451
+    target 452
     distance "1.531734"
-    bond_angle "114.11174"
+    bond_angle "115.77467"
   ]
   edge [
-    source 897
-    target 900
+    source 451
+    target 453
     distance "1.5335671"
-    bond_angle "110.087585"
+    bond_angle "110.66107"
   ]
   edge [
-    source 899
-    target 903
+    source 452
+    target 454
     distance "1.2266268"
     bond_angle "120.62698"
   ]
   edge [
-    source 899
-    target 912
+    source 452
+    target 458
     distance "1.331801"
-    bond_angle "120.02913"
+    bond_angle "120.37961"
   ]
   edge [
-    source 900
-    target 901
-    distance "1.0897073"
-    bond_angle "108.68223"
-  ]
-  edge [
-    source 900
-    target 902
-    distance "1.0905936"
-    bond_angle "108.90281"
-  ]
-  edge [
-    source 900
-    target 904
+    source 453
+    target 455
     distance "1.5260477"
-    bond_angle "110.33655"
+    bond_angle "114.04921"
   ]
   edge [
-    source 904
-    target 905
-    distance "1.0894504"
-    bond_angle "108.24594"
-  ]
-  edge [
-    source 904
-    target 906
-    distance "1.089728"
-    bond_angle "107.91689"
-  ]
-  edge [
-    source 904
-    target 907
+    source 455
+    target 456
     distance "1.812977"
-    bond_angle "107.92703"
+    bond_angle "107.892166"
   ]
   edge [
-    source 907
-    target 908
+    source 456
+    target 457
     distance "1.8096305"
-    bond_angle "107.29676"
+    bond_angle "99.55683"
   ]
   edge [
-    source 908
-    target 909
-    distance "1.0909009"
-    bond_angle "109.45972"
-  ]
-  edge [
-    source 908
-    target 910
-    distance "1.089878"
-    bond_angle "109.53882"
-  ]
-  edge [
-    source 908
-    target 911
-    distance "1.0897751"
-    bond_angle "108.99876"
-  ]
-  edge [
-    source 912
-    target 913
-    distance "1.0100678"
-    bond_angle "118.99138"
-  ]
-  edge [
-    source 912
-    target 914
+    source 458
+    target 459
     distance "1.4663578"
-    bond_angle "114.47154"
+    bond_angle "114.69303"
   ]
   edge [
-    source 914
-    target 915
-    distance "1.0904535"
-    bond_angle "107.66952"
-  ]
-  edge [
-    source 914
-    target 916
+    source 459
+    target 460
     distance "1.5260075"
-    bond_angle "113.38322"
+    bond_angle "115.40804"
   ]
   edge [
-    source 914
-    target 917
+    source 459
+    target 461
     distance "1.5302618"
-    bond_angle "110.47619"
+    bond_angle "112.49418"
   ]
   edge [
-    source 916
-    target 920
+    source 460
+    target 462
     distance "1.2301482"
     bond_angle "120.866394"
   ]
   edge [
-    source 916
-    target 932
+    source 460
+    target 469
     distance "1.3375648"
-    bond_angle "120.35336"
+    bond_angle "121.05019"
   ]
   edge [
-    source 917
-    target 918
-    distance "1.0899234"
-    bond_angle "108.29771"
-  ]
-  edge [
-    source 917
-    target 919
-    distance "1.0900376"
-    bond_angle "107.6475"
-  ]
-  edge [
-    source 917
-    target 921
+    source 461
+    target 463
     distance "1.5208834"
-    bond_angle "114.589554"
+    bond_angle "119.021614"
   ]
   edge [
-    source 921
-    target 922
+    source 463
+    target 464
     distance "1.4128141"
-    bond_angle "120.91642"
+    bond_angle "120.71423"
   ]
   edge [
-    source 921
-    target 924
+    source 463
+    target 465
     distance "1.4064804"
-    bond_angle "119.43876"
+    bond_angle "119.2754"
   ]
   edge [
-    source 922
-    target 923
-    distance "1.0801648"
-    bond_angle "119.71131"
-  ]
-  edge [
-    source 922
-    target 926
+    source 464
+    target 466
     distance "1.4018992"
-    bond_angle "119.66645"
+    bond_angle "120.233444"
   ]
   edge [
-    source 924
-    target 925
-    distance "1.0802542"
-    bond_angle "119.85719"
-  ]
-  edge [
-    source 924
-    target 928
+    source 465
+    target 467
     distance "1.4043022"
-    bond_angle "120.03372"
+    bond_angle "120.20467"
   ]
   edge [
-    source 926
-    target 927
-    distance "1.0807242"
-    bond_angle "120.0298"
-  ]
-  edge [
-    source 926
-    target 930
+    source 466
+    target 468
     distance "1.4013782"
-    bond_angle "119.77042"
+    bond_angle "119.93795"
   ]
   edge [
-    source 928
-    target 929
-    distance "1.0800635"
-    bond_angle "119.91763"
-  ]
-  edge [
-    source 928
-    target 930
+    source 467
+    target 468
     distance "1.4054844"
-    bond_angle "120.13576"
+    bond_angle "120.0493"
   ]
   edge [
-    source 930
-    target 931
-    distance "1.0805719"
-    bond_angle "119.99727"
-  ]
-  edge [
-    source 932
-    target 933
-    distance "1.0096114"
-    bond_angle "118.54315"
-  ]
-  edge [
-    source 932
-    target 934
+    source 469
+    target 470
     distance "1.4656824"
-    bond_angle "114.10215"
+    bond_angle "114.322334"
   ]
   edge [
-    source 934
-    target 935
-    distance "1.0899471"
-    bond_angle "108.137245"
-  ]
-  edge [
-    source 934
-    target 936
+    source 470
+    target 471
     distance "1.532648"
-    bond_angle "113.4542"
+    bond_angle "115.19162"
   ]
   edge [
-    source 934
-    target 937
+    source 470
+    target 472
     distance "1.5334796"
-    bond_angle "110.06194"
+    bond_angle "110.93702"
   ]
   edge [
-    source 936
-    target 940
+    source 471
+    target 473
     distance "1.2270918"
     bond_angle "120.830376"
   ]
   edge [
-    source 936
-    target 954
+    source 471
+    target 478
     distance "1.3332177"
-    bond_angle "120.80789"
+    bond_angle "121.47889"
   ]
   edge [
-    source 937
-    target 938
-    distance "1.090478"
-    bond_angle "108.84643"
-  ]
-  edge [
-    source 937
-    target 939
-    distance "1.0890976"
-    bond_angle "108.94721"
-  ]
-  edge [
-    source 937
-    target 941
+    source 472
+    target 474
     distance "1.5339113"
-    bond_angle "109.983215"
+    bond_angle "111.17485"
   ]
   edge [
-    source 941
-    target 942
-    distance "1.0900065"
-    bond_angle "108.9526"
-  ]
-  edge [
-    source 941
-    target 943
-    distance "1.0902826"
-    bond_angle "109.488884"
-  ]
-  edge [
-    source 941
-    target 944
+    source 474
+    target 475
     distance "1.5295091"
-    bond_angle "109.279625"
+    bond_angle "109.65419"
   ]
   edge [
-    source 944
-    target 945
-    distance "1.0900002"
-    bond_angle "109.26623"
-  ]
-  edge [
-    source 944
-    target 946
-    distance "1.0898993"
-    bond_angle "109.83585"
-  ]
-  edge [
-    source 944
-    target 947
+    source 475
+    target 476
     distance "1.5311571"
-    bond_angle "109.55487"
+    bond_angle "110.01542"
   ]
   edge [
-    source 947
-    target 948
-    distance "1.090918"
-    bond_angle "109.10717"
-  ]
-  edge [
-    source 947
-    target 949
-    distance "1.0906339"
-    bond_angle "108.617004"
-  ]
-  edge [
-    source 947
-    target 950
+    source 476
+    target 477
     distance "1.4815389"
-    bond_angle "110.452934"
+    bond_angle "111.24852"
   ]
   edge [
-    source 950
-    target 951
-    distance "1.0098342"
-    bond_angle "109.32369"
-  ]
-  edge [
-    source 950
-    target 952
-    distance "1.0104564"
-    bond_angle "109.51297"
-  ]
-  edge [
-    source 950
-    target 953
-    distance "1.0099208"
-    bond_angle "108.7731"
-  ]
-  edge [
-    source 954
-    target 955
-    distance "1.009904"
-    bond_angle "118.32073"
-  ]
-  edge [
-    source 954
-    target 956
+    source 478
+    target 479
     distance "1.4630247"
-    bond_angle "114.23094"
+    bond_angle "114.786835"
   ]
   edge [
-    source 956
-    target 957
-    distance "1.0894084"
-    bond_angle "107.88474"
-  ]
-  edge [
-    source 956
-    target 958
+    source 479
+    target 480
     distance "1.5352334"
-    bond_angle "113.60573"
+    bond_angle "115.33037"
   ]
   edge [
-    source 956
-    target 959
+    source 479
+    target 481
     distance "1.533496"
-    bond_angle "110.28239"
+    bond_angle "111.376656"
   ]
   edge [
-    source 958
-    target 962
+    source 480
+    target 482
     distance "1.2262288"
     bond_angle "120.80827"
   ]
   edge [
-    source 958
-    target 971
+    source 480
+    target 488
     distance "1.335797"
-    bond_angle "120.303345"
+    bond_angle "121.024086"
   ]
   edge [
-    source 959
-    target 960
-    distance "1.090622"
-    bond_angle "108.58963"
-  ]
-  edge [
-    source 959
-    target 961
-    distance "1.0906152"
-    bond_angle "108.6825"
-  ]
-  edge [
-    source 959
-    target 963
+    source 481
+    target 483
     distance "1.5026696"
-    bond_angle "116.44131"
+    bond_angle "121.789055"
   ]
   edge [
-    source 963
-    target 964
+    source 483
+    target 484
     distance "1.3694001"
-    bond_angle "116.9117"
+    bond_angle "113.81252"
   ]
   edge [
-    source 963
-    target 966
+    source 483
+    target 485
     distance "1.3762047"
-    bond_angle "117.11073"
+    bond_angle "113.82247"
   ]
   edge [
-    source 964
-    target 965
-    distance "1.079482"
-    bond_angle "126.119446"
-  ]
-  edge [
-    source 964
-    target 970
+    source 484
+    target 487
     distance "1.3960154"
-    bond_angle "113.493385"
+    bond_angle "107.22523"
   ]
   edge [
-    source 966
-    target 967
-    distance "1.010372"
-    bond_angle "126.011734"
-  ]
-  edge [
-    source 966
-    target 968
+    source 485
+    target 486
     distance "1.3424374"
-    bond_angle "117.18923"
+    bond_angle "109.16406"
   ]
   edge [
-    source 968
-    target 969
-    distance "1.0802239"
-    bond_angle "124.80716"
-  ]
-  edge [
-    source 968
-    target 970
+    source 486
+    target 487
     distance "1.3401575"
-    bond_angle "113.76908"
+    bond_angle "108.53686"
   ]
   edge [
-    source 971
-    target 972
-    distance "1.0101118"
-    bond_angle "118.45241"
-  ]
-  edge [
-    source 971
-    target 973
+    source 488
+    target 489
     distance "1.4655257"
-    bond_angle "114.68795"
+    bond_angle "115.09027"
   ]
   edge [
-    source 973
-    target 974
-    distance "1.0905503"
-    bond_angle "108.87888"
-  ]
-  edge [
-    source 973
-    target 975
+    source 489
+    target 490
     distance "1.5284828"
-    bond_angle "113.01233"
+    bond_angle "114.53496"
   ]
   edge [
-    source 973
-    target 976
+    source 489
+    target 491
     distance "1.5300045"
-    bond_angle "110.006714"
+    bond_angle "111.117775"
   ]
   edge [
-    source 975
-    target 979
+    source 490
+    target 492
     distance "1.2269326"
     bond_angle "121.20921"
   ]
   edge [
-    source 975
-    target 990
+    source 490
+    target 496
     distance "1.3360542"
-    bond_angle "120.371216"
+    bond_angle "120.84086"
   ]
   edge [
-    source 976
-    target 977
-    distance "1.0904279"
-    bond_angle "108.45715"
-  ]
-  edge [
-    source 976
-    target 978
-    distance "1.090357"
-    bond_angle "107.65463"
-  ]
-  edge [
-    source 976
-    target 980
+    source 491
+    target 493
     distance "1.5309215"
-    bond_angle "110.351814"
+    bond_angle "111.430534"
   ]
   edge [
-    source 980
-    target 981
-    distance "1.0902125"
-    bond_angle "109.603935"
-  ]
-  edge [
-    source 980
-    target 982
+    source 493
+    target 494
     distance "1.5239221"
-    bond_angle "109.01766"
+    bond_angle "108.01657"
   ]
   edge [
-    source 980
-    target 986
+    source 493
+    target 495
     distance "1.5231152"
-    bond_angle "109.96049"
+    bond_angle "110.76988"
   ]
   edge [
-    source 982
-    target 983
-    distance "1.0895394"
-    bond_angle "109.309135"
-  ]
-  edge [
-    source 982
-    target 984
-    distance "1.0900046"
-    bond_angle "109.50586"
-  ]
-  edge [
-    source 982
-    target 985
-    distance "1.0900761"
-    bond_angle "109.41572"
-  ]
-  edge [
-    source 986
-    target 987
-    distance "1.0906209"
-    bond_angle "109.05056"
-  ]
-  edge [
-    source 986
-    target 988
-    distance "1.0898836"
-    bond_angle "109.79951"
-  ]
-  edge [
-    source 986
-    target 989
-    distance "1.0898944"
-    bond_angle "109.10085"
-  ]
-  edge [
-    source 990
-    target 991
-    distance "1.010363"
-    bond_angle "118.755585"
-  ]
-  edge [
-    source 990
-    target 992
+    source 496
+    target 497
     distance "1.4567298"
-    bond_angle "114.12276"
+    bond_angle "114.31672"
   ]
   edge [
-    source 992
-    target 993
-    distance "1.0910858"
-    bond_angle "108.43027"
-  ]
-  edge [
-    source 992
-    target 994
+    source 497
+    target 498
     distance "1.5317498"
-    bond_angle "113.52716"
+    bond_angle "114.992096"
   ]
   edge [
-    source 992
-    target 995
+    source 497
+    target 499
     distance "1.531461"
-    bond_angle "109.66062"
+    bond_angle "110.06559"
   ]
   edge [
-    source 994
-    target 999
+    source 498
+    target 500
     distance "1.2235857"
     bond_angle "120.77794"
   ]
   edge [
-    source 994
-    target 1000
+    source 498
+    target 501
     distance "1.3338834"
-    bond_angle "120.52201"
+    bond_angle "121.00137"
   ]
   edge [
-    source 995
-    target 996
-    distance "1.0895691"
-    bond_angle "109.64756"
-  ]
-  edge [
-    source 995
-    target 997
-    distance "1.0900683"
-    bond_angle "109.34726"
-  ]
-  edge [
-    source 995
-    target 998
-    distance "1.0901755"
-    bond_angle "109.10797"
-  ]
-  edge [
-    source 1000
-    target 1001
-    distance "1.0097858"
-    bond_angle "118.84376"
-  ]
-  edge [
-    source 1000
-    target 1002
+    source 501
+    target 502
     distance "1.4569566"
-    bond_angle "113.94409"
+    bond_angle "114.21274"
   ]
   edge [
-    source 1002
-    target 1003
-    distance "1.090114"
-    bond_angle "107.79441"
-  ]
-  edge [
-    source 1002
-    target 1004
+    source 502
+    target 503
     distance "1.5344123"
-    bond_angle "113.643845"
+    bond_angle "115.35597"
   ]
   edge [
-    source 1002
-    target 1005
+    source 502
+    target 504
     distance "1.5314953"
-    bond_angle "110.40402"
+    bond_angle "112.08106"
   ]
   edge [
-    source 1004
-    target 1008
+    source 503
+    target 505
     distance "1.2208672"
     bond_angle "120.74376"
   ]
   edge [
-    source 1004
-    target 1017
+    source 503
+    target 511
     distance "1.3345692"
-    bond_angle "120.68725"
+    bond_angle "121.53196"
   ]
   edge [
-    source 1005
-    target 1006
-    distance "1.08975"
-    bond_angle "108.174095"
-  ]
-  edge [
-    source 1005
-    target 1007
-    distance "1.0897402"
-    bond_angle "108.575836"
-  ]
-  edge [
-    source 1005
-    target 1009
+    source 504
+    target 506
     distance "1.5051613"
-    bond_angle "116.73926"
+    bond_angle "122.49701"
   ]
   edge [
-    source 1009
-    target 1010
+    source 506
+    target 507
     distance "1.366362"
-    bond_angle "116.70549"
+    bond_angle "113.653496"
   ]
   edge [
-    source 1009
-    target 1012
+    source 506
+    target 508
     distance "1.3786211"
-    bond_angle "116.930756"
+    bond_angle "114.054344"
   ]
   edge [
-    source 1010
-    target 1011
-    distance "1.0802085"
-    bond_angle "125.738754"
-  ]
-  edge [
-    source 1010
-    target 1016
+    source 507
+    target 510
     distance "1.3918662"
-    bond_angle "113.40869"
+    bond_angle "107.30504"
   ]
   edge [
-    source 1012
-    target 1013
-    distance "1.0096713"
-    bond_angle "123.56543"
-  ]
-  edge [
-    source 1012
-    target 1014
+    source 508
+    target 509
     distance "1.3448697"
-    bond_angle "116.19338"
+    bond_angle "109.16994"
   ]
   edge [
-    source 1014
-    target 1015
-    distance "1.0796869"
-    bond_angle "124.462654"
-  ]
-  edge [
-    source 1014
-    target 1016
+    source 509
+    target 510
     distance "1.3423523"
-    bond_angle "113.596375"
+    bond_angle "108.36331"
   ]
   edge [
-    source 1017
-    target 1018
-    distance "1.0106806"
-    bond_angle "117.88603"
-  ]
-  edge [
-    source 1017
-    target 1019
+    source 511
+    target 512
     distance "1.4752086"
-    bond_angle "114.56527"
+    bond_angle "115.50451"
   ]
   edge [
-    source 1019
-    target 1020
-    distance "1.0901897"
-    bond_angle "107.832726"
-  ]
-  edge [
-    source 1019
-    target 1021
+    source 512
+    target 513
     distance "1.5298519"
-    bond_angle "113.66117"
+    bond_angle "115.52759"
   ]
   edge [
-    source 1019
-    target 1022
+    source 512
+    target 514
     distance "1.5433525"
-    bond_angle "110.2942"
+    bond_angle "111.07024"
   ]
   edge [
-    source 1021
-    target 1024
+    source 513
+    target 515
     distance "1.2251718"
     bond_angle "120.76988"
   ]
   edge [
-    source 1021
-    target 1033
+    source 513
+    target 518
     distance "1.3362228"
-    bond_angle "120.26965"
+    bond_angle "120.87246"
   ]
   edge [
-    source 1022
-    target 1023
-    distance "1.090688"
-    bond_angle "108.33904"
-  ]
-  edge [
-    source 1022
-    target 1025
+    source 514
+    target 516
     distance "1.5344296"
-    bond_angle "109.9024"
+    bond_angle "110.58226"
   ]
   edge [
-    source 1022
-    target 1029
+    source 514
+    target 517
     distance "1.533622"
-    bond_angle "109.31361"
+    bond_angle "108.80307"
   ]
   edge [
-    source 1025
-    target 1026
-    distance "1.0901135"
-    bond_angle "109.19749"
-  ]
-  edge [
-    source 1025
-    target 1027
-    distance "1.0898272"
-    bond_angle "109.13086"
-  ]
-  edge [
-    source 1025
-    target 1028
-    distance "1.0897057"
-    bond_angle "109.395485"
-  ]
-  edge [
-    source 1029
-    target 1030
-    distance "1.0893049"
-    bond_angle "109.08431"
-  ]
-  edge [
-    source 1029
-    target 1031
-    distance "1.0902373"
-    bond_angle "109.42712"
-  ]
-  edge [
-    source 1029
-    target 1032
-    distance "1.0902873"
-    bond_angle "109.38171"
-  ]
-  edge [
-    source 1033
-    target 1034
-    distance "1.009698"
-    bond_angle "118.57097"
-  ]
-  edge [
-    source 1033
-    target 1035
+    source 518
+    target 519
     distance "1.4689282"
-    bond_angle "114.76991"
+    bond_angle "115.393715"
   ]
   edge [
-    source 1035
-    target 1036
-    distance "1.0904142"
-    bond_angle "107.14905"
-  ]
-  edge [
-    source 1035
-    target 1037
+    source 519
+    target 520
     distance "1.5348961"
-    bond_angle "113.464806"
+    bond_angle "115.738815"
   ]
   edge [
-    source 1035
-    target 1038
+    source 519
+    target 521
     distance "1.5420163"
-    bond_angle "110.22306"
+    bond_angle "112.1363"
   ]
   edge [
-    source 1037
-    target 1041
+    source 520
+    target 522
     distance "1.2314904"
     bond_angle "120.61029"
   ]
   edge [
-    source 1037
-    target 1052
+    source 520
+    target 526
     distance "1.3380067"
-    bond_angle "120.48311"
+    bond_angle "121.21575"
   ]
   edge [
-    source 1038
-    target 1039
-    distance "1.0897256"
-    bond_angle "108.49963"
-  ]
-  edge [
-    source 1038
-    target 1040
-    distance "1.0902774"
-    bond_angle "107.84487"
-  ]
-  edge [
-    source 1038
-    target 1042
+    source 521
+    target 523
     distance "1.5397688"
-    bond_angle "110.54889"
+    bond_angle "112.03299"
   ]
   edge [
-    source 1042
-    target 1043
-    distance "1.0905238"
-    bond_angle "109.34094"
-  ]
-  edge [
-    source 1042
-    target 1044
+    source 523
+    target 524
     distance "1.5317794"
-    bond_angle "109.03567"
+    bond_angle "108.55931"
   ]
   edge [
-    source 1042
-    target 1048
+    source 523
+    target 525
     distance "1.5277755"
-    bond_angle "109.90496"
+    bond_angle "109.73762"
   ]
   edge [
-    source 1044
-    target 1045
-    distance "1.0900147"
-    bond_angle "109.33252"
-  ]
-  edge [
-    source 1044
-    target 1046
-    distance "1.0901544"
-    bond_angle "108.98786"
-  ]
-  edge [
-    source 1044
-    target 1047
-    distance "1.0900321"
-    bond_angle "109.94912"
-  ]
-  edge [
-    source 1048
-    target 1049
-    distance "1.0898815"
-    bond_angle "109.6204"
-  ]
-  edge [
-    source 1048
-    target 1050
-    distance "1.0899419"
-    bond_angle "109.05326"
-  ]
-  edge [
-    source 1048
-    target 1051
-    distance "1.0897199"
-    bond_angle "108.99295"
-  ]
-  edge [
-    source 1052
-    target 1053
-    distance "1.009561"
-    bond_angle "118.29324"
-  ]
-  edge [
-    source 1052
-    target 1054
+    source 526
+    target 527
     distance "1.4759965"
-    bond_angle "115.39329"
+    bond_angle "116.38851"
   ]
   edge [
-    source 1054
-    target 1055
-    distance "1.0898358"
-    bond_angle "107.79199"
-  ]
-  edge [
-    source 1054
-    target 1056
+    source 527
+    target 528
     distance "1.5249847"
-    bond_angle "112.537766"
+    bond_angle "114.09375"
   ]
   edge [
-    source 1054
-    target 1057
+    source 527
+    target 529
     distance "1.5237418"
-    bond_angle "109.3566"
+    bond_angle "110.31614"
   ]
   edge [
-    source 1056
-    target 1060
+    source 528
+    target 530
     distance "1.2311957"
     bond_angle "121.09345"
   ]
   edge [
-    source 1056
-    target 1063
+    source 528
+    target 532
     distance "1.3331087"
-    bond_angle "121.04481"
+    bond_angle "121.85543"
   ]
   edge [
-    source 1057
-    target 1058
-    distance "1.0899915"
-    bond_angle "108.88253"
-  ]
-  edge [
-    source 1057
-    target 1059
-    distance "1.089988"
-    bond_angle "108.87429"
-  ]
-  edge [
-    source 1057
-    target 1061
+    source 529
+    target 531
     distance "1.4070705"
-    bond_angle "108.43085"
+    bond_angle "111.92085"
   ]
   edge [
-    source 1061
-    target 1062
-    distance "0.9593749"
-    bond_angle "102.99339"
-  ]
-  edge [
-    source 1063
-    target 1064
-    distance "1.0104089"
-    bond_angle "116.73836"
-  ]
-  edge [
-    source 1063
-    target 1065
+    source 532
+    target 533
     distance "1.4674406"
-    bond_angle "113.83628"
+    bond_angle "114.80497"
   ]
   edge [
-    source 1065
-    target 1066
-    distance "1.0903056"
-    bond_angle "107.99097"
-  ]
-  edge [
-    source 1065
-    target 1067
+    source 533
+    target 534
     distance "1.5346048"
-    bond_angle "112.60466"
+    bond_angle "114.47685"
   ]
   edge [
-    source 1065
-    target 1068
+    source 533
+    target 535
     distance "1.5424052"
-    bond_angle "110.12766"
+    bond_angle "111.06943"
   ]
   edge [
-    source 1067
-    target 1071
+    source 534
+    target 536
     distance "1.2529912"
     bond_angle "121.18335"
   ]
   edge [
-    source 1067
-    target 1078
+    source 534
+    target 541
     distance "1.2521045"
     bond_angle "121.46949"
   ]
   edge [
-    source 1068
-    target 1069
-    distance "1.0894576"
-    bond_angle "109.46399"
-  ]
-  edge [
-    source 1068
-    target 1070
-    distance "1.0906773"
-    bond_angle "108.46049"
-  ]
-  edge [
-    source 1068
-    target 1072
+    source 535
+    target 537
     distance "1.5390601"
-    bond_angle "110.33535"
+    bond_angle "112.93236"
   ]
   edge [
-    source 1072
-    target 1073
-    distance "1.0901239"
-    bond_angle "108.62032"
-  ]
-  edge [
-    source 1072
-    target 1074
-    distance "1.0906223"
-    bond_angle "107.320305"
-  ]
-  edge [
-    source 1072
-    target 1075
+    source 537
+    target 538
     distance "1.5416114"
-    bond_angle "113.847885"
+    bond_angle "116.96332"
   ]
   edge [
-    source 1075
-    target 1076
+    source 538
+    target 539
     distance "1.2570347"
     bond_angle "119.8804"
   ]
   edge [
-    source 1075
-    target 1077
+    source 538
+    target 540
     distance "1.2520514"
     bond_angle "121.68437"
   ]

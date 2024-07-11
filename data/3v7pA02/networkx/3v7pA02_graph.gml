@@ -38481,7 +38481,7 @@ graph [
     source 1617
     target 1618
     distance "1.8389589"
-    bond_angle "nan"
+    bond_angle "0"
   ]
   edge [
     source 1619

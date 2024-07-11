@@ -7,6 +7,12 @@ There are many structure and sequence files in /data. When pulling this reposito
 git config --global http.postBuffer 524288000
 ```
 
+**General Workflow**:
+ `DataProcessing.ipynb` -> (Remodeling to correct sequence gaps) -> `GraphDataset.ipynb` -> `python models/train.py`
+
+**Disclaimer**:
+Some files contained within data/*/pdb were remodeled using SCWRL4. While, in many cases, these files are not a complete representation of the starting structure and, therefore, were not used (SCWRL4 is good for modeling sequence substituions, not insertions), it is important to read and understand the [usage guidelines](http://dunbrack.fccc.edu/lab/scwrl) for SCWRL4 outputs. The current implementation DOES NOT utilize SCWRL4 remodeled structures. These file outputs are included for experimentation purposes only. Instead, the starting structures for all cath_ids were utilized when creating graphical representaitons.  
+
 ## Setup Instructions
 
 ### 1. Create and Activate Conda Environment (on MacOS/Linux)
@@ -23,6 +29,7 @@ pip install -r src/requirements.txt
 ### 2. Install `ncbi-blast+` for Sequence Alignment
  
 `ncbi-blast+` is not available in Conda channels. It needs to be installed manually.
+If you are utilizing modified sequences in `data/*/seqs/modified.fasta`, continue to Step 3. This requirement is necessary for a full rerun of `notebooks/DataProcessing.ipynb`
 
 a. **Download `ncbi-blast+`**:
 
@@ -55,7 +62,7 @@ blastp -h
 ```
 ### 5. Install PyRosetta (Optional)
 
-PyRosetta can be used for sequence remodeling.
+PyRosetta can be used for sequence remodeling. Make sure your env is active.
 
 ```bash
 pip install pyrosetta-installer
@@ -66,5 +73,6 @@ conda install pyrosetta
 ```
 
 ## Notebooks
-### After activating the conda env, notebooks can be accessed by typing `jupyter notebook` into the console and hitting ENTER Ctrl + C / Ctrl + V one of the provided links into your web browser
+### After activating the conda env, notebooks can be accessed by typing `jupyter notebook` into the console and hitting ENTER - Ctrl + C / Ctrl + V one of the provided links into your web browser
+The `/notebooks` dir contains all code for data preprocessing
 

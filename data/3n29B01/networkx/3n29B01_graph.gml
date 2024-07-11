@@ -18621,7 +18621,7 @@ graph [
     source 676
     target 677
     distance "1.8867635"
-    bond_angle "nan"
+    bond_angle "0"
   ]
   edge [
     source 678
