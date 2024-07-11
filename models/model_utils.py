@@ -1,45 +1,61 @@
-import torch
 import torch.optim as optim
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
 import glob
 import os
 import torch.cuda.amp as amp
+import torch.nn as nn
+import math
 
-from torch.utils.data import Dataset, random_split
+from torch.utils.data import Dataset
 from torch_geometric.loader import DataLoader
 from torch_geometric.data import Data
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support, confusion_matrix
 from tqdm import tqdm
-from torch_geometric.utils import dense_to_sparse
+from torch.nn.utils import clip_grad_norm_
 
 from model import *
+from misc_utils import *
 
-def save_checkpoint(model, optimizer, epoch, best_val_acc, filename):
-    checkpoint = {
-        'model_state_dict': model.state_dict(),
-        'optimizer_state_dict': optimizer.state_dict(),
-        'epoch': epoch,
-        'best_val_acc': best_val_acc
-    }
-    torch.save(checkpoint, filename)
+def init_weights(m):
+    if isinstance(m, TransformerConv):
+        # print(f"Initializing TransformerConv layer")
+        nn.init.xavier_uniform_(m.lin_key.weight)
+        nn.init.xavier_uniform_(m.lin_query.weight)
+        nn.init.xavier_uniform_(m.lin_value.weight)
+        if m.lin_edge is not None:
+            nn.init.xavier_uniform_(m.lin_edge.weight)
+            if m.lin_edge.bias is not None:
+                nn.init.zeros_(m.lin_edge.bias)
+        
+        nn.init.zeros_(m.lin_key.bias)
+        nn.init.zeros_(m.lin_query.bias)
+        nn.init.zeros_(m.lin_value.bias)
+        
+    elif isinstance(m, nn.Linear):
+        # print(f"Initializing Linear layer: {m}")
+        nn.init.xavier_uniform_(m.weight)
+        if m.bias is not None:
+            nn.init.zeros_(m.bias)
+    
+    elif isinstance(m, nn.BatchNorm1d):
+        # print(f"Initializing BatchNorm1d layer: {m}")
+        nn.init.constant_(m.weight, 1)
+        nn.init.constant_(m.bias, 0)
 
-def load_checkpoint(model, optimizer, filename):
-    checkpoint = torch.load(filename)
-    model.load_state_dict(checkpoint['model_state_dict'])
-    optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
-    epoch = checkpoint['epoch']
-    best_val_acc = checkpoint['best_val_acc']
-    return model, optimizer, epoch, best_val_acc
-
-def split_dataset(dataset, val_split=0.2):
-    val_size = int(len(dataset) * val_split)
-    train_size = len(dataset) - val_size
-    return random_split(dataset, [train_size, val_size])
+    else:
+        initialized = False
+        if hasattr(m, 'weight'):
+            nn.init.xavier_uniform_(m.weight)
+            initialized = True   
+        if hasattr(m, 'bias') and m.bias is not None:
+            nn.init.zeros_(m.bias)
+            initialized = True    
+        # if not initialized:
+        #     print(f"Layer {m} not specifically initialized")
 
 def run_ablation_study(train_data, val_data, test_data, model_params, num_classes, device):
     feature_size = train_data[0].x[0].shape[0]  # Automatically determine the number of node features
+    edge_dim = train_data[0].edge_attr.shape[1]  # Number of edge features
 
     configurations = [
         ("GraphTransformer", {"use_graph": True, "use_esm2": False}),
@@ -52,21 +68,35 @@ def run_ablation_study(train_data, val_data, test_data, model_params, num_classe
     for config_name, config_params in configurations:
         print(f"\nRunning ablation study for: {config_name}")
         model_params.update(config_params)
-        model = HybridModel(feature_size, model_params, num_classes)
+        model = HybridModel(feature_size, edge_dim, model_params, num_classes)
 
+        # Apply weight initialization to the entire model
+        try:
+            model.apply(init_weights)
+        except Exception as e:
+            print(f"Error initializing model weights: {e}")
+            print("Model structure:")
+            print(model)
+            raise
+
+        # Initialize the classification task layers that are part of the hybrid model
+        model.linear1.apply(init_weights)
+        model.linear2.apply(init_weights)
+        model.linear3.apply(init_weights)
+        
         # Loss and optimizer for general multi-class classo
         criterion = torch.nn.CrossEntropyLoss()
         optimizer = optim.Adam(model.parameters(), lr=0.001)
 
-        train_loader = DataLoader(train_data, batch_size=2, shuffle=True)
-        val_loader = DataLoader(val_data, batch_size=2)
-        test_loader = DataLoader(test_data, batch_size=2)
+        train_loader = DataLoader(train_data, batch_size=1, shuffle=True)
+        val_loader = DataLoader(val_data, batch_size=1)
+        test_loader = DataLoader(test_data, batch_size=1)
 
-        # train_losses, train_accs, val_losses, val_accs = train_model(model, config_name, train_loader, val_loader, 
-        #                                                              criterion, optimizer, num_epochs=50, device=device)
-        train_losses, train_accs, val_losses, val_accs = train_model_memory_efficient(model, config_name, train_loader, val_loader, 
-                                                                                      criterion, optimizer, num_epochs=50, device=device,
-                                                                                      accumulation_steps=10, use_amp=True)
+        train_losses, train_accs, val_losses, val_accs = train_model(model, config_name, train_loader, val_loader, 
+                                                                     criterion, optimizer, num_epochs=50, device=device)
+        # train_losses, train_accs, val_losses, val_accs = train_model_memory_efficient(model, config_name, train_loader, val_loader, 
+        #                                                                               criterion, optimizer, num_epochs=50, device=device,
+        #                                                                               accumulation_steps=10, use_amp=True)
 
         plot_training_curves(train_losses, train_accs, val_losses, val_accs)
 
@@ -80,8 +110,8 @@ def run_ablation_study(train_data, val_data, test_data, model_params, num_classe
             print(f"No checkpoint found for {config_name}, using the last trained model")
 
         # Evaluate performance
-        # test_loss, test_acc, precision, recall, f1, conf_matrix = evaluate_model(model, test_loader, criterion, device)
-        test_loss, test_acc, precision, recall, f1, conf_matrix = evaluate_model_memory_efficient(model, test_loader, criterion, device, use_amp=True)
+        test_loss, test_acc, precision, recall, f1, conf_matrix = evaluate_model(model, test_loader, criterion, device)
+        # test_loss, test_acc, precision, recall, f1, conf_matrix = evaluate_model_memory_efficient(model, test_loader, criterion, device, use_amp=True)
 
         results[config_name] = {
             "test_loss": test_loss,
@@ -101,15 +131,19 @@ def run_ablation_study(train_data, val_data, test_data, model_params, num_classe
         class_names = [f"Class {i}" for i in range(num_classes)]
         plot_confusion_matrix(conf_matrix, class_names)
 
-        break
-
     return results
 
-def train_model(model, config_name, train_loader, val_loader, criterion, optimizer, num_epochs, device):
+def train_model(model, config_name, train_loader, val_loader, criterion, optimizer, num_epochs, device, 
+                use_grad_clip=False, clip_value=1.0, patience=5, delta=0): # Change parameter values to experiment
     model.to(device)
     best_val_acc = 0.0
     train_losses, val_losses = [], []
     train_accs, val_accs = [], []
+
+    # Early stopping variables
+    best_score = 0.0
+    counter = 0
+    early_stop = False
 
     for epoch in range(num_epochs):
         model.train()
@@ -118,15 +152,28 @@ def train_model(model, config_name, train_loader, val_loader, criterion, optimiz
             batch = batch.to(device)
             sequences = batch.sequence
             labels = batch.y
+
+            # Check for NaNs in input data
+            if torch.isnan(batch.x).any() or torch.isnan(batch.edge_attr).any() or torch.isnan(batch.edge_index).any():
+                print(f"NaN detected in input data at batch {batch.cath_id[0][0]}")
+                torch.save(batch, os.path.join('problematic_batches', f'{batch.cath_id[0][0]}.pt'))
+                continue      
             
             optimizer.zero_grad()
             # `batch.batch` attribute is automatically created by PyTorch Geometric's DataLoader
             outputs = model(batch.x, batch.edge_attr, batch.edge_index, batch.batch, sequences)
-            loss = criterion(outputs, labels)
-            loss.backward()
-            optimizer.step()
 
-            train_loss += loss.item()
+            loss = criterion(outputs, labels)
+            loss.backward() # computes the gradients for all parameters.
+             
+            if use_grad_clip:
+                # clips the gradients immediately after they've been computed
+                clip_grad_norm_(model.parameters(), max_norm=clip_value)
+
+            optimizer.step() # updates the parameters using the clipped gradients if use_grad_clip=True
+
+            train_loss += loss.item()   
+        
             _, predicted = torch.max(outputs.data, 1)
             train_total += labels.size(0)
             train_correct += (predicted == labels).sum().item()
@@ -145,7 +192,7 @@ def train_model(model, config_name, train_loader, val_loader, criterion, optimiz
         val_loss, val_correct, val_total = 0.0, 0, 0
         with torch.no_grad():
             for val_batch in val_loader:
-                val_batch = batch.to(device)
+                val_batch = val_batch.to(device)
                 val_sequences = val_batch.sequence
                 val_labels = val_batch.y
                 
@@ -154,10 +201,10 @@ def train_model(model, config_name, train_loader, val_loader, criterion, optimiz
 
                 val_loss += loss.item()
                 _, predicted = torch.max(outputs.data, 1)
-                val_total += labels.size(0)
+                val_total += val_labels.size(0)
                 val_correct += (predicted == val_labels).sum().item()
 
-                # Clear memory
+                # # Clear memory
                 del val_batch, val_sequences, val_labels, outputs, loss
                 torch.cuda.empty_cache()
 
@@ -168,12 +215,27 @@ def train_model(model, config_name, train_loader, val_loader, criterion, optimiz
 
         print(f"Epoch {epoch+1}/{num_epochs}, Train Loss: {train_loss:.4f}, Train Acc: {train_acc:.4f}, Val Loss: {val_loss:.4f}, Val Acc: {val_acc:.4f}")
 
-        if val_acc > best_val_acc:
+        # Early stopping logic
+        if val_acc > best_score + delta:
+            best_score = val_acc
+            counter = 0
+            save_checkpoint(model, optimizer, epoch, val_acc, f'states/checkpoint_best_{config_name}_model.pth')
+            print(f'Validation accuracy increased ({best_val_acc:.6f} --> {val_acc:.6f}). Saving model ...')
             best_val_acc = val_acc
-            save_checkpoint(model, optimizer, epoch, best_val_acc, f'states/checkpoint_best_{config_name}_model.pth')
-
+        else:
+            counter += 1
+            print(f'EarlyStopping counter: {counter} out of {patience}')
+            if counter >= patience:
+                print("Early stopping")
+                early_stop = True
+                break
+                
         # Clear memory after each epoch
         torch.cuda.empty_cache()
+
+        if early_stop:
+            print("Training stopped early.")
+            break
 
     return train_losses, train_accs, val_losses, val_accs
 
@@ -323,35 +385,3 @@ def evaluate_model_memory_efficient(model, test_loader, criterion, device, use_a
     conf_matrix = confusion_matrix(all_labels, all_preds)
 
     return test_loss, test_acc, precision, recall, f1, conf_matrix
-
-def plot_training_curves(train_losses, train_accs, val_losses, val_accs):
-    plt.figure(figsize=(12, 5))
-    plt.subplot(1, 2, 1)
-    plt.plot(train_losses, label='Train Loss')
-    plt.plot(val_losses, label='Validation Loss')
-    plt.xlabel('Epoch')
-    plt.ylabel('Loss')
-    plt.legend()
-    plt.title('Training and Validation Loss')
-
-    plt.subplot(1, 2, 2)
-    plt.plot(train_accs, label='Train Accuracy')
-    plt.plot(val_accs, label='Validation Accuracy')
-    plt.xlabel('Epoch')
-    plt.ylabel('Accuracy')
-    plt.legend()
-    plt.title('Training and Validation Accuracy')
-
-    plt.tight_layout()
-    plt.savefig('images/training_curves.png')
-    plt.close()
-
-def plot_confusion_matrix(conf_matrix, class_names):
-    plt.figure(figsize=(10, 8))
-    sns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues', xticklabels=class_names, yticklabels=class_names)
-    plt.xlabel('Predicted')
-    plt.ylabel('True')
-    plt.title('Confusion Matrix')
-    plt.tight_layout()
-    plt.savefig('images/confusion_matrix.png')
-    plt.close()

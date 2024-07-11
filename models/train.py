@@ -12,20 +12,15 @@ class ProteinDataset(Dataset):
 
     def __getitem__(self, idx):
         data = self.data_list[idx]
-        
-        # Extract the sequence from the seq attribute
-        sequence = data.seq[0]  # seq is a list with one string element representing the raw AA sequence
 
-        # Convert dense adjacency matrix to sparse edge index
-        edge_index, _ = dense_to_sparse(data.adj_matrix)
-        
         # Create a focused PyG Data object for the graph data only
-        graph_data_batch = Data(x=data.node_feat,
+        graph_data_batch = Data(cath_id=data.cath_id,
+                                x=data.node_feat,
                                 edge_attr=data.edge_feat,
-                                edge_index=edge_index,
-                                y=data.target,         # The target is our label
-                                sequence=sequence)
-
+                                edge_index=data.adj_matrix,    # Sparse Adj Matrix
+                                y=data.target,                 # The target is our label
+                                sequence=data.seq[0])          # seq is a list with one string element representing the raw AA sequence
+       
         return graph_data_batch
         
     def load_data_from_partitions(self):
@@ -56,12 +51,11 @@ if __name__ == "__main__":
     model_params = {
         "model_embedding_size": 32,
         "model_attention_heads": 2,
-        "model_layers": 2,
-        "model_dropout_rate": 0.15,
+        "model_layers": 4,
+        "model_dropout_rate": 0.20,
         "model_top_k_ratio": 0.5,
-        "model_top_k_every_n": 2,
+        "model_top_k_every_n": 2 ,
         "model_dense_neurons": 64,
-        "model_edge_dim": 4,
         "use_pooling": True
     }
 

@@ -7,7 +7,7 @@ import esm
 torch.manual_seed(42)
 
 class GraphTransformer(torch.nn.Module):
-    def __init__(self, feature_size, model_params):
+    def __init__(self, feature_size, edge_dim, model_params):
         super(GraphTransformer, self).__init__()
         embedding_size = model_params["model_embedding_size"]
         n_heads = model_params["model_attention_heads"]
@@ -16,7 +16,6 @@ class GraphTransformer(torch.nn.Module):
         top_k_ratio = model_params["model_top_k_ratio"]
         self.top_k_every_n = model_params["model_top_k_every_n"]
         dense_neurons = model_params["model_dense_neurons"]
-        edge_dim = model_params["model_edge_dim"]
         self.use_pooling = model_params["use_pooling"]
 
         self.conv_layers = ModuleList([])
@@ -42,7 +41,7 @@ class GraphTransformer(torch.nn.Module):
                                                     heads=n_heads, 
                                                     dropout=dropout_rate,
                                                     edge_dim=edge_dim,
-                                                    beta=True))
+                                                    beta=True)) # enables a learnable scaling factor for attention scores.
 
             self.transf_layers.append(Linear(embedding_size*n_heads, embedding_size))
             self.bn_layers.append(BatchNorm1d(embedding_size))
@@ -52,27 +51,57 @@ class GraphTransformer(torch.nn.Module):
         self.output_dim = embedding_size * 2
 
     def forward(self, x, edge_attr, edge_index, batch_index):
+        temp = x
         # Initial transformation
         x = self.conv1(x, edge_index, edge_attr)
+        if torch.isnan(x).any():
+            print("NaN detected after operation conv1")
+            print(f'Node_Feats:\n {temp} \n {temp.shape}')
+            print(f'Edge_Feats:\n {edge_attr} \n {edge_attr.shape}')
+            print(f'Edge_Index:\n {edge_index} \n {edge_index.shape}')
+            raise ValueError("NaN in forward pass")
         x = torch.relu(self.transf1(x))
+        if torch.isnan(x).any():
+            print("NaN detected after operation transf1")
+            raise ValueError("NaN in forward pass")
         x = self.bn1(x)
+        if torch.isnan(x).any():
+            print("NaN detected after operation bn1")
+            raise ValueError("NaN in forward pass")
 
         # Holds the intermediate graph representations
         global_representation = []
 
         for i in range(self.n_layers):
             x = self.conv_layers[i](x, edge_index, edge_attr)
+            if torch.isnan(x).any():
+                print("NaN detected after operation conv_layers[i]")
+                raise ValueError("NaN in forward pass")
+                
             x = torch.relu(self.transf_layers[i](x))
+            if torch.isnan(x).any():
+                print("NaN detected after operation transf_layers[i]")
+                raise ValueError("NaN in forward pass")
+                
             x = self.bn_layers[i](x)
+            if torch.isnan(x).any():
+                print("NaN detected after operation bn_layers[i]")
+                raise ValueError("NaN in forward pass")
+                
             # Always aggregate last layer
             if self.use_pooling and (i % self.top_k_every_n == 0 or i == self.n_layers - 1):
-                x, edge_index, edge_attr, batch_index, _, _ = self.pooling_layers[int(i/self.top_k_every_n)](
-                    x, edge_index, edge_attr, batch_index
-                    )
+                x, edge_index, edge_attr, batch_index, _, _ = self.pooling_layers[int(i/self.top_k_every_n)](x, edge_index, edge_attr, batch_index)
+                if torch.isnan(x).any():
+                    print("NaN detected after operation pooling_layers[i]")
+                    raise ValueError("NaN in forward pass")
+                    
             # Add current representation
             global_representation.append(torch.cat([gmp(x, batch_index), gap(x, batch_index)], dim=1))
     
         x = sum(global_representation)
+        if torch.isnan(x).any():
+            print("NaN detected after operation sum()")
+            raise ValueError("NaN in forward pass")
         return x
 
 class ESM2Model(torch.nn.Module):
@@ -80,7 +109,7 @@ class ESM2Model(torch.nn.Module):
         super(ESM2Model, self).__init__()
         self.model, self.alphabet = esm.pretrained.load_model_and_alphabet(model_name)
         self.model.eval()  # Set to evaluation mode
-        for param in self.model.parameters():
+        for param in self.model.parameters(): # Freeze ESM2 weights as its pre-trained
             param.requires_grad = False
         self.output_dim = self.model.args.embed_dim
 
@@ -99,9 +128,9 @@ class ESM2Model(torch.nn.Module):
         return embeddings
 
 class HybridModel(torch.nn.Module):
-    def __init__(self, feature_size, model_params, num_classes=10):
+    def __init__(self, feature_size, edge_dim, model_params, num_classes=10):
         super(HybridModel, self).__init__()
-        self.graph_transformer = GraphTransformer(feature_size, model_params) if model_params["use_graph"] else None
+        self.graph_transformer = GraphTransformer(feature_size, edge_dim, model_params) if model_params["use_graph"] else None
         self.esm2_model = ESM2Model() if model_params["use_esm2"] else None
         
         self.use_graph = model_params["use_graph"]
