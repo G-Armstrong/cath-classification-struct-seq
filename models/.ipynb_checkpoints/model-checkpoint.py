@@ -1,9 +1,12 @@
 import torch
 import torch.nn.functional as F 
+import esm
+import torch.nn as nn
+
 from torch.nn import Linear, BatchNorm1d, ModuleList
 from torch_geometric.nn import TransformerConv, TopKPooling 
 from torch_geometric.nn import global_mean_pool as gap, global_max_pool as gmp
-import esm
+
 torch.manual_seed(42)
 
 class GraphTransformer(torch.nn.Module):
@@ -51,69 +54,78 @@ class GraphTransformer(torch.nn.Module):
         self.output_dim = embedding_size * 2
 
     def forward(self, x, edge_attr, edge_index, batch_index):
-        temp = x
         # Initial transformation
         x = self.conv1(x, edge_index, edge_attr)
-        if torch.isnan(x).any():
-            print("NaN detected after operation conv1")
-            print(f'Node_Feats:\n {temp} \n {temp.shape}')
-            print(f'Edge_Feats:\n {edge_attr} \n {edge_attr.shape}')
-            print(f'Edge_Index:\n {edge_index} \n {edge_index.shape}')
-            raise ValueError("NaN in forward pass")
-        x = torch.relu(self.transf1(x))
-        if torch.isnan(x).any():
-            print("NaN detected after operation transf1")
-            raise ValueError("NaN in forward pass")
-        x = self.bn1(x)
-        if torch.isnan(x).any():
-            print("NaN detected after operation bn1")
-            raise ValueError("NaN in forward pass")
-
+        x = self.bn1(F.leaky_relu(self.transf1(x)))
         # Holds the intermediate graph representations
         global_representation = []
 
         for i in range(self.n_layers):
             x = self.conv_layers[i](x, edge_index, edge_attr)
-            if torch.isnan(x).any():
-                print("NaN detected after operation conv_layers[i]")
-                raise ValueError("NaN in forward pass")
-                
-            x = torch.relu(self.transf_layers[i](x))
-            if torch.isnan(x).any():
-                print("NaN detected after operation transf_layers[i]")
-                raise ValueError("NaN in forward pass")
-                
-            x = self.bn_layers[i](x)
-            if torch.isnan(x).any():
-                print("NaN detected after operation bn_layers[i]")
-                raise ValueError("NaN in forward pass")
+            x = self.bn_layers[i](F.leaky_relu(self.transf_layers[i](x)))
                 
             # Always aggregate last layer
             if self.use_pooling and (i % self.top_k_every_n == 0 or i == self.n_layers - 1):
                 x, edge_index, edge_attr, batch_index, _, _ = self.pooling_layers[int(i/self.top_k_every_n)](x, edge_index, edge_attr, batch_index)
-                if torch.isnan(x).any():
-                    print("NaN detected after operation pooling_layers[i]")
-                    raise ValueError("NaN in forward pass")
                     
             # Add current representation
             global_representation.append(torch.cat([gmp(x, batch_index), gap(x, batch_index)], dim=1))
     
         x = sum(global_representation)
-        if torch.isnan(x).any():
-            print("NaN detected after operation sum()")
-            raise ValueError("NaN in forward pass")
         return x
+
+    # def forward(self, x, edge_attr, edge_index, batch_index):
+
+    #     # Initial transformation
+    #     x = self.conv1(x, edge_index, edge_attr)
+    #     print(f"After conv1 - x shape: {x.shape}, var: {x.var()}")
+    
+    #     x = torch.relu(self.transf1(x))
+    #     print(f"After transf1 and ReLU - x shape: {x.shape}, var: {x.var()}")
+    
+    #     x = self.bn1(x)
+    #     print(f"After bn1 - x shape: {x.shape}, var: {x.var()}")
+    
+    #     # Holds the intermediate graph representations
+    #     global_representation = []
+    
+    #     for i in range(self.n_layers):
+    #         x = self.conv_layers[i](x, edge_index, edge_attr)
+    #         print(f"Layer {i}, after conv - x shape: {x.shape}, var: {x.var()}")
+    
+    #         x = torch.relu(self.transf_layers[i](x))
+    #         print(f"Layer {i}, after transf and ReLU - x shape: {x.shape}, var: {x.var()}")
+    
+    #         x = self.bn_layers[i](x)
+    #         print(f"Layer {i}, after bn - x shape: {x.shape}, var: {x.var()}")
+                
+    #         # Always aggregate last layer
+    #         if self.use_pooling and (i % self.top_k_every_n == 0 or i == self.n_layers - 1):
+    #             x, edge_index, edge_attr, batch_index, _, _ = self.pooling_layers[int(i/self.top_k_every_n)](x, edge_index, edge_attr, batch_index)
+    #             print(f"Layer {i}, after pooling - x shape: {x.shape}, var: {x.var()}")
+                    
+    #         # Add current representation
+    #         current_repr = torch.cat([gmp(x, batch_index), gap(x, batch_index)], dim=1)
+    #         print(f"Layer {i}, global representation shape: {current_repr.shape}, var: {current_repr.var()}")
+    #         global_representation.append(current_repr)
+    
+    #     x = sum(global_representation)
+    #     print(f"Final output shape: {x.shape}, var: {x.var()}")
+    #     return x
 
 class ESM2Model(torch.nn.Module):
     def __init__(self, model_name="esm2_t33_650M_UR50D"):
         super(ESM2Model, self).__init__()
+        # check if the model files are already present in the local cache. 
+        # If they're not found, it automatically downloads them from the specified URLs
         self.model, self.alphabet = esm.pretrained.load_model_and_alphabet(model_name)
         self.model.eval()  # Set to evaluation mode
         for param in self.model.parameters(): # Freeze ESM2 weights as its pre-trained
             param.requires_grad = False
-        self.output_dim = self.model.args.embed_dim
+        self.output_dim = self.model.embed_dim
 
-    def forward(self, sequences):
+
+    def forward(self, sequences):       
         batch_converter = self.alphabet.get_batch_converter()
         batch_labels, batch_strs, batch_tokens = batch_converter(sequences)
         with torch.no_grad():
@@ -125,7 +137,7 @@ class ESM2Model(torch.nn.Module):
         # which can be directly concatenated with the graph representations.
         sequence_embeddings = embeddings.mean(dim=1)
         
-        return embeddings
+        return sequence_embeddings
 
 class HybridModel(torch.nn.Module):
     def __init__(self, feature_size, edge_dim, model_params, num_classes=10):
@@ -136,6 +148,9 @@ class HybridModel(torch.nn.Module):
         self.use_graph = model_params["use_graph"]
         self.use_esm2 = model_params["use_esm2"]
 
+        # Store the dropout rate
+        self.dropout_rate = model_params["model_dropout_rate"]
+
         # Calculate the input dimension for the classification layers
         input_dim = 0
         if self.use_graph:
@@ -145,10 +160,20 @@ class HybridModel(torch.nn.Module):
 
         dense_neurons = model_params["model_dense_neurons"]
 
-        # Linear layers
-        self.linear1 = Linear(input_dim, dense_neurons)
-        self.linear2 = Linear(dense_neurons, int(dense_neurons/2))  
-        self.linear3 = Linear(int(dense_neurons/2), num_classes)  
+        # Linear layers with batch normalization
+        self.linear1 = nn.Linear(input_dim, dense_neurons)
+        self.bn1 = nn.BatchNorm1d(dense_neurons)
+        self.linear2 = nn.Linear(dense_neurons, int(dense_neurons/2))
+        self.bn2 = nn.BatchNorm1d(int(dense_neurons/2))
+        self.linear3 = nn.Linear(int(dense_neurons/2), num_classes)
+
+        # Linear layer to match dimensions for residual connection
+        self.match_dim = nn.Linear(dense_neurons, int(dense_neurons/2))
+        
+        # # Linear layers
+        # self.linear1 = Linear(input_dim, dense_neurons)
+        # self.linear2 = Linear(dense_neurons, int(dense_neurons/2))  
+        # self.linear3 = Linear(int(dense_neurons/2), num_classes)  
 
     def forward(self, x, edge_attr, edge_index, batch_index, sequences):
         representations = []
@@ -164,11 +189,20 @@ class HybridModel(torch.nn.Module):
         # Concatenate only the representations that are in use
         combined_repr = torch.cat(representations, dim=1)
 
-        # Output block
-        x = torch.relu(self.linear1(combined_repr))
-        x = F.dropout(x, p=0.5, training=self.training)
-        x = torch.relu(self.linear2(x))
-        x = F.dropout(x, p=0.5, training=self.training)
-        x = self.linear3(x)
+        # Output block with batch normalization and residual connections
+        x1 = self.bn1(torch.relu(self.linear1(combined_repr)))
+        x1 = F.dropout(x1, p=self.dropout_rate, training=self.training)
+        x1_residual = self.match_dim(x1)         # Match dimensions for residual connection
+
+        x2 = self.bn2(torch.relu(self.linear2(x1)))
+        x2 = F.dropout(x2, p=self.dropout_rate, training=self.training)
+        x = self.linear3(x2 + x1_residual)  # Residual connection
+
+        # # Output block
+        # x = torch.relu(self.linear1(combined_repr))
+        # x = F.dropout(x, p=self.dropout_rate, training=self.training)
+        # x = torch.relu(self.linear2(x))
+        # x = F.dropout(x, p=self.dropout_rate, training=self.training)
+        # x = self.linear3(x)
 
         return x

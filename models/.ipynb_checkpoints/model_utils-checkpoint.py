@@ -15,6 +15,13 @@ from torch.nn.utils import clip_grad_norm_
 
 from model import *
 from misc_utils import *
+from torch.optim.lr_scheduler import LambdaLR
+
+# def lr_lambda(epoch):
+#     if epoch < 10:
+#         return float(epoch) / 10
+#     else:
+#         return 1.0
 
 def init_weights(m):
     if isinstance(m, TransformerConv):
@@ -57,9 +64,14 @@ def run_ablation_study(train_data, val_data, test_data, model_params, num_classe
     feature_size = train_data[0].x[0].shape[0]  # Automatically determine the number of node features
     edge_dim = train_data[0].edge_attr.shape[1]  # Number of edge features
 
+    # configurations = [
+    #     ("GraphTransformer", {"use_graph": True, "use_esm2": False}),
+    #     ("ESM2", {"use_graph": False, "use_esm2": True}),
+    #     ("Hybrid", {"use_graph": True, "use_esm2": True})
+    # ]
+
     configurations = [
         ("GraphTransformer", {"use_graph": True, "use_esm2": False}),
-        ("ESM2", {"use_graph": False, "use_esm2": True}),
         ("Hybrid", {"use_graph": True, "use_esm2": True})
     ]
 
@@ -70,27 +82,40 @@ def run_ablation_study(train_data, val_data, test_data, model_params, num_classe
         model_params.update(config_params)
         model = HybridModel(feature_size, edge_dim, model_params, num_classes)
 
-        # Apply weight initialization to the entire model
+        # Weight Initialization
         try:
-            model.apply(init_weights)
+            
+            # Apply weight initialization based on the configuration
+            if model.use_graph:
+                model.graph_transformer.apply(init_weights)
+            
+            if model.use_esm2:
+                # Ensure ESM2 model remains frozen
+                for param in model.esm2_model.parameters():
+                    param.requires_grad = False
+                    
+            # Always initialize the final linear layers
+            model.linear1.apply(init_weights)
+            model.linear2.apply(init_weights)
+            model.linear3.apply(init_weights)
+            model.match_dim.apply(init_weights)
+            print('Model weights initialized.')
+            
         except Exception as e:
             print(f"Error initializing model weights: {e}")
             print("Model structure:")
             print(model)
             raise
 
-        # Initialize the classification task layers that are part of the hybrid model
-        model.linear1.apply(init_weights)
-        model.linear2.apply(init_weights)
-        model.linear3.apply(init_weights)
-        
         # Loss and optimizer for general multi-class classo
         criterion = torch.nn.CrossEntropyLoss()
-        optimizer = optim.Adam(model.parameters(), lr=0.001)
+        # Weight decay is a form of L2 regularization. It adds a small penalty to the loss function for larger weights, 
+        # which encourages the model to use smaller weights. This can help prevent overfitting.
+        optimizer = optim.Adam(model.parameters(), lr=0.01, weight_decay=1e-5)
 
-        train_loader = DataLoader(train_data, batch_size=1, shuffle=True)
-        val_loader = DataLoader(val_data, batch_size=1)
-        test_loader = DataLoader(test_data, batch_size=1)
+        train_loader = DataLoader(train_data, batch_size=32, shuffle=True)
+        val_loader = DataLoader(val_data, batch_size=32)
+        test_loader = DataLoader(test_data, batch_size=32)
 
         train_losses, train_accs, val_losses, val_accs = train_model(model, config_name, train_loader, val_loader, 
                                                                      criterion, optimizer, num_epochs=50, device=device)
@@ -98,7 +123,7 @@ def run_ablation_study(train_data, val_data, test_data, model_params, num_classe
         #                                                                               criterion, optimizer, num_epochs=50, device=device,
         #                                                                               accumulation_steps=10, use_amp=True)
 
-        plot_training_curves(train_losses, train_accs, val_losses, val_accs)
+        plot_training_curves(train_losses, train_accs, val_losses, val_accs, config_name)
 
         # Load best model checkpoint to perform evaluation
         checkpoint_path = f'states/checkpoint_best_{config_name}_model.pth'
@@ -128,13 +153,25 @@ def run_ablation_study(train_data, val_data, test_data, model_params, num_classe
         print(f"Recall: {recall:.4f}")
         print(f"F1 Score: {f1:.4f}")
 
-        class_names = [f"Class {i}" for i in range(num_classes)]
-        plot_confusion_matrix(conf_matrix, class_names)
+        architecture_names = {
+                                (1, 10): {"name": "Mainly Alpha: Orthogonal Bundle", "label": 0},
+                                (1, 20): {"name": "Mainly Alpha: Up-down Bundle", "label": 1},
+                                (2, 30): {"name": "Mainly Beta: Roll", "label": 2},
+                                (2, 40): {"name": "Mainly Beta: Beta Barrel", "label": 3},
+                                (2, 60): {"name": "Mainly Beta: Sandwich", "label": 4},
+                                (3, 10): {"name": "Alpha Beta: Roll", "label": 5},
+                                (3, 20): {"name": "Alpha Beta: Alpha-Beta Barrel", "label": 6},
+                                (3, 30): {"name": "Alpha Beta: 2-Layer Sandwich", "label": 7},
+                                (3, 40): {"name": "Alpha Beta: 3-Layer(aba) Sandwich", "label": 8},
+                                (3, 90): {"name": "Alpha Beta: Alpha-Beta Complex", "label": 9}
+                             }
+        class_names = [str(key) for key in architecture_names.keys()]
+        plot_confusion_matrix(conf_matrix, class_names, config_name)
 
     return results
 
 def train_model(model, config_name, train_loader, val_loader, criterion, optimizer, num_epochs, device, 
-                use_grad_clip=False, clip_value=1.0, patience=5, delta=0): # Change parameter values to experiment
+                use_grad_clip=True, clip_value=2.0, patience=5, delta=0): # Change parameter values to experiment
     model.to(device)
     best_val_acc = 0.0
     train_losses, val_losses = [], []
@@ -145,6 +182,9 @@ def train_model(model, config_name, train_loader, val_loader, criterion, optimiz
     counter = 0
     early_stop = False
 
+    # # Learning rate scheduler with warmup
+    # scheduler = LambdaLR(optimizer, lr_lambda)
+
     for epoch in range(num_epochs):
         model.train()
         train_loss, train_correct, train_total = 0.0, 0, 0
@@ -153,15 +193,17 @@ def train_model(model, config_name, train_loader, val_loader, criterion, optimiz
             sequences = batch.sequence
             labels = batch.y
 
-            # Check for NaNs in input data
-            if torch.isnan(batch.x).any() or torch.isnan(batch.edge_attr).any() or torch.isnan(batch.edge_index).any():
-                print(f"NaN detected in input data at batch {batch.cath_id[0][0]}")
-                torch.save(batch, os.path.join('problematic_batches', f'{batch.cath_id[0][0]}.pt'))
-                continue      
+            # Check for NaNs in input data (should set batch_size = 1 to use this debug code)
+            # if torch.isnan(batch.x).any() or torch.isnan(batch.edge_attr).any() or torch.isnan(batch.edge_index).any():
+            #     print(f"NaN detected in input data at batch {batch.cath_id[0][0]}")
+            #     torch.save(batch, os.path.join('problematic_batches', f'{batch.cath_id[0][0]}.pt'))
+            #     continue      
             
             optimizer.zero_grad()
             # `batch.batch` attribute is automatically created by PyTorch Geometric's DataLoader
             outputs = model(batch.x, batch.edge_attr, batch.edge_index, batch.batch, sequences)
+            # print(f'GT outputs: {outputs}')
+            # print(f'GT labels: {labels}')
 
             loss = criterion(outputs, labels)
             loss.backward() # computes the gradients for all parameters.
@@ -182,6 +224,9 @@ def train_model(model, config_name, train_loader, val_loader, criterion, optimiz
             del batch, sequences, labels, outputs, loss
             torch.cuda.empty_cache()
 
+        # Plot gradient flow after each epoch
+        plot_grad_flow(model.named_parameters(), config_name, epoch + 1)
+        
         train_loss /= len(train_loader)
         train_acc = train_correct / train_total
         train_losses.append(train_loss)
@@ -197,6 +242,8 @@ def train_model(model, config_name, train_loader, val_loader, criterion, optimiz
                 val_labels = val_batch.y
                 
                 outputs = model(val_batch.x, val_batch.edge_attr, val_batch.edge_index, val_batch.batch, val_sequences)
+                # print(f'GT VAL outputs: {outputs}')
+                # print(f'GT VAL labels: {val_labels}')
                 loss = criterion(outputs, val_labels)
 
                 val_loss += loss.item()
@@ -215,11 +262,16 @@ def train_model(model, config_name, train_loader, val_loader, criterion, optimiz
 
         print(f"Epoch {epoch+1}/{num_epochs}, Train Loss: {train_loss:.4f}, Train Acc: {train_acc:.4f}, Val Loss: {val_loss:.4f}, Val Acc: {val_acc:.4f}")
 
+        # # Step the scheduler and print current learning rate
+        # scheduler.step()
+        # current_lr = optimizer.param_groups[0]['lr']
+        # print(f"Current learning rate: {current_lr}")
+            
         # Early stopping logic
         if val_acc > best_score + delta:
             best_score = val_acc
             counter = 0
-            save_checkpoint(model, optimizer, epoch, val_acc, f'states/checkpoint_best_{config_name}_model.pth')
+            save_checkpoint(model, optimizer, epoch+1, val_acc, f'states/checkpoint_best_{config_name}_model.pth')
             print(f'Validation accuracy increased ({best_val_acc:.6f} --> {val_acc:.6f}). Saving model ...')
             best_val_acc = val_acc
         else:

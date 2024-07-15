@@ -19,7 +19,10 @@ class ProteinDataset(Dataset):
                                 edge_attr=data.edge_feat,
                                 edge_index=data.adj_matrix,    # Sparse Adj Matrix
                                 y=data.target,                 # The target is our label
-                                sequence=data.seq[0])          # seq is a list with one string element representing the raw AA sequence
+                                # data.seq is a list with one string element representing the raw AA sequence
+                                # The ESM library expects a list of tuples, where each tuple contains a label and a sequence string.
+                                sequence=(data.target.item(), data.seq[0])  
+                               )          
        
         return graph_data_batch
         
@@ -49,13 +52,13 @@ if __name__ == "__main__":
     print('Done.')
     
     model_params = {
-        "model_embedding_size": 32,
-        "model_attention_heads": 2,
-        "model_layers": 4,
-        "model_dropout_rate": 0.20,
+        "model_embedding_size": 64,
+        "model_attention_heads": 3,
+        "model_layers": 2,
+        "model_dropout_rate": 0.25,
         "model_top_k_ratio": 0.5,
-        "model_top_k_every_n": 2 ,
-        "model_dense_neurons": 64,
+        "model_top_k_every_n": 1,
+        "model_dense_neurons": 32,
         "use_pooling": True
     }
 
